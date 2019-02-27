@@ -1,0 +1,521 @@
+2018-10-15 17:08:52.178704: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-15 17:08:52.178754: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-15 17:08:52.178762: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-15 17:08:52.178767: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-15 17:08:52.178771: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-10-15 17:08:52.511991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:02:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-10-15 17:08:52.817888: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x4ba3370 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-10-15 17:08:52.818609: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 1 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:03:00.0
+Total memory: 15.89GiB
+Free memory: 418.25MiB
+2018-10-15 17:08:53.113380: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x4ba7820 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-10-15 17:08:53.114272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 2 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:83:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-10-15 17:08:53.421964: W tensorflow/stream_executor/cuda/cuda_driver.cc:523] A non-primary context 0x4bcbd30 exists before initializing the StreamExecutor. We haven't verified StreamExecutor works with that.
+2018-10-15 17:08:53.422865: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 3 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:84:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-10-15 17:08:53.423806: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 0 and 2
+2018-10-15 17:08:53.423826: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 0 and 3
+2018-10-15 17:08:53.423851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 1 and 2
+2018-10-15 17:08:53.423863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 1 and 3
+2018-10-15 17:08:53.423874: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 2 and 0
+2018-10-15 17:08:53.423884: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 2 and 1
+2018-10-15 17:08:53.424728: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 3 and 0
+2018-10-15 17:08:53.424746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:847] Peer access not supported between device ordinals 3 and 1
+2018-10-15 17:08:53.424810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 1 2 3 
+2018-10-15 17:08:53.424819: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y Y N N 
+2018-10-15 17:08:53.424836: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 1:   Y Y N N 
+2018-10-15 17:08:53.424841: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 2:   N N Y Y 
+2018-10-15 17:08:53.424846: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 3:   N N Y Y 
+2018-10-15 17:08:53.424854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0)
+2018-10-15 17:08:53.424861: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0)
+2018-10-15 17:08:53.424866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-PCIE-16GB, pci bus id: 0000:83:00.0)
+2018-10-15 17:08:53.424871: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-PCIE-16GB, pci bus id: 0000:84:00.0)
+2018-10-15 17:08:53.945577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0)
+2018-10-15 17:08:53.945646: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0)
+2018-10-15 17:08:53.945656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-PCIE-16GB, pci bus id: 0000:83:00.0)
+2018-10-15 17:08:53.945663: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-PCIE-16GB, pci bus id: 0000:84:00.0)
+2018-10-15 17:08:54.180073: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0)
+2018-10-15 17:08:54.180160: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:1) -> (device: 1, name: Tesla P100-PCIE-16GB, pci bus id: 0000:03:00.0)
+2018-10-15 17:08:54.180173: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:2) -> (device: 2, name: Tesla P100-PCIE-16GB, pci bus id: 0000:83:00.0)
+2018-10-15 17:08:54.180182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:3) -> (device: 3, name: Tesla P100-PCIE-16GB, pci bus id: 0000:84:00.0)
+/home-ex/tclhk/guoqiang/Animoji/animoji_new/../models/PNet_1/PNet-60
+P_Net network shape
+(1, ?, ?, 3)
+(1, ?, ?, 10)
+(1, ?, ?, 10)
+(1, ?, ?, 16)
+(1, ?, ?, 32)
+(1, ?, ?, 2)
+(1, ?, ?, 4)
+(1, ?, ?, 10)
+/home-ex/tclhk/guoqiang/Animoji/animoji_new/../models/RNet_1/RNet-42
+R_Net network shape
+(256, 24, 24, 3)
+(256, 22, 22, 28)
+(256, 11, 11, 28)
+(256, 9, 9, 48)
+(256, 4, 4, 48)
+(256, 3, 3, 64)
+(256, 64, 3, 3)
+(256, 576)
+(256, 128)
+(256, 2)
+(256, 4)
+(256, 10)
+/home-ex/tclhk/guoqiang/Animoji/animoji_new/../models/LONet_1/LONet-14
+L_O_Net network shape
+(16, 48, 48, 3)
+(16, 46, 46, 32)
+(16, 23, 23, 32)
+(16, 21, 21, 64)
+(16, 10, 10, 64)
+(16, 8, 8, 64)
+(16, 4, 4, 64)
+(16, 3, 3, 128)
+(16, 128, 3, 3)
+(16, 1152)
+(16, 256)
+(16, 2)
+(16, 4)
+(16, 10)
+(16, 140)
+L onet expand:  0.3
+pnet_conv1/weights:0
+pnet_conv1/biases:0
+pnet_conv1/alphas:0
+pnet_conv2/weights:0
+pnet_conv2/biases:0
+pnet_conv2/alphas:0
+pnet_conv3/weights:0
+pnet_conv3/biases:0
+pnet_conv3/alphas:0
+pnet_conv4_1/weights:0
+pnet_conv4_1/biases:0
+pnet_conv4_2/weights:0
+pnet_conv4_2/biases:0
+rnet_conv1/weights:0
+rnet_conv1/biases:0
+rnet_conv1/alphas:0
+rnet_conv2/weights:0
+rnet_conv2/biases:0
+rnet_conv2/alphas:0
+rnet_conv3/weights:0
+rnet_conv3/biases:0
+rnet_conv3/alphas:0
+rnet_fc1/weights:0
+rnet_fc1/biases:0
+rnet_fc1/alphas:0
+rnet_cls_fc/weights:0
+rnet_cls_fc/biases:0
+rnet_bbox_fc/weights:0
+rnet_bbox_fc/biases:0
+onet_conv1/weights:0
+onet_conv1/biases:0
+onet_conv1/alphas:0
+onet_conv2/weights:0
+onet_conv2/biases:0
+onet_conv2/alphas:0
+onet_conv3/weights:0
+onet_conv3/biases:0
+onet_conv3/alphas:0
+onet_conv4/weights:0
+onet_conv4/biases:0
+onet_conv4/alphas:0
+onet_fc1/weights:0
+onet_fc1/biases:0
+onet_fc1/alphas:0
+onet_cls_fc/weights:0
+onet_cls_fc/biases:0
+onet_bbox_fc/weights:0
+onet_bbox_fc/biases:0
+onet_landmark_fc/weights:0
+onet_landmark_fc/biases:0
+onet_animoji_fc/weights:0
+onet_animoji_fc/biases:0
+test image.
+[]
+Detection failure rate: 0.2  (2/10)
+precision analysis.
+100/8874 images done
+animoji:        0.4375  nan     0.4375   --- 0.5088  nan     0.5088  
+dlib:           0.2963   --- 0.9068  
+
+200/8874 images done
+animoji:        0.4362  nan     0.4362   --- 0.5205  nan     0.5205  
+dlib:           0.2523   --- 0.7629  
+
+300/8874 images done
+animoji:        0.4745  nan     0.4745   --- 0.6633  nan     0.6633  
+dlib:           0.2651   --- 0.7483  
+
+400/8874 images done
+animoji:        0.4708  nan     0.4708   --- 0.6467  nan     0.6467  
+dlib:           0.2713   --- 0.7878  
+
+500/8874 images done
+animoji:        0.4573  nan     0.4573   --- 0.6035  nan     0.6035  
+dlib:           0.2503   --- 0.7355  
+
+600/8874 images done
+animoji:        0.4491  nan     0.4491   --- 0.5799  nan     0.5799  
+dlib:           0.2606   --- 0.7877  
+
+700/8874 images done
+animoji:        0.4462  nan     0.4462   --- 0.5798  nan     0.5798  
+dlib:           0.2627   --- 0.7738  
+
+800/8874 images done
+animoji:        0.4537  nan     0.4537   --- 0.7146  nan     0.7146  
+dlib:           0.2481   --- 0.7417  
+
+900/8874 images done
+animoji:        0.4616  nan     0.4616   --- 0.7207  nan     0.7207  
+dlib:           0.2560   --- 0.7318  
+
+1000/8874 images done
+animoji:        0.4736  nan     0.4736   --- 0.8312  nan     0.8312  
+dlib:           0.2559   --- 0.7255  
+
+1100/8874 images done
+animoji:        0.4662  nan     0.4662   --- 0.8087  nan     0.8087  
+dlib:           0.2454   --- 0.6954  
+
+1200/8874 images done
+animoji:        0.4618  nan     0.4618   --- 0.7884  nan     0.7884  
+dlib:           0.2428   --- 0.6812  
+
+1300/8874 images done
+animoji:        0.4588  nan     0.4588   --- 0.7706  nan     0.7706  
+dlib:           0.2403   --- 0.6907  
+
+1400/8874 images done
+animoji:        0.4561  nan     0.4561   --- 0.7522  nan     0.7522  
+dlib:           0.2422   --- 0.6996  
+
+1500/8874 images done
+animoji:        0.4631  nan     0.4631   --- 0.7604  nan     0.7604  
+dlib:           0.2400   --- 0.6875  
+
+1600/8874 images done
+animoji:        0.4667  nan     0.4667   --- 0.7607  nan     0.7607  
+dlib:           0.2488   --- 0.7432  
+
+1700/8874 images done
+animoji:        0.4716  nan     0.4716   --- 0.7692  nan     0.7692  
+dlib:           0.2530   --- 0.7566  
+
+1800/8874 images done
+animoji:        0.4680  nan     0.4680   --- 0.7535  nan     0.7535  
+dlib:           0.2523   --- 0.7474  
+
+1900/8874 images done
+animoji:        0.4659  nan     0.4659   --- 0.7403  nan     0.7403  
+dlib:           0.2500   --- 0.7382  
+
+2000/8874 images done
+animoji:        0.4605  nan     0.4605   --- 0.7279  nan     0.7279  
+dlib:           0.2476   --- 0.7283  
+
+2100/8874 images done
+animoji:        0.4605  nan     0.4605   --- 0.7241  nan     0.7241  
+dlib:           0.2429   --- 0.7130  
+
+2200/8874 images done
+animoji:        0.4594  nan     0.4594   --- 0.7165  nan     0.7165  
+dlib:           0.2405   --- 0.7022  
+
+2300/8874 images done
+animoji:        0.4567  nan     0.4567   --- 0.7069  nan     0.7069  
+dlib:           0.2417   --- 0.6994  
+
+2400/8874 images done
+animoji:        0.4571  nan     0.4571   --- 0.6982  nan     0.6982  
+dlib:           0.2466   --- 0.7125  
+
+2500/8874 images done
+animoji:        0.4564  nan     0.4564   --- 0.6922  nan     0.6922  
+dlib:           0.2494   --- 0.7093  
+
+2600/8874 images done
+animoji:        0.4565  nan     0.4565   --- 0.6881  nan     0.6881  
+dlib:           0.2483   --- 0.7028  
+
+2700/8874 images done
+animoji:        0.4550  nan     0.4550   --- 0.6833  nan     0.6833  
+dlib:           0.2478   --- 0.6974  
+
+2800/8874 images done
+animoji:        0.4545  nan     0.4545   --- 0.6807  nan     0.6807  
+dlib:           0.2493   --- 0.6960  
+
+2900/8874 images done
+animoji:        0.4554  nan     0.4554   --- 0.6757  nan     0.6757  
+dlib:           0.2516   --- 0.6949  
+
+3000/8874 images done
+animoji:        0.4540  nan     0.4540   --- 0.6691  nan     0.6691  
+dlib:           0.2525   --- 0.6959  
+
+3100/8874 images done
+animoji:        0.4565  nan     0.4565   --- 0.6743  nan     0.6743  
+dlib:           0.2519   --- 0.6910  
+
+3200/8874 images done
+animoji:        0.4546  nan     0.4546   --- 0.6688  nan     0.6688  
+dlib:           0.2524   --- 0.6972  
+
+3300/8874 images done
+animoji:        0.4531  nan     0.4531   --- 0.6636  nan     0.6636  
+dlib:           0.2527   --- 0.6946  
+
+3400/8874 images done
+animoji:        0.4554  nan     0.4554   --- 0.6644  nan     0.6644  
+dlib:           0.2520   --- 0.6901  
+
+3500/8874 images done
+animoji:        0.4561  nan     0.4561   --- 0.6658  nan     0.6658  
+dlib:           0.2518   --- 0.6879  
+
+3600/8874 images done
+animoji:        0.4576  nan     0.4576   --- 0.6702  nan     0.6702  
+dlib:           0.2510   --- 0.6864  
+
+3700/8874 images done
+animoji:        0.4579  nan     0.4579   --- 0.6696  nan     0.6696  
+dlib:           0.2502   --- 0.6840  
+
+3800/8874 images done
+animoji:        0.4558  nan     0.4558   --- 0.6638  nan     0.6638  
+dlib:           0.2485   --- 0.6778  
+
+3900/8874 images done
+animoji:        0.4568  nan     0.4568   --- 0.6613  nan     0.6613  
+dlib:           0.2493   --- 0.6817  
+
+4000/8874 images done
+animoji:        0.4563  nan     0.4563   --- 0.6577  nan     0.6577  
+dlib:           0.2487   --- 0.6773  
+
+4100/8874 images done
+animoji:        0.4583  nan     0.4583   --- 0.6602  nan     0.6602  
+dlib:           0.2491   --- 0.6877  
+
+4200/8874 images done
+animoji:        0.4586  nan     0.4586   --- 0.6626  nan     0.6626  
+dlib:           0.2464   --- 0.6807  
+
+4300/8874 images done
+animoji:        0.4609  nan     0.4609   --- 0.6651  nan     0.6651  
+dlib:           0.2499   --- 0.6946  
+
+4400/8874 images done
+animoji:        0.4616  nan     0.4616   --- 0.6636  nan     0.6636  
+dlib:           0.2496   --- 0.6965  
+
+4500/8874 images done
+animoji:        0.4619  nan     0.4619   --- 0.6632  nan     0.6632  
+dlib:           0.2479   --- 0.6906  
+
+4600/8874 images done
+animoji:        0.4628  nan     0.4628   --- 0.6686  nan     0.6686  
+dlib:           0.2472   --- 0.6917  
+
+4700/8874 images done
+animoji:        0.4630  nan     0.4630   --- 0.6672  nan     0.6672  
+dlib:           0.2468   --- 0.6955  
+
+4800/8874 images done
+animoji:        0.4618  nan     0.4618   --- 0.6637  nan     0.6637  
+dlib:           0.2466   --- 0.6930  /home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/numpy/core/fromnumeric.py:2957: RuntimeWarning: Mean of empty slice.
+  out=out, **kwargs)
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/numpy/core/_methods.py:80: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/numpy/core/_methods.py:135: RuntimeWarning: Degrees of freedom <= 0 for slice
+  keepdims=keepdims)
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/numpy/core/_methods.py:105: RuntimeWarning: invalid value encountered in true_divide
+  arrmean, rcount, out=arrmean, casting='unsafe', subok=False)
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/numpy/core/_methods.py:127: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+
+
+4900/8874 images done
+animoji:        0.4604  nan     0.4604   --- 0.6609  nan     0.6609  
+dlib:           0.2484   --- 0.7007  
+
+5000/8874 images done
+animoji:        0.4579  nan     0.4579   --- 0.6561  nan     0.6561  
+dlib:           0.2456   --- 0.6949  
+
+5100/8874 images done
+animoji:        0.4565  nan     0.4565   --- 0.6520  nan     0.6520  
+dlib:           0.2464   --- 0.6953  
+
+5200/8874 images done
+animoji:        0.4573  nan     0.4573   --- 0.6522  nan     0.6522  
+dlib:           0.2499   --- 0.7188  
+
+5300/8874 images done
+animoji:        0.4572  nan     0.4572   --- 0.6519  nan     0.6519  
+dlib:           0.2492   --- 0.7166  
+
+5400/8874 images done
+animoji:        0.4578  nan     0.4578   --- 0.6510  nan     0.6510  
+dlib:           0.2506   --- 0.7228  
+
+5500/8874 images done
+animoji:        0.4578  nan     0.4578   --- 0.6496  nan     0.6496  
+dlib:           0.2497   --- 0.7187  
+
+5600/8874 images done
+animoji:        0.4593  nan     0.4593   --- 0.6527  nan     0.6527  
+dlib:           0.2508   --- 0.7273  
+
+5700/8874 images done
+animoji:        0.4594  nan     0.4594   --- 0.6510  nan     0.6510  
+dlib:           0.2507   --- 0.7241  
+
+5800/8874 images done
+animoji:        0.4594  nan     0.4594   --- 0.6544  nan     0.6544  
+dlib:           0.2512   --- 0.7222  
+
+5900/8874 images done
+animoji:        0.4579  nan     0.4579   --- 0.6510  nan     0.6510  
+dlib:           0.2494   --- 0.7176  
+
+6000/8874 images done
+animoji:        0.4566  nan     0.4566   --- 0.6469  nan     0.6469  
+dlib:           0.2499   --- 0.7151  
+
+6100/8874 images done
+animoji:        0.4581  nan     0.4581   --- 0.6493  nan     0.6493  
+dlib:           0.2508   --- 0.7160  
+
+6200/8874 images done
+animoji:        0.4574  nan     0.4574   --- 0.6462  nan     0.6462  
+dlib:           0.2495   --- 0.7108  
+
+6300/8874 images done
+animoji:        0.4588  nan     0.4588   --- 0.6497  nan     0.6497  
+dlib:           0.2509   --- 0.7132  
+
+6400/8874 images done
+animoji:        0.4579  nan     0.4579   --- 0.6484  nan     0.6484  
+dlib:           0.2502   --- 0.7102  
+
+6500/8874 images done
+animoji:        0.4569  nan     0.4569   --- 0.6455  nan     0.6455  
+dlib:           0.2493   --- 0.7071  
+
+6600/8874 images done
+animoji:        0.4567  nan     0.4567   --- 0.6453  nan     0.6453  
+dlib:           0.2501   --- 0.7097  
+
+6700/8874 images done
+animoji:        0.4557  nan     0.4557   --- 0.6423  nan     0.6423  
+dlib:           0.2491   --- 0.7058  
+
+6800/8874 images done
+animoji:        0.4554  nan     0.4554   --- 0.6399  nan     0.6399  
+dlib:           0.2487   --- 0.7032  
+
+6900/8874 images done
+animoji:        0.4546  nan     0.4546   --- 0.6378  nan     0.6378  
+dlib:           0.2492   --- 0.7055  
+
+7000/8874 images done
+animoji:        0.4552  nan     0.4552   --- 0.6374  nan     0.6374  
+dlib:           0.2483   --- 0.7045  
+
+7100/8874 images done
+animoji:        0.4551  nan     0.4551   --- 0.6354  nan     0.6354  
+dlib:           0.2483   --- 0.7065  
+
+7200/8874 images done
+animoji:        0.4546  nan     0.4546   --- 0.6329  nan     0.6329  
+dlib:           0.2480   --- 0.7043  
+
+7300/8874 images done
+animoji:        0.4552  nan     0.4552   --- 0.6411  nan     0.6411  
+dlib:           0.2490   --- 0.7136  
+
+7400/8874 images done
+animoji:        0.4549  nan     0.4549   --- 0.6392  nan     0.6392  
+dlib:           0.2485   --- 0.7109  
+
+7500/8874 images done
+animoji:        0.4537  nan     0.4537   --- 0.6371  nan     0.6371  
+dlib:           0.2479   --- 0.7082  
+
+7600/8874 images done
+animoji:        0.4553  nan     0.4553   --- 0.6410  nan     0.6410  
+dlib:           0.2469   --- 0.7043  
+
+7700/8874 images done
+animoji:        0.4555  nan     0.4555   --- 0.6417  nan     0.6417  
+dlib:           0.2485   --- 0.7140  
+
+7800/8874 images done
+animoji:        0.4557  nan     0.4557   --- 0.6438  nan     0.6438  
+dlib:           0.2505   --- 0.7361  
+
+7900/8874 images done
+animoji:        0.4580  nan     0.4580   --- 0.6580  nan     0.6580  
+dlib:           0.2506   --- 0.7357  
+
+8000/8874 images done
+animoji:        0.4572  nan     0.4572   --- 0.6555  nan     0.6555  
+dlib:           0.2490   --- 0.7317  
+
+8100/8874 images done
+animoji:        0.4566  nan     0.4566   --- 0.6540  nan     0.6540  
+dlib:           0.2480   --- 0.7284  
+
+8200/8874 images done
+animoji:        0.4569  nan     0.4569   --- 0.6548  nan     0.6548  
+dlib:           0.2478   --- 0.7263  
+
+8300/8874 images done
+animoji:        0.4575  nan     0.4575   --- 0.6555  nan     0.6555  
+dlib:           0.2499   --- 0.7310  
+
+8400/8874 images done
+animoji:        0.4590  nan     0.4590   --- 0.6702  nan     0.6702  
+dlib:           0.2491   --- 0.7279  
+
+8500/8874 images done
+animoji:        0.4593  nan     0.4593   --- 0.6698  nan     0.6698  
+dlib:           0.2492   --- 0.7269  
+
+8600/8874 images done
+animoji:        0.4588  nan     0.4588   --- 0.6693  nan     0.6693  
+dlib:           0.2509   --- 0.7332  
+
+8700/8874 images done
+animoji:        0.4591  nan     0.4591   --- 0.6683  nan     0.6683  
+dlib:           0.2508   --- 0.7339  
+
+8800/8874 images done
+animoji:        0.4591  nan     0.4591   --- 0.6674  nan     0.6674  
+dlib:           0.2512   --- 0.7391  
+
+animoji:        0.4587  nan     0.4587   --- 0.6655  nan     0.6655  
+dlib:           0.2505   --- 0.7367  
+-----------------   end   ------------------
+

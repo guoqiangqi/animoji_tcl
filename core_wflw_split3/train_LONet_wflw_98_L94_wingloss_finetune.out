@@ -1,0 +1,295 @@
+nohup: ignoring input
+pid: 3808     GPU: 0
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+root_dir:  /home-ex/tclhk/guoqiang/Animoji/core_wflw_split3
+base_dir:  /home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../data_landmark98/training_data/wflw_98_L94/imglists/LONet
+model_path:  /home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../models/LONet_wflw_98_L94_wingloss_finetune/LONet
+logs_dir:  /home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../models/logs/LONet_wflw_98_L94_wingloss_finetune
+/home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../data_landmark98/training_data/wflw_98_L94/imglists/LONet/train_LONet.txt
+Total datasets is:  487805
+/home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../models/LONet_wflw_98_L94_wingloss_finetune/LONet
+iamge channel:  3
+(51, 94, 94, 3)
+(51, 94, 94, 3)
+(153, 94, 94, 3)
+(102, 94, 94, 3)
+(357, 94, 94, 3)
+(357,)
+(357, 4)
+(357, 196)
+L_O_Net network shape
+(357, 94, 94, 3)
+(357, 46, 46, 32)
+(357, 23, 23, 32)
+(357, 21, 21, 64)
+(357, 10, 10, 64)
+(357, 8, 8, 64)
+(357, 4, 4, 64)
+(357, 3, 3, 128)
+(357, 128, 3, 3)
+(357, 1152)
+(357, 256)
+(357, 2)
+(357, 4)
+(357, 72)
+(357, 40)
+(357, 84)
+[<tf.Tensor 'conv1/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv2/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv3/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv4/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>]
+2019-01-21 10:57:45.271137: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-21 10:57:45.271190: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-21 10:57:45.271197: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-21 10:57:45.271201: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-21 10:57:45.271206: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-21 10:57:45.563389: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:02:00.0
+Total memory: 15.89GiB
+Free memory: 13.16GiB
+2019-01-21 10:57:45.563441: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2019-01-21 10:57:45.563451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2019-01-21 10:57:45.563461: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:02:00.0)
+pre_training model:  /home-ex/tclhk/guoqiang/Animoji/core_wflw_split3/../models/LONet_wflw_98_L94_wingloss/LONet-11
+2019-01-21 10:59:13.306925: Step: 500, acc: 0.951, recall: 0.941, cls loss: 0.252, bbox loss: 0.1004, eye_eyebrow loss: 0.0474,mouth loss: 0.01668,multi loss: 0.04166, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:00:40.588181: Step: 1000, acc: 0.912, recall: 0.843, cls loss: 0.4029, bbox loss: 0.1038, eye_eyebrow loss: 0.04966,mouth loss: 0.01386,multi loss: 0.03352, L2 loss: 0.1558, lr:1e-05 
+Save model epoch: 1, Step: 1367, acc: 0.892, recall: 0.843, cls loss: 0.4546, bbox loss: 0.09764, eye_eyebrow loss: 0.05017,mouth loss: 0.01664,multi loss: 0.04223, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:02:07.718776: Step: 1500, acc: 0.892, recall: 0.843, cls loss: 0.4041, bbox loss: 0.09523, eye_eyebrow loss: 0.04742,mouth loss: 0.01003,multi loss: 0.0369, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:03:35.115270: Step: 2000, acc: 0.951, recall: 0.941, cls loss: 0.2646, bbox loss: 0.09547, eye_eyebrow loss: 0.04398,mouth loss: 0.01187,multi loss: 0.03428, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:05:03.439889: Step: 2500, acc: 0.931, recall: 0.902, cls loss: 0.2939, bbox loss: 0.09701, eye_eyebrow loss: 0.05377,mouth loss: 0.0163,multi loss: 0.04084, L2 loss: 0.1558, lr:1e-05 
+Save model epoch: 2, Step: 2734, acc: 0.931, recall: 0.882, cls loss: 0.2803, bbox loss: 0.09072, eye_eyebrow loss: 0.05183,mouth loss: 0.0141,multi loss: 0.04449, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:06:30.332258: Step: 3000, acc: 0.912, recall: 0.882, cls loss: 0.3626, bbox loss: 0.08599, eye_eyebrow loss: 0.08168,mouth loss: 0.01188,multi loss: 0.03898, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:07:58.239616: Step: 3500, acc: 0.931, recall: 0.941, cls loss: 0.2606, bbox loss: 0.08193, eye_eyebrow loss: 0.05327,mouth loss: 0.01285,multi loss: 0.03519, L2 loss: 0.1558, lr:1e-05 
+2019-01-21 11:09:25.678123: Step: 4000, acc: 0.951, recall: 0.941, cls loss: 0.2589, bbox loss: 0.08081, eye_eyebrow loss: 0.04707,mouth loss: 0.01298,multi loss: 0.03528, L2 loss: 0.1557, lr:1e-05 
+Save model epoch: 3, Step: 4101, acc: 0.941, recall: 0.941, cls loss: 0.2544, bbox loss: 0.09006, eye_eyebrow loss: 0.04551,mouth loss: 0.01279,multi loss: 0.04263, L2 loss: 0.1557, lr:1e-05 
+2019-01-21 11:10:53.471443: Step: 4500, acc: 0.902, recall: 0.882, cls loss: 0.2929, bbox loss: 0.07983, eye_eyebrow loss: 0.04582,mouth loss: 0.01178,multi loss: 0.0311, L2 loss: 0.1557, lr:1e-05 
+2019-01-21 11:12:20.342126: Step: 5000, acc: 0.882, recall: 0.882, cls loss: 0.4427, bbox loss: 0.07894, eye_eyebrow loss: 0.04672,mouth loss: 0.01307,multi loss: 0.03615, L2 loss: 0.1557, lr:1e-05 
+Save model epoch: 4, Step: 5468, acc: 0.892, recall: 0.882, cls loss: 0.3196, bbox loss: 0.08237, eye_eyebrow loss: 0.04449,mouth loss: 0.01678,multi loss: 0.03765, L2 loss: 0.1556, lr:1e-05 
+2019-01-21 11:13:48.178779: Step: 5500, acc: 0.951, recall: 0.902, cls loss: 0.2273, bbox loss: 0.07417, eye_eyebrow loss: 0.04339,mouth loss: 0.01227,multi loss: 0.0313, L2 loss: 0.1556, lr:1e-05 
+2019-01-21 11:15:15.896565: Step: 6000, acc: 0.971, recall: 0.961, cls loss: 0.1633, bbox loss: 0.07738, eye_eyebrow loss: 0.04454,mouth loss: 0.01525,multi loss: 0.03751, L2 loss: 0.1556, lr:1e-05 
+2019-01-21 11:16:43.283949: Step: 6500, acc: 0.931, recall: 0.882, cls loss: 0.2859, bbox loss: 0.07329, eye_eyebrow loss: 0.04825,mouth loss: 0.01044,multi loss: 0.0329, L2 loss: 0.1555, lr:1e-05 
+Save model epoch: 5, Step: 6835, acc: 0.931, recall: 0.902, cls loss: 0.2088, bbox loss: 0.07475, eye_eyebrow loss: 0.04966,mouth loss: 0.01154,multi loss: 0.04074, L2 loss: 0.1555, lr:1e-05 
+2019-01-21 11:18:10.837814: Step: 7000, acc: 0.882, recall: 0.824, cls loss: 0.3848, bbox loss: 0.08462, eye_eyebrow loss: 0.04789,mouth loss: 0.01142,multi loss: 0.03232, L2 loss: 0.1554, lr:1e-05 
+2019-01-21 11:19:38.200950: Step: 7500, acc: 0.902, recall: 0.863, cls loss: 0.3448, bbox loss: 0.08183, eye_eyebrow loss: 0.04909,mouth loss: 0.01175,multi loss: 0.03435, L2 loss: 0.1553, lr:1e-05 
+2019-01-21 11:21:05.794059: Step: 8000, acc: 0.902, recall: 0.882, cls loss: 0.3335, bbox loss: 0.08757, eye_eyebrow loss: 0.05027,mouth loss: 0.01089,multi loss: 0.03487, L2 loss: 0.1552, lr:1e-05 
+Save model epoch: 6, Step: 8202, acc: 0.941, recall: 0.922, cls loss: 0.1895, bbox loss: 0.07834, eye_eyebrow loss: 0.0498,mouth loss: 0.01367,multi loss: 0.03545, L2 loss: 0.1551, lr:1e-05 
+2019-01-21 11:22:33.689561: Step: 8500, acc: 0.873, recall: 0.804, cls loss: 0.3986, bbox loss: 0.08184, eye_eyebrow loss: 0.05016,mouth loss: 0.0115,multi loss: 0.03348, L2 loss: 0.155, lr:1e-05 
+2019-01-21 11:24:01.216086: Step: 9000, acc: 0.922, recall: 0.882, cls loss: 0.3113, bbox loss: 0.07907, eye_eyebrow loss: 0.04711,mouth loss: 0.01192,multi loss: 0.03355, L2 loss: 0.1548, lr:1e-05 
+2019-01-21 11:25:28.108270: Step: 9500, acc: 0.951, recall: 0.922, cls loss: 0.2076, bbox loss: 0.06124, eye_eyebrow loss: 0.04935,mouth loss: 0.01416,multi loss: 0.03658, L2 loss: 0.1546, lr:1e-05 
+Save model epoch: 7, Step: 9569, acc: 0.931, recall: 0.961, cls loss: 0.2526, bbox loss: 0.06117, eye_eyebrow loss: 0.05004,mouth loss: 0.01185,multi loss: 0.03235, L2 loss: 0.1546, lr:1e-05 
+2019-01-21 11:26:55.219991: Step: 10000, acc: 0.961, recall: 0.961, cls loss: 0.1417, bbox loss: 0.0727, eye_eyebrow loss: 0.0547,mouth loss: 0.0119,multi loss: 0.03472, L2 loss: 0.1544, lr:1e-05 
+2019-01-21 11:28:22.586641: Step: 10500, acc: 0.922, recall: 0.902, cls loss: 0.279, bbox loss: 0.07006, eye_eyebrow loss: 0.04748,mouth loss: 0.01249,multi loss: 0.03335, L2 loss: 0.1541, lr:1e-05 
+Save model epoch: 8, Step: 10936, acc: 0.99, recall: 0.98, cls loss: 0.104, bbox loss: 0.06388, eye_eyebrow loss: 0.04783,mouth loss: 0.01391,multi loss: 0.03535, L2 loss: 0.1539, lr:1e-05 
+2019-01-21 11:29:50.715821: Step: 11000, acc: 0.941, recall: 0.902, cls loss: 0.2729, bbox loss: 0.07362, eye_eyebrow loss: 0.05606,mouth loss: 0.01324,multi loss: 0.03789, L2 loss: 0.1538, lr:1e-05 
+2019-01-21 11:31:17.732388: Step: 11500, acc: 0.922, recall: 0.882, cls loss: 0.2733, bbox loss: 0.06996, eye_eyebrow loss: 0.04455,mouth loss: 0.01136,multi loss: 0.03231, L2 loss: 0.1535, lr:1e-05 
+2019-01-21 11:32:45.060823: Step: 12000, acc: 0.951, recall: 0.941, cls loss: 0.2868, bbox loss: 0.06972, eye_eyebrow loss: 0.04833,mouth loss: 0.01469,multi loss: 0.03206, L2 loss: 0.1532, lr:1e-05 
+Save model epoch: 9, Step: 12303, acc: 0.941, recall: 0.922, cls loss: 0.1936, bbox loss: 0.06075, eye_eyebrow loss: 0.05044,mouth loss: 0.0121,multi loss: 0.03393, L2 loss: 0.1531, lr:1e-05 
+2019-01-21 11:34:12.309690: Step: 12500, acc: 0.922, recall: 0.882, cls loss: 0.2285, bbox loss: 0.06123, eye_eyebrow loss: 0.04464,mouth loss: 0.01614,multi loss: 0.03441, L2 loss: 0.1529, lr:1e-05 
+2019-01-21 11:35:39.358376: Step: 13000, acc: 0.971, recall: 0.941, cls loss: 0.1864, bbox loss: 0.06751, eye_eyebrow loss: 0.0527,mouth loss: 0.015,multi loss: 0.03503, L2 loss: 0.1526, lr:1e-05 
+2019-01-21 11:37:06.570378: Step: 13500, acc: 0.961, recall: 0.961, cls loss: 0.1514, bbox loss: 0.06866, eye_eyebrow loss: 0.04428,mouth loss: 0.01116,multi loss: 0.03917, L2 loss: 0.1523, lr:1e-05 
+Save model epoch: 10, Step: 13670, acc: 0.941, recall: 0.902, cls loss: 0.275, bbox loss: 0.07027, eye_eyebrow loss: 0.0417,mouth loss: 0.01251,multi loss: 0.03258, L2 loss: 0.1522, lr:1e-05 
+2019-01-21 11:38:33.813499: Step: 14000, acc: 0.902, recall: 0.902, cls loss: 0.3412, bbox loss: 0.08048, eye_eyebrow loss: 0.04679,mouth loss: 0.01213,multi loss: 0.03143, L2 loss: 0.152, lr:1e-05 
+2019-01-21 11:40:00.893828: Step: 14500, acc: 0.912, recall: 0.882, cls loss: 0.2983, bbox loss: 0.06738, eye_eyebrow loss: 0.04658,mouth loss: 0.01075,multi loss: 0.03546, L2 loss: 0.1517, lr:1e-05 
+2019-01-21 11:41:28.062446: Step: 15000, acc: 0.892, recall: 0.882, cls loss: 0.2671, bbox loss: 0.07546, eye_eyebrow loss: 0.04207,mouth loss: 0.01186,multi loss: 0.02789, L2 loss: 0.1514, lr:1e-05 
+Save model epoch: 11, Step: 15037, acc: 0.941, recall: 0.882, cls loss: 0.2583, bbox loss: 0.07049, eye_eyebrow loss: 0.04717,mouth loss: 0.01418,multi loss: 0.0374, L2 loss: 0.1514, lr:1e-05 
+2019-01-21 11:42:55.537216: Step: 15500, acc: 0.912, recall: 0.863, cls loss: 0.2946, bbox loss: 0.06073, eye_eyebrow loss: 0.04913,mouth loss: 0.01228,multi loss: 0.03643, L2 loss: 0.1511, lr:1e-05 
+2019-01-21 11:44:22.905037: Step: 16000, acc: 0.873, recall: 0.902, cls loss: 0.3077, bbox loss: 0.06855, eye_eyebrow loss: 0.04781,mouth loss: 0.01475,multi loss: 0.03725, L2 loss: 0.1508, lr:1e-05 
+Save model epoch: 12, Step: 16404, acc: 0.912, recall: 0.843, cls loss: 0.2464, bbox loss: 0.0624, eye_eyebrow loss: 0.04782,mouth loss: 0.01639,multi loss: 0.03219, L2 loss: 0.1506, lr:1e-05 
+2019-01-21 11:45:50.733683: Step: 16500, acc: 0.961, recall: 0.922, cls loss: 0.1865, bbox loss: 0.06785, eye_eyebrow loss: 0.04396,mouth loss: 0.01343,multi loss: 0.03142, L2 loss: 0.1505, lr:1e-05 
+2019-01-21 11:47:18.059050: Step: 17000, acc: 0.902, recall: 0.902, cls loss: 0.2656, bbox loss: 0.05554, eye_eyebrow loss: 0.0487,mouth loss: 0.01161,multi loss: 0.03521, L2 loss: 0.1502, lr:1e-05 
+2019-01-21 11:48:45.234900: Step: 17500, acc: 0.971, recall: 0.941, cls loss: 0.1632, bbox loss: 0.07497, eye_eyebrow loss: 0.0456,mouth loss: 0.01505,multi loss: 0.03242, L2 loss: 0.15, lr:1e-05 
+Save model epoch: 13, Step: 17771, acc: 0.951, recall: 0.961, cls loss: 0.2204, bbox loss: 0.05472, eye_eyebrow loss: 0.04368,mouth loss: 0.0102,multi loss: 0.0282, L2 loss: 0.1498, lr:1e-05 
+2019-01-21 11:50:12.697626: Step: 18000, acc: 0.951, recall: 1.0, cls loss: 0.1518, bbox loss: 0.06537, eye_eyebrow loss: 0.04879,mouth loss: 0.01198,multi loss: 0.03579, L2 loss: 0.1497, lr:1e-05 
+2019-01-21 11:51:40.058434: Step: 18500, acc: 0.971, recall: 0.961, cls loss: 0.1636, bbox loss: 0.06624, eye_eyebrow loss: 0.04872,mouth loss: 0.01339,multi loss: 0.03296, L2 loss: 0.1494, lr:1e-05 
+2019-01-21 11:53:07.485083: Step: 19000, acc: 0.941, recall: 0.961, cls loss: 0.1679, bbox loss: 0.06292, eye_eyebrow loss: 0.0449,mouth loss: 0.01213,multi loss: 0.03548, L2 loss: 0.1491, lr:1e-05 
+Save model epoch: 14, Step: 19138, acc: 0.961, recall: 0.941, cls loss: 0.1555, bbox loss: 0.06847, eye_eyebrow loss: 0.04738,mouth loss: 0.01098,multi loss: 0.02816, L2 loss: 0.1491, lr:1e-05 
+2019-01-21 11:54:34.993680: Step: 19500, acc: 0.931, recall: 0.941, cls loss: 0.2296, bbox loss: 0.06347, eye_eyebrow loss: 0.04704,mouth loss: 0.01039,multi loss: 0.03594, L2 loss: 0.1489, lr:1e-05 
+2019-01-21 11:56:02.073555: Step: 20000, acc: 0.941, recall: 0.922, cls loss: 0.1747, bbox loss: 0.04893, eye_eyebrow loss: 0.0453,mouth loss: 0.01165,multi loss: 0.0287, L2 loss: 0.1486, lr:1e-05 
+2019-01-21 11:57:29.167723: Step: 20500, acc: 0.971, recall: 0.941, cls loss: 0.1236, bbox loss: 0.05727, eye_eyebrow loss: 0.04462,mouth loss: 0.01106,multi loss: 0.03099, L2 loss: 0.1483, lr:1e-05 
+Save model epoch: 15, Step: 20505, acc: 0.961, recall: 0.941, cls loss: 0.1979, bbox loss: 0.05312, eye_eyebrow loss: 0.04812,mouth loss: 0.01183,multi loss: 0.0323, L2 loss: 0.1483, lr:1e-05 
+2019-01-21 11:58:57.551793: Step: 21000, acc: 0.951, recall: 0.922, cls loss: 0.1696, bbox loss: 0.05742, eye_eyebrow loss: 0.04632,mouth loss: 0.01399,multi loss: 0.03526, L2 loss: 0.1481, lr:1e-05 
+2019-01-21 12:00:24.607931: Step: 21500, acc: 0.951, recall: 0.922, cls loss: 0.2055, bbox loss: 0.0635, eye_eyebrow loss: 0.04577,mouth loss: 0.01032,multi loss: 0.02912, L2 loss: 0.1478, lr:1e-05 
+Save model epoch: 16, Step: 21872, acc: 0.971, recall: 0.961, cls loss: 0.1789, bbox loss: 0.06571, eye_eyebrow loss: 0.04616,mouth loss: 0.009934,multi loss: 0.02858, L2 loss: 0.1476, lr:1e-05 
+2019-01-21 12:01:51.852580: Step: 22000, acc: 0.971, recall: 0.941, cls loss: 0.08677, bbox loss: 0.05712, eye_eyebrow loss: 0.04921,mouth loss: 0.01365,multi loss: 0.03268, L2 loss: 0.1475, lr:1e-05 
+2019-01-21 12:03:19.050779: Step: 22500, acc: 0.941, recall: 0.902, cls loss: 0.1942, bbox loss: 0.05903, eye_eyebrow loss: 0.04724,mouth loss: 0.009767,multi loss: 0.03417, L2 loss: 0.1473, lr:1e-05 
+2019-01-21 12:04:46.659659: Step: 23000, acc: 0.941, recall: 0.922, cls loss: 0.1881, bbox loss: 0.06415, eye_eyebrow loss: 0.04744,mouth loss: 0.01119,multi loss: 0.03249, L2 loss: 0.147, lr:1e-05 
+Save model epoch: 17, Step: 23239, acc: 0.951, recall: 0.922, cls loss: 0.288, bbox loss: 0.0503, eye_eyebrow loss: 0.04936,mouth loss: 0.0119,multi loss: 0.03561, L2 loss: 0.1469, lr:1e-05 
+2019-01-21 12:06:14.233078: Step: 23500, acc: 0.922, recall: 0.902, cls loss: 0.2525, bbox loss: 0.06285, eye_eyebrow loss: 0.04592,mouth loss: 0.01251,multi loss: 0.03153, L2 loss: 0.1468, lr:1e-05 
+2019-01-21 12:07:42.128303: Step: 24000, acc: 0.912, recall: 0.824, cls loss: 0.356, bbox loss: 0.05476, eye_eyebrow loss: 0.05777,mouth loss: 0.01097,multi loss: 0.03073, L2 loss: 0.1465, lr:1e-05 
+2019-01-21 12:09:09.449453: Step: 24500, acc: 0.931, recall: 0.882, cls loss: 0.184, bbox loss: 0.05959, eye_eyebrow loss: 0.04807,mouth loss: 0.01096,multi loss: 0.03251, L2 loss: 0.1463, lr:1e-05 
+Save model epoch: 18, Step: 24606, acc: 0.951, recall: 0.922, cls loss: 0.1485, bbox loss: 0.06114, eye_eyebrow loss: 0.04463,mouth loss: 0.01266,multi loss: 0.03316, L2 loss: 0.1462, lr:1e-05 
+2019-01-21 12:10:37.468065: Step: 25000, acc: 0.951, recall: 0.941, cls loss: 0.1802, bbox loss: 0.05514, eye_eyebrow loss: 0.04378,mouth loss: 0.013,multi loss: 0.03216, L2 loss: 0.146, lr:1e-05 
+2019-01-21 12:12:05.432312: Step: 25500, acc: 0.961, recall: 0.961, cls loss: 0.2078, bbox loss: 0.05596, eye_eyebrow loss: 0.0432,mouth loss: 0.01201,multi loss: 0.02887, L2 loss: 0.1458, lr:1e-05 
+Save model epoch: 19, Step: 25973, acc: 0.951, recall: 0.922, cls loss: 0.1715, bbox loss: 0.05581, eye_eyebrow loss: 0.04457,mouth loss: 0.0124,multi loss: 0.03099, L2 loss: 0.1456, lr:1e-06 
+2019-01-21 12:13:32.891222: Step: 26000, acc: 0.951, recall: 0.941, cls loss: 0.1851, bbox loss: 0.05112, eye_eyebrow loss: 0.04369,mouth loss: 0.01299,multi loss: 0.02971, L2 loss: 0.1456, lr:1e-06 
+2019-01-21 12:15:00.376057: Step: 26500, acc: 0.971, recall: 0.961, cls loss: 0.2022, bbox loss: 0.06123, eye_eyebrow loss: 0.03964,mouth loss: 0.009954,multi loss: 0.02831, L2 loss: 0.1455, lr:1e-06 
+2019-01-21 12:16:27.824961: Step: 27000, acc: 0.971, recall: 0.961, cls loss: 0.1356, bbox loss: 0.05527, eye_eyebrow loss: 0.04745,mouth loss: 0.01303,multi loss: 0.03321, L2 loss: 0.1455, lr:1e-06 
+Save model epoch: 20, Step: 27340, acc: 0.941, recall: 0.922, cls loss: 0.2317, bbox loss: 0.05715, eye_eyebrow loss: 0.04476,mouth loss: 0.009635,multi loss: 0.02752, L2 loss: 0.1455, lr:1e-06 
+2019-01-21 12:17:55.652369: Step: 27500, acc: 0.922, recall: 0.941, cls loss: 0.2537, bbox loss: 0.05777, eye_eyebrow loss: 0.04712,mouth loss: 0.01138,multi loss: 0.02924, L2 loss: 0.1455, lr:1e-06 
+2019-01-21 12:19:23.315280: Step: 28000, acc: 0.971, recall: 0.961, cls loss: 0.1386, bbox loss: 0.06259, eye_eyebrow loss: 0.04416,mouth loss: 0.01064,multi loss: 0.02865, L2 loss: 0.1455, lr:1e-06 
+2019-01-21 12:20:50.744372: Step: 28500, acc: 0.951, recall: 0.98, cls loss: 0.1747, bbox loss: 0.05868, eye_eyebrow loss: 0.04707,mouth loss: 0.01147,multi loss: 0.0362, L2 loss: 0.1454, lr:1e-06 
+Save model epoch: 21, Step: 28707, acc: 0.941, recall: 0.902, cls loss: 0.2358, bbox loss: 0.05304, eye_eyebrow loss: 0.04423,mouth loss: 0.01135,multi loss: 0.02963, L2 loss: 0.1454, lr:1e-06 
+2019-01-21 12:22:17.855760: Step: 29000, acc: 0.931, recall: 0.941, cls loss: 0.2171, bbox loss: 0.05694, eye_eyebrow loss: 0.04415,mouth loss: 0.01119,multi loss: 0.03308, L2 loss: 0.1454, lr:1e-06 
+2019-01-21 12:23:45.301860: Step: 29500, acc: 0.98, recall: 0.961, cls loss: 0.1107, bbox loss: 0.05729, eye_eyebrow loss: 0.04382,mouth loss: 0.01202,multi loss: 0.0316, L2 loss: 0.1454, lr:1e-06 
+2019-01-21 12:25:13.008348: Step: 30000, acc: 0.961, recall: 0.961, cls loss: 0.125, bbox loss: 0.05114, eye_eyebrow loss: 0.04809,mouth loss: 0.0104,multi loss: 0.03355, L2 loss: 0.1454, lr:1e-06 
+Save model epoch: 22, Step: 30074, acc: 0.971, recall: 0.961, cls loss: 0.2217, bbox loss: 0.06557, eye_eyebrow loss: 0.0439,mouth loss: 0.01174,multi loss: 0.02918, L2 loss: 0.1454, lr:1e-06 
+2019-01-21 12:26:40.665754: Step: 30500, acc: 0.951, recall: 0.922, cls loss: 0.1526, bbox loss: 0.05036, eye_eyebrow loss: 0.04227,mouth loss: 0.01034,multi loss: 0.02909, L2 loss: 0.1453, lr:1e-06 
+2019-01-21 12:28:08.573843: Step: 31000, acc: 0.941, recall: 0.902, cls loss: 0.2016, bbox loss: 0.06556, eye_eyebrow loss: 0.04425,mouth loss: 0.01286,multi loss: 0.03299, L2 loss: 0.1453, lr:1e-06 
+Save model epoch: 23, Step: 31441, acc: 0.98, recall: 0.961, cls loss: 0.1032, bbox loss: 0.06654, eye_eyebrow loss: 0.03944,mouth loss: 0.009911,multi loss: 0.02823, L2 loss: 0.1453, lr:1e-06 
+2019-01-21 12:29:36.375256: Step: 31500, acc: 0.98, recall: 1.0, cls loss: 0.09796, bbox loss: 0.06493, eye_eyebrow loss: 0.04925,mouth loss: 0.01028,multi loss: 0.02989, L2 loss: 0.1453, lr:1e-06 
+2019-01-21 12:31:04.015563: Step: 32000, acc: 0.951, recall: 0.98, cls loss: 0.1707, bbox loss: 0.05837, eye_eyebrow loss: 0.04959,mouth loss: 0.0131,multi loss: 0.03647, L2 loss: 0.1453, lr:1e-06 
+2019-01-21 12:32:31.710478: Step: 32500, acc: 0.961, recall: 0.941, cls loss: 0.1555, bbox loss: 0.05748, eye_eyebrow loss: 0.04492,mouth loss: 0.01153,multi loss: 0.03211, L2 loss: 0.1452, lr:1e-06 
+Save model epoch: 24, Step: 32808, acc: 0.951, recall: 0.922, cls loss: 0.2276, bbox loss: 0.06383, eye_eyebrow loss: 0.04168,mouth loss: 0.009797,multi loss: 0.02555, L2 loss: 0.1452, lr:1e-06 
+2019-01-21 12:34:00.136027: Step: 33000, acc: 0.951, recall: 0.922, cls loss: 0.1702, bbox loss: 0.0517, eye_eyebrow loss: 0.04004,mouth loss: 0.01341,multi loss: 0.02708, L2 loss: 0.1452, lr:1e-06 
+2019-01-21 12:35:28.395470: Step: 33500, acc: 0.971, recall: 0.98, cls loss: 0.2042, bbox loss: 0.06782, eye_eyebrow loss: 0.0455,mouth loss: 0.01075,multi loss: 0.03143, L2 loss: 0.1452, lr:1e-06 
+2019-01-21 12:36:56.327136: Step: 34000, acc: 0.961, recall: 0.941, cls loss: 0.1622, bbox loss: 0.05965, eye_eyebrow loss: 0.05035,mouth loss: 0.01193,multi loss: 0.03189, L2 loss: 0.1452, lr:1e-06 
+Save model epoch: 25, Step: 34175, acc: 0.961, recall: 0.922, cls loss: 0.1553, bbox loss: 0.06583, eye_eyebrow loss: 0.04631,mouth loss: 0.01217,multi loss: 0.03495, L2 loss: 0.1452, lr:1e-06 
+2019-01-21 12:38:25.138277: Step: 34500, acc: 0.931, recall: 0.922, cls loss: 0.2217, bbox loss: 0.06071, eye_eyebrow loss: 0.04399,mouth loss: 0.01173,multi loss: 0.03048, L2 loss: 0.1452, lr:1e-06 
+2019-01-21 12:39:53.718442: Step: 35000, acc: 0.99, recall: 0.98, cls loss: 0.09692, bbox loss: 0.05826, eye_eyebrow loss: 0.04512,mouth loss: 0.0124,multi loss: 0.02988, L2 loss: 0.1451, lr:1e-06 
+2019-01-21 12:41:21.626835: Step: 35500, acc: 0.961, recall: 0.98, cls loss: 0.1665, bbox loss: 0.05497, eye_eyebrow loss: 0.04357,mouth loss: 0.01105,multi loss: 0.03476, L2 loss: 0.1451, lr:1e-06 
+Save model epoch: 26, Step: 35542, acc: 0.922, recall: 0.882, cls loss: 0.2783, bbox loss: 0.05657, eye_eyebrow loss: 0.04314,mouth loss: 0.01094,multi loss: 0.03028, L2 loss: 0.1451, lr:1e-06 
+2019-01-21 12:42:49.460218: Step: 36000, acc: 0.961, recall: 0.961, cls loss: 0.1825, bbox loss: 0.05525, eye_eyebrow loss: 0.0436,mouth loss: 0.01199,multi loss: 0.03054, L2 loss: 0.1451, lr:1e-06 
+2019-01-21 12:44:16.578756: Step: 36500, acc: 0.941, recall: 0.922, cls loss: 0.1963, bbox loss: 0.06165, eye_eyebrow loss: 0.04437,mouth loss: 0.0108,multi loss: 0.03192, L2 loss: 0.1451, lr:1e-06 
+Save model epoch: 27, Step: 36909, acc: 0.951, recall: 0.961, cls loss: 0.1491, bbox loss: 0.05814, eye_eyebrow loss: 0.04563,mouth loss: 0.01125,multi loss: 0.03203, L2 loss: 0.145, lr:1e-06 
+2019-01-21 12:45:44.178407: Step: 37000, acc: 0.951, recall: 0.922, cls loss: 0.1434, bbox loss: 0.05054, eye_eyebrow loss: 0.04578,mouth loss: 0.01388,multi loss: 0.02935, L2 loss: 0.145, lr:1e-06 
+2019-01-21 12:47:12.564654: Step: 37500, acc: 0.951, recall: 0.902, cls loss: 0.1524, bbox loss: 0.06247, eye_eyebrow loss: 0.04593,mouth loss: 0.01333,multi loss: 0.03426, L2 loss: 0.145, lr:1e-06 
+2019-01-21 12:48:40.767712: Step: 38000, acc: 0.931, recall: 0.882, cls loss: 0.2246, bbox loss: 0.05324, eye_eyebrow loss: 0.04342,mouth loss: 0.01139,multi loss: 0.03263, L2 loss: 0.145, lr:1e-06 
+Save model epoch: 28, Step: 38276, acc: 0.931, recall: 0.941, cls loss: 0.2255, bbox loss: 0.06685, eye_eyebrow loss: 0.05051,mouth loss: 0.01212,multi loss: 0.03329, L2 loss: 0.145, lr:1e-06 
+2019-01-21 12:50:08.728548: Step: 38500, acc: 0.951, recall: 0.941, cls loss: 0.1475, bbox loss: 0.05749, eye_eyebrow loss: 0.04488,mouth loss: 0.01031,multi loss: 0.02842, L2 loss: 0.145, lr:1e-06 
+2019-01-21 12:51:36.685861: Step: 39000, acc: 0.951, recall: 0.922, cls loss: 0.1978, bbox loss: 0.05925, eye_eyebrow loss: 0.04049,mouth loss: 0.01098,multi loss: 0.02731, L2 loss: 0.1449, lr:1e-06 
+2019-01-21 12:53:04.756558: Step: 39500, acc: 0.951, recall: 0.941, cls loss: 0.2013, bbox loss: 0.06875, eye_eyebrow loss: 0.04672,mouth loss: 0.01088,multi loss: 0.028, L2 loss: 0.1449, lr:1e-06 
+Save model epoch: 29, Step: 39643, acc: 0.951, recall: 0.961, cls loss: 0.168, bbox loss: 0.06642, eye_eyebrow loss: 0.0415,mouth loss: 0.01183,multi loss: 0.03075, L2 loss: 0.1449, lr:1e-06 
+2019-01-21 12:54:33.097561: Step: 40000, acc: 0.961, recall: 0.961, cls loss: 0.1332, bbox loss: 0.05688, eye_eyebrow loss: 0.04439,mouth loss: 0.01289,multi loss: 0.03294, L2 loss: 0.1449, lr:1e-06 
+2019-01-21 12:56:01.044772: Step: 40500, acc: 0.98, recall: 0.961, cls loss: 0.1491, bbox loss: 0.05819, eye_eyebrow loss: 0.04068,mouth loss: 0.01092,multi loss: 0.03223, L2 loss: 0.1449, lr:1e-06 
+2019-01-21 12:57:29.349798: Step: 41000, acc: 0.961, recall: 0.98, cls loss: 0.1222, bbox loss: 0.0575, eye_eyebrow loss: 0.04266,mouth loss: 0.01425,multi loss: 0.03049, L2 loss: 0.1448, lr:1e-06 
+Save model epoch: 30, Step: 41010, acc: 0.931, recall: 0.961, cls loss: 0.1597, bbox loss: 0.05821, eye_eyebrow loss: 0.04342,mouth loss: 0.01103,multi loss: 0.02675, L2 loss: 0.1448, lr:1e-06 
+2019-01-21 12:58:57.902363: Step: 41500, acc: 0.961, recall: 0.922, cls loss: 0.1447, bbox loss: 0.05683, eye_eyebrow loss: 0.04404,mouth loss: 0.009589,multi loss: 0.02816, L2 loss: 0.1448, lr:1e-06 
+2019-01-21 13:00:26.602594: Step: 42000, acc: 0.961, recall: 0.961, cls loss: 0.1466, bbox loss: 0.06146, eye_eyebrow loss: 0.04242,mouth loss: 0.009672,multi loss: 0.0313, L2 loss: 0.1448, lr:1e-06 
+Save model epoch: 31, Step: 42377, acc: 0.951, recall: 0.941, cls loss: 0.1615, bbox loss: 0.05603, eye_eyebrow loss: 0.04544,mouth loss: 0.01198,multi loss: 0.03116, L2 loss: 0.1448, lr:1e-06 
+2019-01-21 13:01:54.782657: Step: 42500, acc: 0.961, recall: 0.98, cls loss: 0.1212, bbox loss: 0.06788, eye_eyebrow loss: 0.04139,mouth loss: 0.009783,multi loss: 0.02543, L2 loss: 0.1448, lr:1e-06 
+2019-01-21 13:03:22.272697: Step: 43000, acc: 0.961, recall: 0.941, cls loss: 0.1915, bbox loss: 0.06063, eye_eyebrow loss: 0.04582,mouth loss: 0.01294,multi loss: 0.03058, L2 loss: 0.1447, lr:1e-06 
+2019-01-21 13:04:50.401473: Step: 43500, acc: 0.951, recall: 0.902, cls loss: 0.2669, bbox loss: 0.05358, eye_eyebrow loss: 0.04526,mouth loss: 0.01287,multi loss: 0.03197, L2 loss: 0.1447, lr:1e-06 
+Save model epoch: 32, Step: 43744, acc: 0.931, recall: 0.882, cls loss: 0.2018, bbox loss: 0.05719, eye_eyebrow loss: 0.04235,mouth loss: 0.01162,multi loss: 0.02645, L2 loss: 0.1447, lr:1e-06 
+2019-01-21 13:06:18.487853: Step: 44000, acc: 0.99, recall: 0.98, cls loss: 0.1077, bbox loss: 0.05952, eye_eyebrow loss: 0.04512,mouth loss: 0.01126,multi loss: 0.03146, L2 loss: 0.1447, lr:1e-06 
+2019-01-21 13:07:46.213864: Step: 44500, acc: 0.961, recall: 0.941, cls loss: 0.1872, bbox loss: 0.0669, eye_eyebrow loss: 0.0437,mouth loss: 0.01097,multi loss: 0.03051, L2 loss: 0.1447, lr:1e-06 
+2019-01-21 13:09:13.942989: Step: 45000, acc: 0.971, recall: 0.941, cls loss: 0.1834, bbox loss: 0.06116, eye_eyebrow loss: 0.04087,mouth loss: 0.009542,multi loss: 0.02876, L2 loss: 0.1447, lr:1e-06 
+Save model epoch: 33, Step: 45111, acc: 0.912, recall: 0.922, cls loss: 0.2348, bbox loss: 0.06091, eye_eyebrow loss: 0.04713,mouth loss: 0.0103,multi loss: 0.02814, L2 loss: 0.1446, lr:1e-06 
+2019-01-21 13:10:41.282138: Step: 45500, acc: 1.0, recall: 1.0, cls loss: 0.04512, bbox loss: 0.06044, eye_eyebrow loss: 0.04235,mouth loss: 0.01116,multi loss: 0.02958, L2 loss: 0.1446, lr:1e-06 
+2019-01-21 13:12:08.568189: Step: 46000, acc: 0.961, recall: 0.922, cls loss: 0.1623, bbox loss: 0.05365, eye_eyebrow loss: 0.04378,mouth loss: 0.01239,multi loss: 0.02867, L2 loss: 0.1446, lr:1e-06 
+Save model epoch: 34, Step: 46478, acc: 0.951, recall: 0.902, cls loss: 0.1863, bbox loss: 0.06089, eye_eyebrow loss: 0.04147,mouth loss: 0.01128,multi loss: 0.02928, L2 loss: 0.1446, lr:1e-06 
+2019-01-21 13:13:35.792325: Step: 46500, acc: 1.0, recall: 1.0, cls loss: 0.07611, bbox loss: 0.0561, eye_eyebrow loss: 0.04297,mouth loss: 0.009693,multi loss: 0.02663, L2 loss: 0.1446, lr:1e-06 
+2019-01-21 13:15:03.153940: Step: 47000, acc: 0.951, recall: 0.941, cls loss: 0.2335, bbox loss: 0.05986, eye_eyebrow loss: 0.04474,mouth loss: 0.01718,multi loss: 0.02914, L2 loss: 0.1446, lr:1e-06 
+2019-01-21 13:16:30.536541: Step: 47500, acc: 0.961, recall: 0.941, cls loss: 0.1482, bbox loss: 0.05748, eye_eyebrow loss: 0.04377,mouth loss: 0.01093,multi loss: 0.02955, L2 loss: 0.1445, lr:1e-06 
+Save model epoch: 35, Step: 47845, acc: 0.971, recall: 0.98, cls loss: 0.1701, bbox loss: 0.05213, eye_eyebrow loss: 0.04482,mouth loss: 0.01496,multi loss: 0.03056, L2 loss: 0.1445, lr:1e-06 
+2019-01-21 13:17:57.032409: Step: 48000, acc: 0.961, recall: 0.961, cls loss: 0.1646, bbox loss: 0.0635, eye_eyebrow loss: 0.0454,mouth loss: 0.01162,multi loss: 0.03437, L2 loss: 0.1445, lr:1e-06 
+2019-01-21 13:19:23.994499: Step: 48500, acc: 0.98, recall: 0.98, cls loss: 0.117, bbox loss: 0.05227, eye_eyebrow loss: 0.0471,mouth loss: 0.01118,multi loss: 0.03154, L2 loss: 0.1445, lr:1e-06 
+2019-01-21 13:20:50.137715: Step: 49000, acc: 0.961, recall: 0.941, cls loss: 0.1855, bbox loss: 0.05862, eye_eyebrow loss: 0.0447,mouth loss: 0.01315,multi loss: 0.03141, L2 loss: 0.1445, lr:1e-06 
+Save model epoch: 36, Step: 49212, acc: 0.931, recall: 0.863, cls loss: 0.2677, bbox loss: 0.05413, eye_eyebrow loss: 0.04302,mouth loss: 0.01078,multi loss: 0.03049, L2 loss: 0.1445, lr:1e-06 
+2019-01-21 13:22:16.195661: Step: 49500, acc: 0.971, recall: 0.961, cls loss: 0.1066, bbox loss: 0.04949, eye_eyebrow loss: 0.04742,mouth loss: 0.01084,multi loss: 0.02774, L2 loss: 0.1444, lr:1e-06 
+2019-01-21 13:23:42.482667: Step: 50000, acc: 0.98, recall: 0.961, cls loss: 0.09804, bbox loss: 0.05136, eye_eyebrow loss: 0.04029,mouth loss: 0.01136,multi loss: 0.03089, L2 loss: 0.1444, lr:1e-06 
+2019-01-21 13:25:08.462863: Step: 50500, acc: 0.951, recall: 0.941, cls loss: 0.2074, bbox loss: 0.07507, eye_eyebrow loss: 0.04303,mouth loss: 0.01163,multi loss: 0.03531, L2 loss: 0.1444, lr:1e-06 
+Save model epoch: 37, Step: 50579, acc: 0.961, recall: 0.961, cls loss: 0.2534, bbox loss: 0.069, eye_eyebrow loss: 0.04079,mouth loss: 0.01071,multi loss: 0.03083, L2 loss: 0.1444, lr:1e-06 
+2019-01-21 13:26:35.235813: Step: 51000, acc: 0.941, recall: 0.922, cls loss: 0.2131, bbox loss: 0.06249, eye_eyebrow loss: 0.04348,mouth loss: 0.01017,multi loss: 0.02736, L2 loss: 0.1444, lr:1e-06 
+2019-01-21 13:28:01.904476: Step: 51500, acc: 0.922, recall: 0.902, cls loss: 0.2943, bbox loss: 0.0583, eye_eyebrow loss: 0.04574,mouth loss: 0.01176,multi loss: 0.03213, L2 loss: 0.1443, lr:1e-06 
+Save model epoch: 38, Step: 51946, acc: 0.931, recall: 0.922, cls loss: 0.2868, bbox loss: 0.05349, eye_eyebrow loss: 0.04571,mouth loss: 0.01331,multi loss: 0.03211, L2 loss: 0.1443, lr:1e-06 
+2019-01-21 13:29:29.297470: Step: 52000, acc: 0.941, recall: 0.882, cls loss: 0.2994, bbox loss: 0.06688, eye_eyebrow loss: 0.04528,mouth loss: 0.01434,multi loss: 0.03224, L2 loss: 0.1443, lr:1e-06 
+2019-01-21 13:30:55.669708: Step: 52500, acc: 0.951, recall: 0.941, cls loss: 0.1695, bbox loss: 0.05714, eye_eyebrow loss: 0.04921,mouth loss: 0.008932,multi loss: 0.02674, L2 loss: 0.1443, lr:1e-06 
+2019-01-21 13:32:22.735737: Step: 53000, acc: 0.951, recall: 0.922, cls loss: 0.1548, bbox loss: 0.06175, eye_eyebrow loss: 0.0425,mouth loss: 0.01059,multi loss: 0.03122, L2 loss: 0.1443, lr:1e-06 
+Save model epoch: 39, Step: 53313, acc: 0.912, recall: 0.843, cls loss: 0.3172, bbox loss: 0.05705, eye_eyebrow loss: 0.04203,mouth loss: 0.01051,multi loss: 0.03232, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:33:49.528930: Step: 53500, acc: 0.971, recall: 0.98, cls loss: 0.1121, bbox loss: 0.08196, eye_eyebrow loss: 0.04307,mouth loss: 0.01091,multi loss: 0.03254, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:35:16.271536: Step: 54000, acc: 0.99, recall: 1.0, cls loss: 0.09811, bbox loss: 0.0477, eye_eyebrow loss: 0.04362,mouth loss: 0.01241,multi loss: 0.03216, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:36:43.154276: Step: 54500, acc: 0.971, recall: 0.941, cls loss: 0.167, bbox loss: 0.06256, eye_eyebrow loss: 0.04594,mouth loss: 0.01101,multi loss: 0.03369, L2 loss: 0.1443, lr:1e-07 
+Save model epoch: 40, Step: 54680, acc: 0.971, recall: 0.961, cls loss: 0.1215, bbox loss: 0.05966, eye_eyebrow loss: 0.04296,mouth loss: 0.01196,multi loss: 0.02922, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:38:09.961192: Step: 55000, acc: 0.941, recall: 0.941, cls loss: 0.2172, bbox loss: 0.04972, eye_eyebrow loss: 0.05167,mouth loss: 0.01367,multi loss: 0.03127, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:39:36.897368: Step: 55500, acc: 0.98, recall: 0.98, cls loss: 0.1496, bbox loss: 0.05758, eye_eyebrow loss: 0.04552,mouth loss: 0.01293,multi loss: 0.03003, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:41:03.488102: Step: 56000, acc: 0.902, recall: 0.843, cls loss: 0.3051, bbox loss: 0.0506, eye_eyebrow loss: 0.04282,mouth loss: 0.01006,multi loss: 0.02798, L2 loss: 0.1443, lr:1e-07 
+Save model epoch: 41, Step: 56047, acc: 0.99, recall: 0.98, cls loss: 0.1031, bbox loss: 0.06025, eye_eyebrow loss: 0.04206,mouth loss: 0.01164,multi loss: 0.03018, L2 loss: 0.1443, lr:1e-07 
+2019-01-21 13:42:30.170655: Step: 56500, acc: 0.941, recall: 0.902, cls loss: 0.2158, bbox loss: 0.06762, eye_eyebrow loss: 0.04382,mouth loss: 0.01195,multi loss: 0.03255, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:43:56.742984: Step: 57000, acc: 0.922, recall: 0.882, cls loss: 0.2484, bbox loss: 0.06923, eye_eyebrow loss: 0.04657,mouth loss: 0.01176,multi loss: 0.02861, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 42, Step: 57414, acc: 0.961, recall: 0.922, cls loss: 0.2274, bbox loss: 0.06201, eye_eyebrow loss: 0.04192,mouth loss: 0.009986,multi loss: 0.02906, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:45:24.107327: Step: 57500, acc: 0.922, recall: 0.882, cls loss: 0.2616, bbox loss: 0.05389, eye_eyebrow loss: 0.04239,mouth loss: 0.01056,multi loss: 0.03097, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:46:51.001332: Step: 58000, acc: 0.971, recall: 0.941, cls loss: 0.1037, bbox loss: 0.05087, eye_eyebrow loss: 0.04257,mouth loss: 0.01313,multi loss: 0.02706, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:48:18.216462: Step: 58500, acc: 0.98, recall: 1.0, cls loss: 0.1138, bbox loss: 0.06033, eye_eyebrow loss: 0.04622,mouth loss: 0.01222,multi loss: 0.03464, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 43, Step: 58781, acc: 0.951, recall: 0.922, cls loss: 0.1903, bbox loss: 0.06761, eye_eyebrow loss: 0.04376,mouth loss: 0.01053,multi loss: 0.03013, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:49:45.521987: Step: 59000, acc: 0.961, recall: 0.941, cls loss: 0.1703, bbox loss: 0.05013, eye_eyebrow loss: 0.04252,mouth loss: 0.01138,multi loss: 0.03084, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:51:12.243387: Step: 59500, acc: 0.971, recall: 0.961, cls loss: 0.1065, bbox loss: 0.06683, eye_eyebrow loss: 0.04319,mouth loss: 0.009356,multi loss: 0.02906, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:52:39.403400: Step: 60000, acc: 0.951, recall: 0.941, cls loss: 0.1631, bbox loss: 0.05913, eye_eyebrow loss: 0.04308,mouth loss: 0.009729,multi loss: 0.03031, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 44, Step: 60148, acc: 0.951, recall: 0.941, cls loss: 0.2179, bbox loss: 0.06446, eye_eyebrow loss: 0.04368,mouth loss: 0.01332,multi loss: 0.03076, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:54:06.348809: Step: 60500, acc: 0.951, recall: 0.941, cls loss: 0.1697, bbox loss: 0.05842, eye_eyebrow loss: 0.04363,mouth loss: 0.01007,multi loss: 0.02482, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:55:32.945009: Step: 61000, acc: 0.98, recall: 0.961, cls loss: 0.09342, bbox loss: 0.05396, eye_eyebrow loss: 0.04629,mouth loss: 0.0166,multi loss: 0.03057, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:56:59.918967: Step: 61500, acc: 0.961, recall: 0.941, cls loss: 0.1799, bbox loss: 0.0677, eye_eyebrow loss: 0.04529,mouth loss: 0.01079,multi loss: 0.03019, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 45, Step: 61515, acc: 0.931, recall: 0.922, cls loss: 0.2429, bbox loss: 0.05622, eye_eyebrow loss: 0.04486,mouth loss: 0.0135,multi loss: 0.02973, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:58:27.958747: Step: 62000, acc: 0.971, recall: 0.941, cls loss: 0.1262, bbox loss: 0.05652, eye_eyebrow loss: 0.04352,mouth loss: 0.01367,multi loss: 0.02926, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 13:59:54.873674: Step: 62500, acc: 0.98, recall: 0.98, cls loss: 0.06311, bbox loss: 0.06214, eye_eyebrow loss: 0.04714,mouth loss: 0.009896,multi loss: 0.02826, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 46, Step: 62882, acc: 0.98, recall: 0.98, cls loss: 0.125, bbox loss: 0.05574, eye_eyebrow loss: 0.04289,mouth loss: 0.01082,multi loss: 0.0313, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:01:22.296686: Step: 63000, acc: 0.931, recall: 0.902, cls loss: 0.2102, bbox loss: 0.05979, eye_eyebrow loss: 0.04034,mouth loss: 0.009976,multi loss: 0.02538, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:02:49.276437: Step: 63500, acc: 0.961, recall: 1.0, cls loss: 0.1509, bbox loss: 0.05301, eye_eyebrow loss: 0.04426,mouth loss: 0.0124,multi loss: 0.02794, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:04:16.231872: Step: 64000, acc: 0.951, recall: 0.922, cls loss: 0.1883, bbox loss: 0.06852, eye_eyebrow loss: 0.04104,mouth loss: 0.01433,multi loss: 0.03217, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 47, Step: 64249, acc: 0.961, recall: 0.961, cls loss: 0.1816, bbox loss: 0.05486, eye_eyebrow loss: 0.04043,mouth loss: 0.01227,multi loss: 0.03045, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:05:43.683188: Step: 64500, acc: 0.951, recall: 0.922, cls loss: 0.1778, bbox loss: 0.05023, eye_eyebrow loss: 0.04733,mouth loss: 0.01495,multi loss: 0.03241, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:07:10.843666: Step: 65000, acc: 0.98, recall: 0.961, cls loss: 0.1303, bbox loss: 0.06311, eye_eyebrow loss: 0.04149,mouth loss: 0.01058,multi loss: 0.03001, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:08:37.510992: Step: 65500, acc: 0.98, recall: 0.98, cls loss: 0.1106, bbox loss: 0.05759, eye_eyebrow loss: 0.0437,mouth loss: 0.01125,multi loss: 0.02837, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 48, Step: 65616, acc: 0.922, recall: 0.863, cls loss: 0.1855, bbox loss: 0.05265, eye_eyebrow loss: 0.04088,mouth loss: 0.01435,multi loss: 0.03044, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:10:04.476640: Step: 66000, acc: 0.941, recall: 0.961, cls loss: 0.1972, bbox loss: 0.0536, eye_eyebrow loss: 0.043,mouth loss: 0.01073,multi loss: 0.02636, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:11:32.317595: Step: 66500, acc: 0.931, recall: 0.882, cls loss: 0.3088, bbox loss: 0.06939, eye_eyebrow loss: 0.04198,mouth loss: 0.01045,multi loss: 0.02589, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 49, Step: 66983, acc: 0.951, recall: 0.941, cls loss: 0.187, bbox loss: 0.0552, eye_eyebrow loss: 0.04719,mouth loss: 0.0115,multi loss: 0.03622, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:12:59.329179: Step: 67000, acc: 0.951, recall: 0.941, cls loss: 0.1471, bbox loss: 0.0484, eye_eyebrow loss: 0.04346,mouth loss: 0.01211,multi loss: 0.02883, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:14:25.659490: Step: 67500, acc: 0.941, recall: 0.902, cls loss: 0.1986, bbox loss: 0.05594, eye_eyebrow loss: 0.04303,mouth loss: 0.01091,multi loss: 0.02843, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:15:52.807065: Step: 68000, acc: 0.951, recall: 0.922, cls loss: 0.1453, bbox loss: 0.0638, eye_eyebrow loss: 0.04433,mouth loss: 0.01188,multi loss: 0.02864, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 50, Step: 68350, acc: 0.941, recall: 0.922, cls loss: 0.1853, bbox loss: 0.05242, eye_eyebrow loss: 0.04391,mouth loss: 0.01087,multi loss: 0.0292, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:17:20.022006: Step: 68500, acc: 1.0, recall: 1.0, cls loss: 0.07751, bbox loss: 0.0616, eye_eyebrow loss: 0.04805,mouth loss: 0.01493,multi loss: 0.03256, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:18:46.756477: Step: 69000, acc: 0.971, recall: 0.941, cls loss: 0.08892, bbox loss: 0.05946, eye_eyebrow loss: 0.04048,mouth loss: 0.0131,multi loss: 0.03058, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:20:13.579966: Step: 69500, acc: 0.961, recall: 0.941, cls loss: 0.2642, bbox loss: 0.0682, eye_eyebrow loss: 0.04615,mouth loss: 0.0101,multi loss: 0.033, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 51, Step: 69717, acc: 0.912, recall: 0.863, cls loss: 0.3209, bbox loss: 0.05514, eye_eyebrow loss: 0.04148,mouth loss: 0.01011,multi loss: 0.02421, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:21:40.515558: Step: 70000, acc: 0.951, recall: 0.902, cls loss: 0.2017, bbox loss: 0.05592, eye_eyebrow loss: 0.04389,mouth loss: 0.0126,multi loss: 0.03057, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:23:07.108363: Step: 70500, acc: 0.971, recall: 0.941, cls loss: 0.09594, bbox loss: 0.0486, eye_eyebrow loss: 0.04751,mouth loss: 0.01272,multi loss: 0.02887, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:24:33.784633: Step: 71000, acc: 0.941, recall: 0.922, cls loss: 0.2984, bbox loss: 0.05011, eye_eyebrow loss: 0.04188,mouth loss: 0.009783,multi loss: 0.0275, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 52, Step: 71084, acc: 0.951, recall: 0.941, cls loss: 0.1747, bbox loss: 0.0571, eye_eyebrow loss: 0.04383,mouth loss: 0.0113,multi loss: 0.02869, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:26:00.391681: Step: 71500, acc: 0.931, recall: 0.902, cls loss: 0.3265, bbox loss: 0.06037, eye_eyebrow loss: 0.046,mouth loss: 0.01086,multi loss: 0.03126, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:27:26.622821: Step: 72000, acc: 0.912, recall: 0.961, cls loss: 0.2177, bbox loss: 0.0615, eye_eyebrow loss: 0.04913,mouth loss: 0.01119,multi loss: 0.03067, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 53, Step: 72451, acc: 0.971, recall: 0.941, cls loss: 0.1037, bbox loss: 0.05072, eye_eyebrow loss: 0.0435,mouth loss: 0.01262,multi loss: 0.02924, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:28:53.778938: Step: 72500, acc: 0.961, recall: 0.941, cls loss: 0.1565, bbox loss: 0.05776, eye_eyebrow loss: 0.04654,mouth loss: 0.01224,multi loss: 0.03167, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:30:20.645478: Step: 73000, acc: 0.951, recall: 0.941, cls loss: 0.1841, bbox loss: 0.06169, eye_eyebrow loss: 0.04515,mouth loss: 0.01358,multi loss: 0.03383, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:31:46.547471: Step: 73500, acc: 0.922, recall: 0.902, cls loss: 0.2116, bbox loss: 0.06585, eye_eyebrow loss: 0.04472,mouth loss: 0.01221,multi loss: 0.02739, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 54, Step: 73818, acc: 0.961, recall: 0.98, cls loss: 0.1228, bbox loss: 0.05861, eye_eyebrow loss: 0.04487,mouth loss: 0.01169,multi loss: 0.03188, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:33:12.974281: Step: 74000, acc: 0.951, recall: 0.941, cls loss: 0.2605, bbox loss: 0.0591, eye_eyebrow loss: 0.04363,mouth loss: 0.008585,multi loss: 0.03167, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:34:39.613576: Step: 74500, acc: 0.98, recall: 0.961, cls loss: 0.09849, bbox loss: 0.06233, eye_eyebrow loss: 0.04186,mouth loss: 0.01097,multi loss: 0.02897, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:36:06.146744: Step: 75000, acc: 0.99, recall: 0.98, cls loss: 0.09673, bbox loss: 0.07429, eye_eyebrow loss: 0.04581,mouth loss: 0.01347,multi loss: 0.03095, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 55, Step: 75185, acc: 0.971, recall: 0.98, cls loss: 0.1344, bbox loss: 0.05189, eye_eyebrow loss: 0.04351,mouth loss: 0.01475,multi loss: 0.03426, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:37:33.040401: Step: 75500, acc: 0.961, recall: 0.961, cls loss: 0.1639, bbox loss: 0.06338, eye_eyebrow loss: 0.05322,mouth loss: 0.01096,multi loss: 0.03432, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:38:59.394526: Step: 76000, acc: 0.961, recall: 0.941, cls loss: 0.2108, bbox loss: 0.07061, eye_eyebrow loss: 0.05026,mouth loss: 0.01093,multi loss: 0.03159, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:40:26.003325: Step: 76500, acc: 0.931, recall: 0.922, cls loss: 0.3464, bbox loss: 0.0541, eye_eyebrow loss: 0.0454,mouth loss: 0.01159,multi loss: 0.02891, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 56, Step: 76552, acc: 0.99, recall: 0.98, cls loss: 0.06923, bbox loss: 0.05634, eye_eyebrow loss: 0.04199,mouth loss: 0.01181,multi loss: 0.02833, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:41:52.724335: Step: 77000, acc: 0.971, recall: 0.961, cls loss: 0.1225, bbox loss: 0.05466, eye_eyebrow loss: 0.04194,mouth loss: 0.01042,multi loss: 0.02743, L2 loss: 0.1442, lr:1e-07 
+2019-01-21 14:43:19.253879: Step: 77500, acc: 0.961, recall: 0.941, cls loss: 0.1697, bbox loss: 0.06474, eye_eyebrow loss: 0.04187,mouth loss: 0.01101,multi loss: 0.02814, L2 loss: 0.1442, lr:1e-07 
+Save model epoch: 57, Step: 77919, acc: 0.941, recall: 0.922, cls loss: 0.1434, bbox loss: 0.06737, eye_eyebrow loss: 0.04296,mouth loss: 0.01089,multi loss: 0.02878, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:44:46.734300: Step: 78000, acc: 0.961, recall: 0.922, cls loss: 0.1762, bbox loss: 0.05296, eye_eyebrow loss: 0.04247,mouth loss: 0.01089,multi loss: 0.02659, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:46:14.014482: Step: 78500, acc: 0.961, recall: 0.922, cls loss: 0.1484, bbox loss: 0.06219, eye_eyebrow loss: 0.0426,mouth loss: 0.01397,multi loss: 0.03155, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:47:40.880556: Step: 79000, acc: 0.931, recall: 0.882, cls loss: 0.2921, bbox loss: 0.04851, eye_eyebrow loss: 0.04142,mouth loss: 0.009458,multi loss: 0.02713, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 58, Step: 79286, acc: 0.961, recall: 0.961, cls loss: 0.095, bbox loss: 0.05916, eye_eyebrow loss: 0.04502,mouth loss: 0.01257,multi loss: 0.02884, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:49:07.755378: Step: 79500, acc: 0.971, recall: 0.961, cls loss: 0.1449, bbox loss: 0.04847, eye_eyebrow loss: 0.04306,mouth loss: 0.01075,multi loss: 0.02795, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:50:34.978637: Step: 80000, acc: 0.941, recall: 0.902, cls loss: 0.1723, bbox loss: 0.06111, eye_eyebrow loss: 0.0445,mouth loss: 0.01009,multi loss: 0.02913, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:52:01.808733: Step: 80500, acc: 0.951, recall: 0.922, cls loss: 0.1382, bbox loss: 0.06616, eye_eyebrow loss: 0.04523,mouth loss: 0.009908,multi loss: 0.03073, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 59, Step: 80653, acc: 0.922, recall: 0.922, cls loss: 0.2484, bbox loss: 0.05439, eye_eyebrow loss: 0.04514,mouth loss: 0.01262,multi loss: 0.03128, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:53:29.525158: Step: 81000, acc: 0.931, recall: 0.902, cls loss: 0.2458, bbox loss: 0.06085, eye_eyebrow loss: 0.04367,mouth loss: 0.01126,multi loss: 0.02887, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:54:56.184498: Step: 81500, acc: 0.98, recall: 0.961, cls loss: 0.1052, bbox loss: 0.04335, eye_eyebrow loss: 0.04157,mouth loss: 0.01075,multi loss: 0.02824, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:56:22.566259: Step: 82000, acc: 0.961, recall: 0.98, cls loss: 0.143, bbox loss: 0.04962, eye_eyebrow loss: 0.04656,mouth loss: 0.01222,multi loss: 0.03079, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 60, Step: 82020, acc: 0.961, recall: 0.98, cls loss: 0.1522, bbox loss: 0.05486, eye_eyebrow loss: 0.04534,mouth loss: 0.01013,multi loss: 0.02933, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:57:49.735115: Step: 82500, acc: 0.971, recall: 0.961, cls loss: 0.1304, bbox loss: 0.0484, eye_eyebrow loss: 0.04758,mouth loss: 0.01038,multi loss: 0.03014, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 14:59:16.983656: Step: 83000, acc: 0.941, recall: 0.922, cls loss: 0.1342, bbox loss: 0.05108, eye_eyebrow loss: 0.0431,mouth loss: 0.01141,multi loss: 0.0298, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 61, Step: 83387, acc: 0.922, recall: 0.882, cls loss: 0.3162, bbox loss: 0.06314, eye_eyebrow loss: 0.05688,mouth loss: 0.01084,multi loss: 0.03264, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:00:43.972701: Step: 83500, acc: 0.951, recall: 0.902, cls loss: 0.1915, bbox loss: 0.0551, eye_eyebrow loss: 0.04927,mouth loss: 0.01385,multi loss: 0.03289, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:02:10.615678: Step: 84000, acc: 0.961, recall: 0.941, cls loss: 0.1495, bbox loss: 0.05903, eye_eyebrow loss: 0.04066,mouth loss: 0.01027,multi loss: 0.02761, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:03:37.043434: Step: 84500, acc: 0.961, recall: 0.98, cls loss: 0.2036, bbox loss: 0.05708, eye_eyebrow loss: 0.04292,mouth loss: 0.01304,multi loss: 0.02709, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 62, Step: 84754, acc: 0.941, recall: 0.902, cls loss: 0.1963, bbox loss: 0.05769, eye_eyebrow loss: 0.04345,mouth loss: 0.01148,multi loss: 0.03384, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:05:04.038590: Step: 85000, acc: 0.98, recall: 0.98, cls loss: 0.07883, bbox loss: 0.05715, eye_eyebrow loss: 0.04048,mouth loss: 0.01428,multi loss: 0.03031, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:06:30.859772: Step: 85500, acc: 0.971, recall: 0.98, cls loss: 0.08642, bbox loss: 0.05124, eye_eyebrow loss: 0.04776,mouth loss: 0.01268,multi loss: 0.0307, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:07:57.475377: Step: 86000, acc: 0.98, recall: 0.98, cls loss: 0.1043, bbox loss: 0.05401, eye_eyebrow loss: 0.04078,mouth loss: 0.009875,multi loss: 0.03337, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 63, Step: 86121, acc: 0.961, recall: 0.922, cls loss: 0.1828, bbox loss: 0.04189, eye_eyebrow loss: 0.04371,mouth loss: 0.01109,multi loss: 0.02738, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:09:24.741415: Step: 86500, acc: 0.941, recall: 0.922, cls loss: 0.1743, bbox loss: 0.05908, eye_eyebrow loss: 0.04133,mouth loss: 0.01265,multi loss: 0.02881, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:10:51.837709: Step: 87000, acc: 0.971, recall: 0.98, cls loss: 0.1313, bbox loss: 0.05268, eye_eyebrow loss: 0.04413,mouth loss: 0.01016,multi loss: 0.03141, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 64, Step: 87488, acc: 0.941, recall: 0.941, cls loss: 0.2106, bbox loss: 0.05548, eye_eyebrow loss: 0.04814,mouth loss: 0.01103,multi loss: 0.03084, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:12:19.499049: Step: 87500, acc: 0.971, recall: 0.961, cls loss: 0.1073, bbox loss: 0.05843, eye_eyebrow loss: 0.0395,mouth loss: 0.01163,multi loss: 0.02566, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:13:46.478178: Step: 88000, acc: 0.971, recall: 0.941, cls loss: 0.1615, bbox loss: 0.05417, eye_eyebrow loss: 0.04625,mouth loss: 0.0115,multi loss: 0.03278, L2 loss: 0.1441, lr:1e-07 
+2019-01-21 15:15:13.566535: Step: 88500, acc: 0.941, recall: 0.941, cls loss: 0.2095, bbox loss: 0.05758, eye_eyebrow loss: 0.04533,mouth loss: 0.01362,multi loss: 0.03474, L2 loss: 0.1441, lr:1e-07 
+Save model epoch: 65, Step: 88855, acc: 0.941, recall: 0.902, cls loss: 0.2138, bbox loss: 0.06189, eye_eyebrow loss: 0.04684,mouth loss: 0.01151,multi loss: 0.033, L2 loss: 0.1441, lr:1e-07 

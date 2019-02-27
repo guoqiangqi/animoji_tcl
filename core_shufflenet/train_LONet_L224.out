@@ -1,0 +1,801 @@
+nohup: ignoring input
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+root_dir:  /home-ex/tclhk/guoqiang/Animoji/core_shufflenet
+base_dir:  /home-ex/tclhk/guoqiang/Animoji/core_shufflenet/../data/training_data/L224_wflw/imglists/LONet
+model_path:  /home-ex/tclhk/guoqiang/Animoji/core_shufflenet/../models/LONet_shufflenet_L224/LONet
+logs_dir:  /home-ex/tclhk/guoqiang/Animoji/core_shufflenet/../models/logs/LONet_shufflenet_L224
+/home-ex/tclhk/guoqiang/Animoji/core_shufflenet/../data/training_data/L224_wflw/imglists/LONet/train_LONet.txt
+Total datasets is:  487427
+/home-ex/tclhk/guoqiang/Animoji/core_shufflenet/../models/LONet_shufflenet_L224/LONet
+iamge channel:  3
+(50, 224, 224, 3)
+(50, 224, 224, 3)
+(150, 224, 224, 3)
+(100, 224, 224, 3)
+(350, 224, 224, 3)
+(350,)
+(350, 4)
+(350, 196)
+(350, 1024)
+(350, 256)
+(350, 2)
+(350, 4)
+(350, 196)
+2018-12-17 19:09:32.073906: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-17 19:09:32.073961: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-17 19:09:32.073986: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-17 19:09:32.073993: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-17 19:09:32.073998: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-12-17 19:09:32.378353: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:83:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2018-12-17 19:09:32.378409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-12-17 19:09:32.378420: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-12-17 19:09:32.378432: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:83:00.0)
+2018-12-17 19:20:01.589788: Step: 500, acc: 0.89, recall: 0.86, cls loss: 0.5735, bbox loss: 0.07371, animoji loss: 0.5631, L2 loss: 1.435, lr:0.001 
+2018-12-17 19:30:22.565343: Step: 1000, acc: 0.93, recall: 0.92, cls loss: 0.2112, bbox loss: 0.0521, animoji loss: 0.2945, L2 loss: 1.342, lr:0.001 
+Save model epoch: 1, Step: 1393, acc: 0.97, recall: 0.94, cls loss: 0.1671, bbox loss: 0.04505,  animoji loss: 0.218, L2 loss: 1.258, lr:0.001 
+2018-12-17 19:40:45.452061: Step: 1500, acc: 1.0, recall: 1.0, cls loss: 0.07784, bbox loss: 0.04355, animoji loss: 0.1723, L2 loss: 1.234, lr:0.001 
+2018-12-17 19:51:07.618659: Step: 2000, acc: 0.97, recall: 0.98, cls loss: 0.1173, bbox loss: 0.043, animoji loss: 0.1492, L2 loss: 1.123, lr:0.001 
+2018-12-17 20:01:27.674084: Step: 2500, acc: 0.97, recall: 0.98, cls loss: 0.1248, bbox loss: 0.04977, animoji loss: 0.1384, L2 loss: 1.016, lr:0.001 
+Save model epoch: 2, Step: 2786, acc: 0.97, recall: 0.96, cls loss: 0.087, bbox loss: 0.03906,  animoji loss: 0.1479, L2 loss: 0.9577, lr:0.001 
+2018-12-17 20:11:50.904177: Step: 3000, acc: 0.96, recall: 0.96, cls loss: 0.1279, bbox loss: 0.03407, animoji loss: 0.1349, L2 loss: 0.9152, lr:0.001 
+2018-12-17 20:22:15.682819: Step: 3500, acc: 0.99, recall: 0.98, cls loss: 0.0704, bbox loss: 0.03812, animoji loss: 0.1109, L2 loss: 0.8232, lr:0.001 
+2018-12-17 20:32:41.378239: Step: 4000, acc: 0.99, recall: 0.98, cls loss: 0.0901, bbox loss: 0.03553, animoji loss: 0.101, L2 loss: 0.7399, lr:0.001 
+Save model epoch: 3, Step: 4179, acc: 0.99, recall: 0.98, cls loss: 0.0996, bbox loss: 0.04613,  animoji loss: 0.1089, L2 loss: 0.7112, lr:0.001 
+2018-12-17 20:43:08.632361: Step: 4500, acc: 0.99, recall: 0.98, cls loss: 0.07725, bbox loss: 0.03553, animoji loss: 0.08981, L2 loss: 0.6664, lr:0.001 
+2018-12-17 20:53:33.904303: Step: 5000, acc: 0.99, recall: 1.0, cls loss: 0.06036, bbox loss: 0.03005, animoji loss: 0.1175, L2 loss: 0.6006, lr:0.001 
+2018-12-17 21:03:58.622375: Step: 5500, acc: 1.0, recall: 1.0, cls loss: 0.01356, bbox loss: 0.02879, animoji loss: 0.1173, L2 loss: 0.5401, lr:0.001 
+Save model epoch: 4, Step: 5572, acc: 1.0, recall: 1.0, cls loss: 0.02567, bbox loss: 0.02428,  animoji loss: 0.0872, L2 loss: 0.5312, lr:0.001 
+2018-12-17 21:14:25.317230: Step: 6000, acc: 1.0, recall: 1.0, cls loss: 0.03421, bbox loss: 0.03158, animoji loss: 0.1272, L2 loss: 0.4879, lr:0.001 
+2018-12-17 21:24:49.589151: Step: 6500, acc: 0.98, recall: 0.96, cls loss: 0.1024, bbox loss: 0.03031, animoji loss: 0.1299, L2 loss: 0.4443, lr:0.001 
+Save model epoch: 5, Step: 6965, acc: 0.99, recall: 0.98, cls loss: 0.07425, bbox loss: 0.03332,  animoji loss: 0.09066, L2 loss: 0.404, lr:0.001 
+2018-12-17 21:35:15.694866: Step: 7000, acc: 1.0, recall: 1.0, cls loss: 0.01806, bbox loss: 0.03009, animoji loss: 0.07572, L2 loss: 0.4008, lr:0.001 
+2018-12-17 21:45:39.688692: Step: 7500, acc: 0.98, recall: 0.96, cls loss: 0.07574, bbox loss: 0.02532, animoji loss: 0.08687, L2 loss: 0.3664, lr:0.001 
+2018-12-17 21:56:05.371723: Step: 8000, acc: 0.99, recall: 0.98, cls loss: 0.03406, bbox loss: 0.02958, animoji loss: 0.1096, L2 loss: 0.3411, lr:0.001 
+Save model epoch: 6, Step: 8358, acc: 1.0, recall: 1.0, cls loss: 0.02437, bbox loss: 0.02596,  animoji loss: 0.07433, L2 loss: 0.3202, lr:0.001 
+2018-12-17 22:06:31.680871: Step: 8500, acc: 0.99, recall: 0.98, cls loss: 0.06192, bbox loss: 0.02895, animoji loss: 0.0702, L2 loss: 0.3126, lr:0.001 
+2018-12-17 22:16:55.351522: Step: 9000, acc: 0.99, recall: 1.0, cls loss: 0.06016, bbox loss: 0.02543, animoji loss: 0.08379, L2 loss: 0.2925, lr:0.001 
+2018-12-17 22:27:19.353051: Step: 9500, acc: 0.99, recall: 1.0, cls loss: 0.03924, bbox loss: 0.02194, animoji loss: 0.0908, L2 loss: 0.2752, lr:0.001 
+Save model epoch: 7, Step: 9751, acc: 1.0, recall: 1.0, cls loss: 0.03657, bbox loss: 0.02805,  animoji loss: 0.08279, L2 loss: 0.2691, lr:0.001 
+2018-12-17 22:37:45.105192: Step: 10000, acc: 0.99, recall: 0.98, cls loss: 0.03875, bbox loss: 0.02482, animoji loss: 0.08112, L2 loss: 0.2637, lr:0.001 
+2018-12-17 22:48:08.781174: Step: 10500, acc: 0.98, recall: 0.98, cls loss: 0.04475, bbox loss: 0.02746, animoji loss: 0.08006, L2 loss: 0.251, lr:0.001 
+2018-12-17 22:58:33.925010: Step: 11000, acc: 0.99, recall: 0.98, cls loss: 0.05012, bbox loss: 0.02802, animoji loss: 0.07998, L2 loss: 0.2437, lr:0.001 
+Save model epoch: 8, Step: 11144, acc: 0.99, recall: 0.98, cls loss: 0.05957, bbox loss: 0.03185,  animoji loss: 0.09913, L2 loss: 0.2416, lr:0.001 
+2018-12-17 23:09:01.050077: Step: 11500, acc: 0.99, recall: 1.0, cls loss: 0.09601, bbox loss: 0.03402, animoji loss: 0.07977, L2 loss: 0.2334, lr:0.001 
+2018-12-17 23:19:25.043066: Step: 12000, acc: 0.99, recall: 0.98, cls loss: 0.03773, bbox loss: 0.02363, animoji loss: 0.07968, L2 loss: 0.2287, lr:0.001 
+2018-12-17 23:29:48.531529: Step: 12500, acc: 0.96, recall: 0.94, cls loss: 0.1292, bbox loss: 0.02895, animoji loss: 0.08608, L2 loss: 0.2255, lr:0.001 
+Save model epoch: 9, Step: 12537, acc: 0.99, recall: 0.98, cls loss: 0.03197, bbox loss: 0.02747,  animoji loss: 0.09128, L2 loss: 0.2242, lr:0.001 
+2018-12-17 23:40:16.170458: Step: 13000, acc: 1.0, recall: 1.0, cls loss: 0.01053, bbox loss: 0.03185, animoji loss: 0.07543, L2 loss: 0.2218, lr:0.001 
+2018-12-17 23:50:39.297286: Step: 13500, acc: 0.97, recall: 0.96, cls loss: 0.108, bbox loss: 0.02741, animoji loss: 0.06698, L2 loss: 0.2182, lr:0.001 
+Save model epoch: 10, Step: 13930, acc: 0.98, recall: 0.98, cls loss: 0.08277, bbox loss: 0.03121,  animoji loss: 0.08368, L2 loss: 0.2398, lr:0.0001 
+2018-12-18 00:01:05.390109: Step: 14000, acc: 1.0, recall: 1.0, cls loss: 0.0167, bbox loss: 0.02772, animoji loss: 0.05555, L2 loss: 0.2385, lr:0.0001 
+2018-12-18 00:11:29.673380: Step: 14500, acc: 0.98, recall: 0.96, cls loss: 0.1202, bbox loss: 0.0255, animoji loss: 0.04375, L2 loss: 0.2281, lr:0.0001 
+2018-12-18 00:21:54.222879: Step: 15000, acc: 1.0, recall: 1.0, cls loss: 0.01017, bbox loss: 0.02899, animoji loss: 0.03885, L2 loss: 0.2177, lr:0.0001 
+Save model epoch: 11, Step: 15323, acc: 0.99, recall: 0.98, cls loss: 0.06894, bbox loss: 0.01749,  animoji loss: 0.03961, L2 loss: 0.2111, lr:0.0001 
+2018-12-18 00:32:20.449238: Step: 15500, acc: 0.99, recall: 1.0, cls loss: 0.01871, bbox loss: 0.0242, animoji loss: 0.04, L2 loss: 0.2075, lr:0.0001 
+2018-12-18 00:42:44.899400: Step: 16000, acc: 0.98, recall: 1.0, cls loss: 0.05681, bbox loss: 0.02249, animoji loss: 0.03384, L2 loss: 0.1979, lr:0.0001 
+2018-12-18 00:53:09.230094: Step: 16500, acc: 1.0, recall: 1.0, cls loss: 0.009573, bbox loss: 0.01886, animoji loss: 0.03237, L2 loss: 0.1893, lr:0.0001 
+Save model epoch: 12, Step: 16716, acc: 1.0, recall: 1.0, cls loss: 0.00252, bbox loss: 0.02661,  animoji loss: 0.03408, L2 loss: 0.1859, lr:0.0001 
+2018-12-18 01:03:34.020708: Step: 17000, acc: 0.99, recall: 0.98, cls loss: 0.05779, bbox loss: 0.01902, animoji loss: 0.03181, L2 loss: 0.1815, lr:0.0001 
+2018-12-18 01:13:56.557540: Step: 17500, acc: 0.99, recall: 1.0, cls loss: 0.09083, bbox loss: 0.02317, animoji loss: 0.02758, L2 loss: 0.1744, lr:0.0001 
+2018-12-18 01:24:19.395719: Step: 18000, acc: 1.0, recall: 1.0, cls loss: 0.01711, bbox loss: 0.02144, animoji loss: 0.03087, L2 loss: 0.1681, lr:0.0001 
+Save model epoch: 13, Step: 18109, acc: 1.0, recall: 1.0, cls loss: 0.01159, bbox loss: 0.0181,  animoji loss: 0.02837, L2 loss: 0.1669, lr:0.0001 
+2018-12-18 01:34:44.957487: Step: 18500, acc: 1.0, recall: 1.0, cls loss: 0.01237, bbox loss: 0.02361, animoji loss: 0.02707, L2 loss: 0.1626, lr:0.0001 
+2018-12-18 01:45:08.311343: Step: 19000, acc: 1.0, recall: 1.0, cls loss: 0.004017, bbox loss: 0.03166, animoji loss: 0.02646, L2 loss: 0.1575, lr:0.0001 
+2018-12-18 01:55:30.533357: Step: 19500, acc: 1.0, recall: 1.0, cls loss: 0.001444, bbox loss: 0.02285, animoji loss: 0.02093, L2 loss: 0.1526, lr:0.0001 
+Save model epoch: 14, Step: 19502, acc: 1.0, recall: 1.0, cls loss: 0.01972, bbox loss: 0.02406,  animoji loss: 0.02441, L2 loss: 0.1526, lr:0.0001 
+2018-12-18 02:05:55.735106: Step: 20000, acc: 1.0, recall: 1.0, cls loss: 0.008442, bbox loss: 0.01755, animoji loss: 0.02305, L2 loss: 0.1483, lr:0.0001 
+2018-12-18 02:16:18.266552: Step: 20500, acc: 1.0, recall: 1.0, cls loss: 0.001541, bbox loss: 0.02126, animoji loss: 0.022, L2 loss: 0.1445, lr:0.0001 
+Save model epoch: 15, Step: 20895, acc: 1.0, recall: 1.0, cls loss: 0.002033, bbox loss: 0.02056,  animoji loss: 0.02259, L2 loss: 0.1415, lr:0.0001 
+2018-12-18 02:26:42.598002: Step: 21000, acc: 1.0, recall: 1.0, cls loss: 0.009549, bbox loss: 0.01568, animoji loss: 0.02054, L2 loss: 0.1408, lr:0.0001 
+2018-12-18 02:37:05.775745: Step: 21500, acc: 1.0, recall: 1.0, cls loss: 0.003907, bbox loss: 0.02218, animoji loss: 0.02123, L2 loss: 0.1372, lr:0.0001 
+2018-12-18 02:47:28.722431: Step: 22000, acc: 1.0, recall: 1.0, cls loss: 0.003585, bbox loss: 0.0239, animoji loss: 0.02157, L2 loss: 0.134, lr:0.0001 
+Save model epoch: 16, Step: 22288, acc: 1.0, recall: 1.0, cls loss: 0.003726, bbox loss: 0.02451,  animoji loss: 0.0198, L2 loss: 0.1324, lr:0.0001 
+2018-12-18 02:57:54.404119: Step: 22500, acc: 1.0, recall: 1.0, cls loss: 0.002738, bbox loss: 0.02608, animoji loss: 0.02134, L2 loss: 0.1311, lr:0.0001 
+2018-12-18 03:08:16.246249: Step: 23000, acc: 1.0, recall: 1.0, cls loss: 0.001628, bbox loss: 0.02303, animoji loss: 0.01873, L2 loss: 0.1282, lr:0.0001 
+2018-12-18 03:18:39.348460: Step: 23500, acc: 1.0, recall: 1.0, cls loss: 0.00257, bbox loss: 0.02058, animoji loss: 0.01837, L2 loss: 0.1255, lr:0.0001 
+Save model epoch: 17, Step: 23681, acc: 1.0, recall: 1.0, cls loss: 0.001414, bbox loss: 0.01985,  animoji loss: 0.02296, L2 loss: 0.1246, lr:0.0001 
+2018-12-18 03:29:04.432631: Step: 24000, acc: 1.0, recall: 1.0, cls loss: 0.001962, bbox loss: 0.0216, animoji loss: 0.01965, L2 loss: 0.1232, lr:0.0001 
+2018-12-18 03:39:28.804442: Step: 24500, acc: 1.0, recall: 1.0, cls loss: 0.003681, bbox loss: 0.0179, animoji loss: 0.02043, L2 loss: 0.1211, lr:0.0001 
+2018-12-18 03:49:53.224873: Step: 25000, acc: 1.0, recall: 1.0, cls loss: 0.002429, bbox loss: 0.01865, animoji loss: 0.02259, L2 loss: 0.1188, lr:0.0001 
+Save model epoch: 18, Step: 25074, acc: 1.0, recall: 1.0, cls loss: 0.002354, bbox loss: 0.02092,  animoji loss: 0.02116, L2 loss: 0.1186, lr:0.0001 
+2018-12-18 04:00:19.484448: Step: 25500, acc: 1.0, recall: 1.0, cls loss: 0.003786, bbox loss: 0.01891, animoji loss: 0.02025, L2 loss: 0.1169, lr:0.0001 
+2018-12-18 04:10:41.884288: Step: 26000, acc: 1.0, recall: 1.0, cls loss: 0.0001449, bbox loss: 0.02279, animoji loss: 0.01894, L2 loss: 0.1154, lr:0.0001 
+Save model epoch: 19, Step: 26467, acc: 1.0, recall: 1.0, cls loss: 0.001256, bbox loss: 0.01663,  animoji loss: 0.01793, L2 loss: 0.114, lr:0.0001 
+2018-12-18 04:21:06.664941: Step: 26500, acc: 1.0, recall: 1.0, cls loss: 0.002536, bbox loss: 0.02761, animoji loss: 0.01828, L2 loss: 0.1139, lr:0.0001 
+2018-12-18 04:31:28.971737: Step: 27000, acc: 1.0, recall: 1.0, cls loss: 0.0012, bbox loss: 0.01922, animoji loss: 0.02034, L2 loss: 0.1122, lr:0.0001 
+2018-12-18 04:41:50.202645: Step: 27500, acc: 1.0, recall: 1.0, cls loss: 0.001699, bbox loss: 0.01715, animoji loss: 0.01882, L2 loss: 0.1108, lr:0.0001 
+Save model epoch: 20, Step: 27860, acc: 1.0, recall: 1.0, cls loss: 0.0006872, bbox loss: 0.02226,  animoji loss: 0.01728, L2 loss: 0.1098, lr:0.0001 
+2018-12-18 04:52:14.661297: Step: 28000, acc: 1.0, recall: 1.0, cls loss: 0.001115, bbox loss: 0.01832, animoji loss: 0.01657, L2 loss: 0.1093, lr:0.0001 
+2018-12-18 05:02:37.132388: Step: 28500, acc: 1.0, recall: 1.0, cls loss: 0.0006693, bbox loss: 0.01757, animoji loss: 0.0177, L2 loss: 0.1078, lr:0.0001 
+2018-12-18 05:13:00.433253: Step: 29000, acc: 1.0, recall: 1.0, cls loss: 0.0007432, bbox loss: 0.02169, animoji loss: 0.01936, L2 loss: 0.1066, lr:0.0001 
+Save model epoch: 21, Step: 29253, acc: 1.0, recall: 1.0, cls loss: 0.0009614, bbox loss: 0.0165,  animoji loss: 0.02544, L2 loss: 0.1062, lr:0.0001 
+2018-12-18 05:23:23.161567: Step: 29500, acc: 1.0, recall: 1.0, cls loss: 0.001046, bbox loss: 0.01483, animoji loss: 0.01865, L2 loss: 0.1055, lr:0.0001 
+2018-12-18 05:33:46.378834: Step: 30000, acc: 1.0, recall: 1.0, cls loss: 0.0008207, bbox loss: 0.0239, animoji loss: 0.01991, L2 loss: 0.1042, lr:0.0001 
+2018-12-18 05:44:09.261351: Step: 30500, acc: 1.0, recall: 1.0, cls loss: 0.000251, bbox loss: 0.02276, animoji loss: 0.01753, L2 loss: 0.1029, lr:0.0001 
+Save model epoch: 22, Step: 30646, acc: 1.0, recall: 1.0, cls loss: 0.001801, bbox loss: 0.01726,  animoji loss: 0.01806, L2 loss: 0.1025, lr:0.0001 
+2018-12-18 05:54:33.875051: Step: 31000, acc: 1.0, recall: 1.0, cls loss: 0.001179, bbox loss: 0.01891, animoji loss: 0.01831, L2 loss: 0.1018, lr:0.0001 
+2018-12-18 06:04:55.392397: Step: 31500, acc: 1.0, recall: 1.0, cls loss: 0.0008143, bbox loss: 0.02125, animoji loss: 0.01893, L2 loss: 0.1008, lr:0.0001 
+2018-12-18 06:15:18.581271: Step: 32000, acc: 1.0, recall: 1.0, cls loss: 0.001469, bbox loss: 0.02002, animoji loss: 0.02069, L2 loss: 0.09992, lr:0.0001 
+Save model epoch: 23, Step: 32039, acc: 1.0, recall: 1.0, cls loss: 0.001814, bbox loss: 0.01512,  animoji loss: 0.01993, L2 loss: 0.09985, lr:0.0001 
+2018-12-18 06:25:43.111934: Step: 32500, acc: 1.0, recall: 1.0, cls loss: 0.003854, bbox loss: 0.02274, animoji loss: 0.01993, L2 loss: 0.09917, lr:0.0001 
+2018-12-18 06:36:05.057653: Step: 33000, acc: 1.0, recall: 1.0, cls loss: 0.000244, bbox loss: 0.01887, animoji loss: 0.01638, L2 loss: 0.0983, lr:0.0001 
+Save model epoch: 24, Step: 33432, acc: 1.0, recall: 1.0, cls loss: 0.001011, bbox loss: 0.02013,  animoji loss: 0.01929, L2 loss: 0.09751, lr:0.0001 
+2018-12-18 06:46:29.839485: Step: 33500, acc: 1.0, recall: 1.0, cls loss: 0.000329, bbox loss: 0.01712, animoji loss: 0.01857, L2 loss: 0.09741, lr:0.0001 
+2018-12-18 06:56:52.289510: Step: 34000, acc: 1.0, recall: 1.0, cls loss: 0.0003231, bbox loss: 0.0198, animoji loss: 0.0158, L2 loss: 0.09646, lr:0.0001 
+2018-12-18 07:07:13.739950: Step: 34500, acc: 1.0, recall: 1.0, cls loss: 0.002326, bbox loss: 0.0163, animoji loss: 0.01638, L2 loss: 0.09546, lr:0.0001 
+Save model epoch: 25, Step: 34825, acc: 1.0, recall: 1.0, cls loss: 0.0003974, bbox loss: 0.0143,  animoji loss: 0.01768, L2 loss: 0.09485, lr:0.0001 
+2018-12-18 07:17:37.593514: Step: 35000, acc: 1.0, recall: 1.0, cls loss: 0.0005233, bbox loss: 0.01837, animoji loss: 0.01966, L2 loss: 0.09464, lr:0.0001 
+2018-12-18 07:27:59.541931: Step: 35500, acc: 1.0, recall: 1.0, cls loss: 0.001062, bbox loss: 0.01626, animoji loss: 0.02059, L2 loss: 0.09416, lr:0.0001 
+2018-12-18 07:38:21.495028: Step: 36000, acc: 1.0, recall: 1.0, cls loss: 0.0001312, bbox loss: 0.02164, animoji loss: 0.01745, L2 loss: 0.09353, lr:0.0001 
+Save model epoch: 26, Step: 36218, acc: 1.0, recall: 1.0, cls loss: 0.0029, bbox loss: 0.01593,  animoji loss: 0.01755, L2 loss: 0.09322, lr:0.0001 
+2018-12-18 07:48:46.055856: Step: 36500, acc: 1.0, recall: 1.0, cls loss: 0.001583, bbox loss: 0.02009, animoji loss: 0.01766, L2 loss: 0.09275, lr:0.0001 
+2018-12-18 07:59:08.897299: Step: 37000, acc: 1.0, recall: 1.0, cls loss: 0.0007445, bbox loss: 0.02037, animoji loss: 0.01645, L2 loss: 0.09233, lr:0.0001 
+2018-12-18 08:09:30.800643: Step: 37500, acc: 1.0, recall: 1.0, cls loss: 0.0009657, bbox loss: 0.01602, animoji loss: 0.01613, L2 loss: 0.09141, lr:0.0001 
+Save model epoch: 27, Step: 37611, acc: 1.0, recall: 1.0, cls loss: 0.00144, bbox loss: 0.01507,  animoji loss: 0.01462, L2 loss: 0.09116, lr:0.0001 
+2018-12-18 08:19:54.650428: Step: 38000, acc: 1.0, recall: 1.0, cls loss: 0.001395, bbox loss: 0.01718, animoji loss: 0.01874, L2 loss: 0.09073, lr:0.0001 
+2018-12-18 08:30:18.453150: Step: 38500, acc: 1.0, recall: 1.0, cls loss: 0.001572, bbox loss: 0.01693, animoji loss: 0.01875, L2 loss: 0.09016, lr:0.0001 
+2018-12-18 08:40:39.303764: Step: 39000, acc: 1.0, recall: 1.0, cls loss: 0.001541, bbox loss: 0.01899, animoji loss: 0.02533, L2 loss: 0.0895, lr:0.0001 
+Save model epoch: 28, Step: 39004, acc: 1.0, recall: 1.0, cls loss: 0.001867, bbox loss: 0.027,  animoji loss: 0.01899, L2 loss: 0.08949, lr:0.0001 
+2018-12-18 08:51:04.128237: Step: 39500, acc: 1.0, recall: 1.0, cls loss: 0.0006335, bbox loss: 0.01991, animoji loss: 0.01632, L2 loss: 0.08902, lr:0.0001 
+2018-12-18 09:01:26.585349: Step: 40000, acc: 1.0, recall: 1.0, cls loss: 0.0001107, bbox loss: 0.01944, animoji loss: 0.01752, L2 loss: 0.08814, lr:0.0001 
+Save model epoch: 29, Step: 40397, acc: 1.0, recall: 1.0, cls loss: 0.001419, bbox loss: 0.01637,  animoji loss: 0.02163, L2 loss: 0.08752, lr:0.0001 
+2018-12-18 09:11:52.613444: Step: 40500, acc: 1.0, recall: 1.0, cls loss: 0.0002195, bbox loss: 0.01898, animoji loss: 0.01767, L2 loss: 0.08732, lr:0.0001 
+2018-12-18 09:22:16.403194: Step: 41000, acc: 1.0, recall: 1.0, cls loss: 0.0003072, bbox loss: 0.02204, animoji loss: 0.02139, L2 loss: 0.0869, lr:0.0001 
+2018-12-18 09:32:40.514678: Step: 41500, acc: 1.0, recall: 1.0, cls loss: 0.0008458, bbox loss: 0.01666, animoji loss: 0.01812, L2 loss: 0.08655, lr:0.0001 
+Save model epoch: 30, Step: 41790, acc: 1.0, recall: 1.0, cls loss: 0.001326, bbox loss: 0.02358,  animoji loss: 0.01611, L2 loss: 0.08621, lr:0.0001 
+2018-12-18 09:43:06.742438: Step: 42000, acc: 1.0, recall: 1.0, cls loss: 0.0004027, bbox loss: 0.01942, animoji loss: 0.01831, L2 loss: 0.0861, lr:0.0001 
+2018-12-18 09:53:30.445169: Step: 42500, acc: 1.0, recall: 1.0, cls loss: 0.001969, bbox loss: 0.01722, animoji loss: 0.01661, L2 loss: 0.08582, lr:0.0001 
+2018-12-18 10:03:54.697469: Step: 43000, acc: 1.0, recall: 1.0, cls loss: 0.0004067, bbox loss: 0.02361, animoji loss: 0.01516, L2 loss: 0.0853, lr:0.0001 
+Save model epoch: 31, Step: 43183, acc: 1.0, recall: 1.0, cls loss: 0.0005025, bbox loss: 0.01759,  animoji loss: 0.01753, L2 loss: 0.08507, lr:0.0001 
+2018-12-18 10:14:20.057201: Step: 43500, acc: 1.0, recall: 1.0, cls loss: 0.001375, bbox loss: 0.01847, animoji loss: 0.01625, L2 loss: 0.08469, lr:0.0001 
+2018-12-18 10:24:45.199981: Step: 44000, acc: 1.0, recall: 1.0, cls loss: 0.0001128, bbox loss: 0.01703, animoji loss: 0.01728, L2 loss: 0.08447, lr:0.0001 
+2018-12-18 10:35:09.521715: Step: 44500, acc: 1.0, recall: 1.0, cls loss: 0.0003364, bbox loss: 0.01772, animoji loss: 0.0163, L2 loss: 0.08397, lr:0.0001 
+Save model epoch: 32, Step: 44576, acc: 1.0, recall: 1.0, cls loss: 0.0009508, bbox loss: 0.01759,  animoji loss: 0.02157, L2 loss: 0.08393, lr:0.0001 
+2018-12-18 10:45:34.110896: Step: 45000, acc: 1.0, recall: 1.0, cls loss: 0.0007795, bbox loss: 0.01691, animoji loss: 0.01584, L2 loss: 0.08351, lr:0.0001 
+2018-12-18 10:55:57.640927: Step: 45500, acc: 1.0, recall: 1.0, cls loss: 0.0005881, bbox loss: 0.01898, animoji loss: 0.01512, L2 loss: 0.08298, lr:0.0001 
+Save model epoch: 33, Step: 45969, acc: 1.0, recall: 1.0, cls loss: 0.0006526, bbox loss: 0.0185,  animoji loss: 0.01798, L2 loss: 0.08268, lr:0.0001 
+2018-12-18 11:06:26.628214: Step: 46000, acc: 1.0, recall: 1.0, cls loss: 4.479e-05, bbox loss: 0.0172, animoji loss: 0.01713, L2 loss: 0.08265, lr:0.0001 
+2018-12-18 11:17:03.885829: Step: 46500, acc: 1.0, recall: 1.0, cls loss: 0.002236, bbox loss: 0.01735, animoji loss: 0.01622, L2 loss: 0.08226, lr:0.0001 
+2018-12-18 11:27:44.703082: Step: 47000, acc: 1.0, recall: 1.0, cls loss: 0.001498, bbox loss: 0.01694, animoji loss: 0.01929, L2 loss: 0.08173, lr:0.0001 
+Save model epoch: 34, Step: 47362, acc: 1.0, recall: 1.0, cls loss: 0.00168, bbox loss: 0.0173,  animoji loss: 0.01698, L2 loss: 0.08138, lr:0.0001 
+2018-12-18 11:38:28.968657: Step: 47500, acc: 1.0, recall: 1.0, cls loss: 0.001521, bbox loss: 0.02006, animoji loss: 0.0195, L2 loss: 0.08129, lr:0.0001 
+2018-12-18 11:49:10.664955: Step: 48000, acc: 1.0, recall: 1.0, cls loss: 0.001938, bbox loss: 0.01972, animoji loss: 0.01598, L2 loss: 0.08104, lr:0.0001 
+2018-12-18 11:59:57.270924: Step: 48500, acc: 1.0, recall: 1.0, cls loss: 0.001152, bbox loss: 0.018, animoji loss: 0.01985, L2 loss: 0.08052, lr:0.0001 
+Save model epoch: 35, Step: 48755, acc: 1.0, recall: 1.0, cls loss: 0.001031, bbox loss: 0.01946,  animoji loss: 0.01705, L2 loss: 0.08051, lr:0.0001 
+2018-12-18 12:10:44.086395: Step: 49000, acc: 1.0, recall: 1.0, cls loss: 0.00127, bbox loss: 0.01969, animoji loss: 0.02066, L2 loss: 0.08037, lr:0.0001 
+2018-12-18 12:21:26.439784: Step: 49500, acc: 1.0, recall: 1.0, cls loss: 0.001477, bbox loss: 0.01933, animoji loss: 0.01974, L2 loss: 0.08019, lr:0.0001 
+2018-12-18 12:32:15.201642: Step: 50000, acc: 1.0, recall: 1.0, cls loss: 0.0009865, bbox loss: 0.01706, animoji loss: 0.0207, L2 loss: 0.07997, lr:0.0001 
+Save model epoch: 36, Step: 50148, acc: 1.0, recall: 1.0, cls loss: 0.002183, bbox loss: 0.01352,  animoji loss: 0.01619, L2 loss: 0.07981, lr:0.0001 
+2018-12-18 12:42:52.652440: Step: 50500, acc: 1.0, recall: 1.0, cls loss: 0.00111, bbox loss: 0.01796, animoji loss: 0.01601, L2 loss: 0.07947, lr:0.0001 
+2018-12-18 12:53:22.144266: Step: 51000, acc: 1.0, recall: 1.0, cls loss: 0.0001607, bbox loss: 0.0187, animoji loss: 0.01863, L2 loss: 0.07935, lr:0.0001 
+2018-12-18 13:03:45.629400: Step: 51500, acc: 1.0, recall: 1.0, cls loss: 0.002012, bbox loss: 0.01433, animoji loss: 0.01674, L2 loss: 0.07899, lr:0.0001 
+Save model epoch: 37, Step: 51541, acc: 1.0, recall: 1.0, cls loss: 0.001759, bbox loss: 0.02251,  animoji loss: 0.01831, L2 loss: 0.07898, lr:0.0001 
+2018-12-18 13:14:11.464662: Step: 52000, acc: 1.0, recall: 1.0, cls loss: 0.0004962, bbox loss: 0.01551, animoji loss: 0.01706, L2 loss: 0.07852, lr:0.0001 
+2018-12-18 13:24:34.967194: Step: 52500, acc: 1.0, recall: 1.0, cls loss: 0.0005438, bbox loss: 0.02063, animoji loss: 0.01706, L2 loss: 0.07824, lr:0.0001 
+Save model epoch: 38, Step: 52934, acc: 1.0, recall: 1.0, cls loss: 0.001114, bbox loss: 0.01567,  animoji loss: 0.02058, L2 loss: 0.0779, lr:0.0001 
+2018-12-18 13:35:01.222521: Step: 53000, acc: 1.0, recall: 1.0, cls loss: 0.000111, bbox loss: 0.01483, animoji loss: 0.01728, L2 loss: 0.07787, lr:0.0001 
+2018-12-18 13:45:23.812361: Step: 53500, acc: 1.0, recall: 1.0, cls loss: 0.0009539, bbox loss: 0.01775, animoji loss: 0.01714, L2 loss: 0.0776, lr:0.0001 
+2018-12-18 13:55:46.734054: Step: 54000, acc: 1.0, recall: 1.0, cls loss: 0.0008755, bbox loss: 0.01708, animoji loss: 0.01983, L2 loss: 0.07745, lr:0.0001 
+Save model epoch: 39, Step: 54327, acc: 1.0, recall: 1.0, cls loss: 0.0007294, bbox loss: 0.01751,  animoji loss: 0.01799, L2 loss: 0.07717, lr:0.0001 
+2018-12-18 14:06:11.577577: Step: 54500, acc: 1.0, recall: 1.0, cls loss: 0.001351, bbox loss: 0.01953, animoji loss: 0.01955, L2 loss: 0.07715, lr:0.0001 
+2018-12-18 14:16:33.638523: Step: 55000, acc: 1.0, recall: 1.0, cls loss: 0.0008511, bbox loss: 0.01882, animoji loss: 0.01716, L2 loss: 0.07681, lr:0.0001 
+2018-12-18 14:26:57.146474: Step: 55500, acc: 1.0, recall: 1.0, cls loss: 0.0007807, bbox loss: 0.0164, animoji loss: 0.0192, L2 loss: 0.07641, lr:0.0001 
+Save model epoch: 40, Step: 55720, acc: 1.0, recall: 1.0, cls loss: 0.00154, bbox loss: 0.01982,  animoji loss: 0.01866, L2 loss: 0.0763, lr:1e-05 
+2018-12-18 14:37:22.857782: Step: 56000, acc: 1.0, recall: 1.0, cls loss: 0.0002637, bbox loss: 0.01593, animoji loss: 0.01389, L2 loss: 0.07622, lr:1e-05 
+2018-12-18 14:47:45.801202: Step: 56500, acc: 1.0, recall: 1.0, cls loss: 0.000592, bbox loss: 0.0207, animoji loss: 0.01162, L2 loss: 0.07606, lr:1e-05 
+2018-12-18 14:58:08.128947: Step: 57000, acc: 1.0, recall: 1.0, cls loss: 0.004401, bbox loss: 0.01602, animoji loss: 0.01318, L2 loss: 0.07589, lr:1e-05 
+Save model epoch: 41, Step: 57113, acc: 1.0, recall: 1.0, cls loss: 0.0004985, bbox loss: 0.01702,  animoji loss: 0.01038, L2 loss: 0.07585, lr:1e-05 
+2018-12-18 15:08:31.496026: Step: 57500, acc: 1.0, recall: 1.0, cls loss: 0.000532, bbox loss: 0.01233, animoji loss: 0.01182, L2 loss: 0.07569, lr:1e-05 
+2018-12-18 15:18:54.874789: Step: 58000, acc: 1.0, recall: 1.0, cls loss: 8.52e-05, bbox loss: 0.01299, animoji loss: 0.01014, L2 loss: 0.07546, lr:1e-05 
+2018-12-18 15:29:17.821049: Step: 58500, acc: 1.0, recall: 1.0, cls loss: 7.201e-05, bbox loss: 0.01948, animoji loss: 0.01237, L2 loss: 0.07519, lr:1e-05 
+Save model epoch: 42, Step: 58506, acc: 1.0, recall: 1.0, cls loss: 0.001046, bbox loss: 0.01177,  animoji loss: 0.01035, L2 loss: 0.07519, lr:1e-05 
+2018-12-18 15:39:42.101687: Step: 59000, acc: 1.0, recall: 1.0, cls loss: 0.0003799, bbox loss: 0.01245, animoji loss: 0.01024, L2 loss: 0.07488, lr:1e-05 
+2018-12-18 15:50:04.067302: Step: 59500, acc: 1.0, recall: 1.0, cls loss: 6.39e-05, bbox loss: 0.01581, animoji loss: 0.01027, L2 loss: 0.07453, lr:1e-05 
+Save model epoch: 43, Step: 59899, acc: 1.0, recall: 1.0, cls loss: 0.0006338, bbox loss: 0.01865,  animoji loss: 0.009601, L2 loss: 0.07422, lr:1e-05 
+2018-12-18 16:00:28.889411: Step: 60000, acc: 1.0, recall: 1.0, cls loss: 0.001194, bbox loss: 0.01707, animoji loss: 0.01238, L2 loss: 0.07414, lr:1e-05 
+2018-12-18 16:10:51.106722: Step: 60500, acc: 1.0, recall: 1.0, cls loss: 0.0002927, bbox loss: 0.0148, animoji loss: 0.0101, L2 loss: 0.0737, lr:1e-05 
+2018-12-18 16:21:13.485635: Step: 61000, acc: 1.0, recall: 1.0, cls loss: 0.0006571, bbox loss: 0.01583, animoji loss: 0.009188, L2 loss: 0.07321, lr:1e-05 
+Save model epoch: 44, Step: 61292, acc: 1.0, recall: 1.0, cls loss: 0.000168, bbox loss: 0.01515,  animoji loss: 0.00925, L2 loss: 0.07289, lr:1e-05 
+2018-12-18 16:31:36.579741: Step: 61500, acc: 1.0, recall: 1.0, cls loss: 7.886e-05, bbox loss: 0.01682, animoji loss: 0.008671, L2 loss: 0.07264, lr:1e-05 
+2018-12-18 16:41:58.260284: Step: 62000, acc: 1.0, recall: 1.0, cls loss: 0.0006624, bbox loss: 0.01363, animoji loss: 0.008719, L2 loss: 0.07206, lr:1e-05 
+2018-12-18 16:52:20.170858: Step: 62500, acc: 1.0, recall: 1.0, cls loss: 0.0004916, bbox loss: 0.02274, animoji loss: 0.01002, L2 loss: 0.07149, lr:1e-05 
+Save model epoch: 45, Step: 62685, acc: 1.0, recall: 1.0, cls loss: 4.304e-05, bbox loss: 0.01278,  animoji loss: 0.009238, L2 loss: 0.07128, lr:1e-05 
+2018-12-18 17:02:42.831462: Step: 63000, acc: 1.0, recall: 1.0, cls loss: 0.0006277, bbox loss: 0.0169, animoji loss: 0.009123, L2 loss: 0.07089, lr:1e-05 
+2018-12-18 17:13:05.603521: Step: 63500, acc: 1.0, recall: 1.0, cls loss: 0.0002444, bbox loss: 0.01189, animoji loss: 0.008564, L2 loss: 0.07022, lr:1e-05 
+2018-12-18 17:23:28.167646: Step: 64000, acc: 1.0, recall: 1.0, cls loss: 0.0003527, bbox loss: 0.01149, animoji loss: 0.008493, L2 loss: 0.06966, lr:1e-05 
+Save model epoch: 46, Step: 64078, acc: 1.0, recall: 1.0, cls loss: 5.925e-05, bbox loss: 0.01494,  animoji loss: 0.007614, L2 loss: 0.06957, lr:1e-05 
+2018-12-18 17:33:52.127008: Step: 64500, acc: 1.0, recall: 1.0, cls loss: 0.0004381, bbox loss: 0.01307, animoji loss: 0.008034, L2 loss: 0.06904, lr:1e-05 
+2018-12-18 17:44:13.859630: Step: 65000, acc: 1.0, recall: 1.0, cls loss: 0.0001151, bbox loss: 0.0111, animoji loss: 0.008057, L2 loss: 0.06836, lr:1e-05 
+Save model epoch: 47, Step: 65471, acc: 1.0, recall: 1.0, cls loss: 0.0001334, bbox loss: 0.01243,  animoji loss: 0.007746, L2 loss: 0.06772, lr:1e-05 
+2018-12-18 17:54:36.601174: Step: 65500, acc: 1.0, recall: 1.0, cls loss: 7.265e-05, bbox loss: 0.01403, animoji loss: 0.007372, L2 loss: 0.06768, lr:1e-05 
+2018-12-18 18:04:58.962656: Step: 66000, acc: 1.0, recall: 1.0, cls loss: 6.762e-05, bbox loss: 0.01645, animoji loss: 0.00812, L2 loss: 0.06702, lr:1e-05 
+2018-12-18 18:15:21.072773: Step: 66500, acc: 1.0, recall: 1.0, cls loss: 8.438e-05, bbox loss: 0.01451, animoji loss: 0.007812, L2 loss: 0.0663, lr:1e-05 
+Save model epoch: 48, Step: 66864, acc: 1.0, recall: 1.0, cls loss: 0.0001789, bbox loss: 0.01889,  animoji loss: 0.008446, L2 loss: 0.06576, lr:1e-05 
+2018-12-18 18:25:44.900634: Step: 67000, acc: 1.0, recall: 1.0, cls loss: 0.0008312, bbox loss: 0.01296, animoji loss: 0.006927, L2 loss: 0.06556, lr:1e-05 
+2018-12-18 18:36:08.850457: Step: 67500, acc: 1.0, recall: 1.0, cls loss: 0.0002806, bbox loss: 0.01334, animoji loss: 0.007144, L2 loss: 0.0648, lr:1e-05 
+2018-12-18 18:46:32.385329: Step: 68000, acc: 1.0, recall: 1.0, cls loss: 3.177e-05, bbox loss: 0.01387, animoji loss: 0.007522, L2 loss: 0.06402, lr:1e-05 
+Save model epoch: 49, Step: 68257, acc: 1.0, recall: 1.0, cls loss: 7.698e-05, bbox loss: 0.01223,  animoji loss: 0.007384, L2 loss: 0.06361, lr:1e-05 
+2018-12-18 18:57:00.260835: Step: 68500, acc: 1.0, recall: 1.0, cls loss: 0.0001421, bbox loss: 0.01488, animoji loss: 0.007358, L2 loss: 0.06322, lr:1e-05 
+2018-12-18 19:07:24.503152: Step: 69000, acc: 1.0, recall: 1.0, cls loss: 0.0002247, bbox loss: 0.01609, animoji loss: 0.008368, L2 loss: 0.06243, lr:1e-05 
+2018-12-18 19:17:49.549233: Step: 69500, acc: 1.0, recall: 1.0, cls loss: 6.651e-05, bbox loss: 0.01204, animoji loss: 0.006926, L2 loss: 0.06164, lr:1e-05 
+Save model epoch: 50, Step: 69650, acc: 1.0, recall: 1.0, cls loss: 6.428e-05, bbox loss: 0.01242,  animoji loss: 0.006888, L2 loss: 0.06141, lr:1e-05 
+2018-12-18 19:28:19.457891: Step: 70000, acc: 1.0, recall: 1.0, cls loss: 0.0001709, bbox loss: 0.01159, animoji loss: 0.006957, L2 loss: 0.06086, lr:1e-05 
+2018-12-18 19:38:42.416729: Step: 70500, acc: 1.0, recall: 1.0, cls loss: 0.0001289, bbox loss: 0.01621, animoji loss: 0.007205, L2 loss: 0.06009, lr:1e-05 
+2018-12-18 19:49:15.419798: Step: 71000, acc: 1.0, recall: 1.0, cls loss: 0.0001765, bbox loss: 0.01516, animoji loss: 0.008157, L2 loss: 0.05935, lr:1e-05 
+Save model epoch: 51, Step: 71043, acc: 1.0, recall: 1.0, cls loss: 0.0004464, bbox loss: 0.01128,  animoji loss: 0.008778, L2 loss: 0.05929, lr:1e-05 
+2018-12-18 19:59:48.000526: Step: 71500, acc: 1.0, recall: 1.0, cls loss: 7.462e-05, bbox loss: 0.01269, animoji loss: 0.007472, L2 loss: 0.05862, lr:1e-05 
+2018-12-18 20:10:18.358627: Step: 72000, acc: 1.0, recall: 1.0, cls loss: 0.0002839, bbox loss: 0.0146, animoji loss: 0.007196, L2 loss: 0.05791, lr:1e-05 
+Save model epoch: 52, Step: 72436, acc: 1.0, recall: 1.0, cls loss: 5.826e-05, bbox loss: 0.01391,  animoji loss: 0.00825, L2 loss: 0.0573, lr:1e-05 
+2018-12-18 20:20:53.390169: Step: 72500, acc: 1.0, recall: 1.0, cls loss: 0.0001199, bbox loss: 0.01503, animoji loss: 0.006826, L2 loss: 0.05721, lr:1e-05 
+2018-12-18 20:31:27.465744: Step: 73000, acc: 1.0, recall: 1.0, cls loss: 0.0001307, bbox loss: 0.01076, animoji loss: 0.007003, L2 loss: 0.05654, lr:1e-05 
+2018-12-18 20:41:55.878973: Step: 73500, acc: 1.0, recall: 1.0, cls loss: 8.654e-05, bbox loss: 0.01125, animoji loss: 0.007356, L2 loss: 0.05594, lr:1e-05 
+Save model epoch: 53, Step: 73829, acc: 1.0, recall: 1.0, cls loss: 4.884e-05, bbox loss: 0.009982,  animoji loss: 0.007231, L2 loss: 0.05556, lr:1e-05 
+2018-12-18 20:52:26.349358: Step: 74000, acc: 1.0, recall: 1.0, cls loss: 6.549e-05, bbox loss: 0.01555, animoji loss: 0.008054, L2 loss: 0.05536, lr:1e-05 
+2018-12-18 21:03:01.755080: Step: 74500, acc: 1.0, recall: 1.0, cls loss: 0.0001008, bbox loss: 0.01474, animoji loss: 0.008934, L2 loss: 0.05477, lr:1e-05 
+2018-12-18 21:13:34.138997: Step: 75000, acc: 1.0, recall: 1.0, cls loss: 6.757e-05, bbox loss: 0.0125, animoji loss: 0.007998, L2 loss: 0.05419, lr:1e-05 
+Save model epoch: 54, Step: 75222, acc: 1.0, recall: 1.0, cls loss: 0.0001965, bbox loss: 0.009948,  animoji loss: 0.007022, L2 loss: 0.05393, lr:1e-05 
+2018-12-18 21:24:09.044134: Step: 75500, acc: 1.0, recall: 1.0, cls loss: 0.0001595, bbox loss: 0.01253, animoji loss: 0.006999, L2 loss: 0.05361, lr:1e-05 
+2018-12-18 21:34:42.962097: Step: 76000, acc: 1.0, recall: 1.0, cls loss: 0.0001309, bbox loss: 0.01078, animoji loss: 0.006956, L2 loss: 0.05304, lr:1e-05 
+2018-12-18 21:45:17.639203: Step: 76500, acc: 1.0, recall: 1.0, cls loss: 6.208e-05, bbox loss: 0.01095, animoji loss: 0.006415, L2 loss: 0.05248, lr:1e-05 
+Save model epoch: 55, Step: 76615, acc: 1.0, recall: 1.0, cls loss: 0.0001611, bbox loss: 0.01362,  animoji loss: 0.007561, L2 loss: 0.05235, lr:1e-05 
+2018-12-18 21:55:53.146425: Step: 77000, acc: 1.0, recall: 1.0, cls loss: 6.544e-05, bbox loss: 0.01491, animoji loss: 0.006885, L2 loss: 0.05192, lr:1e-05 
+2018-12-18 22:06:25.671478: Step: 77500, acc: 1.0, recall: 1.0, cls loss: 0.0001245, bbox loss: 0.008759, animoji loss: 0.006904, L2 loss: 0.05139, lr:1e-05 
+2018-12-18 22:17:00.146379: Step: 78000, acc: 1.0, recall: 1.0, cls loss: 9.707e-05, bbox loss: 0.01354, animoji loss: 0.006778, L2 loss: 0.05087, lr:1e-05 
+Save model epoch: 56, Step: 78008, acc: 1.0, recall: 1.0, cls loss: 9.405e-05, bbox loss: 0.01447,  animoji loss: 0.006499, L2 loss: 0.05086, lr:1e-05 
+2018-12-18 22:27:35.206155: Step: 78500, acc: 1.0, recall: 1.0, cls loss: 0.0001376, bbox loss: 0.0127, animoji loss: 0.006738, L2 loss: 0.05036, lr:1e-05 
+2018-12-18 22:38:06.226065: Step: 79000, acc: 1.0, recall: 1.0, cls loss: 8.264e-05, bbox loss: 0.01448, animoji loss: 0.007524, L2 loss: 0.04986, lr:1e-05 
+Save model epoch: 57, Step: 79401, acc: 1.0, recall: 1.0, cls loss: 0.0001261, bbox loss: 0.01101,  animoji loss: 0.007164, L2 loss: 0.04947, lr:1e-05 
+2018-12-18 22:48:39.722324: Step: 79500, acc: 1.0, recall: 1.0, cls loss: 0.0001205, bbox loss: 0.01218, animoji loss: 0.007268, L2 loss: 0.04937, lr:1e-05 
+2018-12-18 22:59:12.318334: Step: 80000, acc: 1.0, recall: 1.0, cls loss: 0.0003096, bbox loss: 0.009338, animoji loss: 0.007207, L2 loss: 0.0489, lr:1e-05 
+2018-12-18 23:09:43.582984: Step: 80500, acc: 1.0, recall: 1.0, cls loss: 0.0001284, bbox loss: 0.009789, animoji loss: 0.007013, L2 loss: 0.04843, lr:1e-05 
+Save model epoch: 58, Step: 80794, acc: 1.0, recall: 1.0, cls loss: 0.0001125, bbox loss: 0.009247,  animoji loss: 0.00668, L2 loss: 0.04817, lr:1e-05 
+2018-12-18 23:20:16.839485: Step: 81000, acc: 1.0, recall: 1.0, cls loss: 7.426e-05, bbox loss: 0.008648, animoji loss: 0.007166, L2 loss: 0.04798, lr:1e-05 
+2018-12-18 23:30:47.655683: Step: 81500, acc: 1.0, recall: 1.0, cls loss: 8.218e-05, bbox loss: 0.008278, animoji loss: 0.006837, L2 loss: 0.04754, lr:1e-05 
+2018-12-18 23:41:19.588398: Step: 82000, acc: 1.0, recall: 1.0, cls loss: 0.0001879, bbox loss: 0.009037, animoji loss: 0.006309, L2 loss: 0.04711, lr:1e-05 
+Save model epoch: 59, Step: 82187, acc: 1.0, recall: 1.0, cls loss: 0.0001288, bbox loss: 0.01452,  animoji loss: 0.00745, L2 loss: 0.04696, lr:1e-05 
+2018-12-18 23:51:53.647246: Step: 82500, acc: 1.0, recall: 1.0, cls loss: 0.0001904, bbox loss: 0.009765, animoji loss: 0.006772, L2 loss: 0.04669, lr:1e-05 
+2018-12-19 00:02:24.441585: Step: 83000, acc: 1.0, recall: 1.0, cls loss: 0.0002847, bbox loss: 0.01556, animoji loss: 0.00715, L2 loss: 0.04628, lr:1e-05 
+2018-12-19 00:12:54.850628: Step: 83500, acc: 1.0, recall: 1.0, cls loss: 0.0001269, bbox loss: 0.01201, animoji loss: 0.006653, L2 loss: 0.04588, lr:1e-05 
+Save model epoch: 60, Step: 83580, acc: 1.0, recall: 1.0, cls loss: 7.302e-05, bbox loss: 0.008602,  animoji loss: 0.006818, L2 loss: 0.04582, lr:1e-05 
+2018-12-19 00:23:26.805970: Step: 84000, acc: 1.0, recall: 1.0, cls loss: 6.59e-05, bbox loss: 0.008346, animoji loss: 0.007524, L2 loss: 0.0455, lr:1e-05 
+2018-12-19 00:33:57.082429: Step: 84500, acc: 1.0, recall: 1.0, cls loss: 8.143e-05, bbox loss: 0.01264, animoji loss: 0.006742, L2 loss: 0.04512, lr:1e-05 
+Save model epoch: 61, Step: 84973, acc: 1.0, recall: 1.0, cls loss: 7.702e-05, bbox loss: 0.008017,  animoji loss: 0.006413, L2 loss: 0.04477, lr:1e-05 
+2018-12-19 00:44:31.067317: Step: 85000, acc: 1.0, recall: 1.0, cls loss: 0.000169, bbox loss: 0.009073, animoji loss: 0.006587, L2 loss: 0.04476, lr:1e-05 
+2018-12-19 00:55:01.649452: Step: 85500, acc: 1.0, recall: 1.0, cls loss: 0.0001606, bbox loss: 0.008654, animoji loss: 0.00705, L2 loss: 0.0444, lr:1e-05 
+2018-12-19 01:05:34.328611: Step: 86000, acc: 1.0, recall: 1.0, cls loss: 0.0001665, bbox loss: 0.01347, animoji loss: 0.006732, L2 loss: 0.04406, lr:1e-05 
+Save model epoch: 62, Step: 86366, acc: 1.0, recall: 1.0, cls loss: 0.000156, bbox loss: 0.01075,  animoji loss: 0.006599, L2 loss: 0.04381, lr:1e-05 
+2018-12-19 01:16:04.351680: Step: 86500, acc: 1.0, recall: 1.0, cls loss: 0.0001026, bbox loss: 0.01174, animoji loss: 0.008238, L2 loss: 0.04373, lr:1e-05 
+2018-12-19 01:26:35.042594: Step: 87000, acc: 1.0, recall: 1.0, cls loss: 7.358e-05, bbox loss: 0.008986, animoji loss: 0.007114, L2 loss: 0.04341, lr:1e-05 
+2018-12-19 01:37:04.904057: Step: 87500, acc: 1.0, recall: 1.0, cls loss: 9.236e-05, bbox loss: 0.009058, animoji loss: 0.007706, L2 loss: 0.04311, lr:1e-05 
+Save model epoch: 63, Step: 87759, acc: 1.0, recall: 1.0, cls loss: 0.0001867, bbox loss: 0.01033,  animoji loss: 0.008033, L2 loss: 0.04297, lr:1e-05 
+2018-12-19 01:47:36.377753: Step: 88000, acc: 1.0, recall: 1.0, cls loss: 0.0001891, bbox loss: 0.01146, animoji loss: 0.006009, L2 loss: 0.04283, lr:1e-05 
+2018-12-19 01:58:06.770155: Step: 88500, acc: 1.0, recall: 1.0, cls loss: 0.0001447, bbox loss: 0.01424, animoji loss: 0.00779, L2 loss: 0.04255, lr:1e-05 
+2018-12-19 02:08:37.654580: Step: 89000, acc: 1.0, recall: 1.0, cls loss: 0.0001927, bbox loss: 0.009126, animoji loss: 0.006961, L2 loss: 0.04227, lr:1e-05 
+Save model epoch: 64, Step: 89152, acc: 1.0, recall: 1.0, cls loss: 0.0001152, bbox loss: 0.007867,  animoji loss: 0.006756, L2 loss: 0.04219, lr:1e-05 
+2018-12-19 02:19:12.137299: Step: 89500, acc: 1.0, recall: 1.0, cls loss: 0.0002055, bbox loss: 0.01268, animoji loss: 0.006312, L2 loss: 0.042, lr:1e-05 
+2018-12-19 02:29:46.824709: Step: 90000, acc: 1.0, recall: 1.0, cls loss: 0.0001342, bbox loss: 0.01089, animoji loss: 0.006354, L2 loss: 0.04174, lr:1e-05 
+2018-12-19 02:40:17.885255: Step: 90500, acc: 1.0, recall: 1.0, cls loss: 0.0001841, bbox loss: 0.0113, animoji loss: 0.00702, L2 loss: 0.04148, lr:1e-05 
+Save model epoch: 65, Step: 90545, acc: 1.0, recall: 1.0, cls loss: 0.0001695, bbox loss: 0.01303,  animoji loss: 0.006782, L2 loss: 0.04146, lr:1e-05 
+2018-12-19 02:50:51.596740: Step: 91000, acc: 1.0, recall: 1.0, cls loss: 0.0001097, bbox loss: 0.01123, animoji loss: 0.006939, L2 loss: 0.04122, lr:1e-05 
+2018-12-19 03:01:23.108050: Step: 91500, acc: 1.0, recall: 1.0, cls loss: 5.975e-05, bbox loss: 0.009548, animoji loss: 0.006394, L2 loss: 0.04097, lr:1e-05 
+Save model epoch: 66, Step: 91938, acc: 1.0, recall: 1.0, cls loss: 0.0001154, bbox loss: 0.01097,  animoji loss: 0.005842, L2 loss: 0.04075, lr:1e-05 
+2018-12-19 03:11:57.075590: Step: 92000, acc: 1.0, recall: 1.0, cls loss: 8.171e-05, bbox loss: 0.007905, animoji loss: 0.006975, L2 loss: 0.04072, lr:1e-05 
+2018-12-19 03:22:28.553811: Step: 92500, acc: 1.0, recall: 1.0, cls loss: 0.0001154, bbox loss: 0.01122, animoji loss: 0.006771, L2 loss: 0.04046, lr:1e-05 
+2018-12-19 03:32:58.515238: Step: 93000, acc: 1.0, recall: 1.0, cls loss: 0.0001328, bbox loss: 0.008498, animoji loss: 0.005822, L2 loss: 0.0402, lr:1e-05 
+Save model epoch: 67, Step: 93331, acc: 1.0, recall: 1.0, cls loss: 0.0001053, bbox loss: 0.009075,  animoji loss: 0.00583, L2 loss: 0.04003, lr:1e-05 
+2018-12-19 03:43:30.710530: Step: 93500, acc: 1.0, recall: 1.0, cls loss: 0.0001993, bbox loss: 0.01417, animoji loss: 0.006908, L2 loss: 0.03994, lr:1e-05 
+2018-12-19 03:54:03.228588: Step: 94000, acc: 1.0, recall: 1.0, cls loss: 6.3e-05, bbox loss: 0.01016, animoji loss: 0.006433, L2 loss: 0.03968, lr:1e-05 
+2018-12-19 04:04:34.923680: Step: 94500, acc: 1.0, recall: 1.0, cls loss: 0.0001216, bbox loss: 0.01392, animoji loss: 0.007245, L2 loss: 0.03942, lr:1e-05 
+Save model epoch: 68, Step: 94724, acc: 1.0, recall: 1.0, cls loss: 0.0001974, bbox loss: 0.01223,  animoji loss: 0.006507, L2 loss: 0.03931, lr:1e-05 
+2018-12-19 04:15:08.078389: Step: 95000, acc: 1.0, recall: 1.0, cls loss: 6.626e-05, bbox loss: 0.009707, animoji loss: 0.006229, L2 loss: 0.03917, lr:1e-05 
+2018-12-19 04:25:37.402009: Step: 95500, acc: 1.0, recall: 1.0, cls loss: 0.0001122, bbox loss: 0.01087, animoji loss: 0.00616, L2 loss: 0.03892, lr:1e-05 
+2018-12-19 04:36:08.002057: Step: 96000, acc: 1.0, recall: 1.0, cls loss: 0.0001687, bbox loss: 0.007537, animoji loss: 0.006924, L2 loss: 0.03867, lr:1e-05 
+Save model epoch: 69, Step: 96117, acc: 1.0, recall: 1.0, cls loss: 6.333e-05, bbox loss: 0.007651,  animoji loss: 0.005773, L2 loss: 0.03862, lr:1e-05 
+2018-12-19 04:46:41.263482: Step: 96500, acc: 1.0, recall: 1.0, cls loss: 7.107e-05, bbox loss: 0.01221, animoji loss: 0.006715, L2 loss: 0.03844, lr:1e-05 
+2018-12-19 04:57:12.857255: Step: 97000, acc: 1.0, recall: 1.0, cls loss: 0.0001232, bbox loss: 0.00831, animoji loss: 0.005932, L2 loss: 0.03821, lr:1e-05 
+2018-12-19 05:07:43.058029: Step: 97500, acc: 1.0, recall: 1.0, cls loss: 0.0001554, bbox loss: 0.00872, animoji loss: 0.006775, L2 loss: 0.03799, lr:1e-05 
+Save model epoch: 70, Step: 97510, acc: 1.0, recall: 1.0, cls loss: 0.0001143, bbox loss: 0.00796,  animoji loss: 0.006304, L2 loss: 0.03798, lr:1e-05 
+2018-12-19 05:18:15.703644: Step: 98000, acc: 1.0, recall: 1.0, cls loss: 0.0003095, bbox loss: 0.01013, animoji loss: 0.006441, L2 loss: 0.03777, lr:1e-05 
+2018-12-19 05:28:45.987073: Step: 98500, acc: 1.0, recall: 1.0, cls loss: 9.734e-05, bbox loss: 0.01117, animoji loss: 0.006488, L2 loss: 0.03756, lr:1e-05 
+Save model epoch: 71, Step: 98903, acc: 1.0, recall: 1.0, cls loss: 0.0002882, bbox loss: 0.01044,  animoji loss: 0.006078, L2 loss: 0.0374, lr:1e-05 
+2018-12-19 05:39:21.439293: Step: 99000, acc: 1.0, recall: 1.0, cls loss: 0.0001466, bbox loss: 0.007804, animoji loss: 0.006958, L2 loss: 0.03736, lr:1e-05 
+2018-12-19 05:49:51.146679: Step: 99500, acc: 1.0, recall: 1.0, cls loss: 0.0001116, bbox loss: 0.007921, animoji loss: 0.006038, L2 loss: 0.03717, lr:1e-05 
+2018-12-19 06:00:23.300301: Step: 100000, acc: 1.0, recall: 1.0, cls loss: 0.000283, bbox loss: 0.008781, animoji loss: 0.006595, L2 loss: 0.037, lr:1e-05 
+Save model epoch: 72, Step: 100296, acc: 1.0, recall: 1.0, cls loss: 0.0001855, bbox loss: 0.007433,  animoji loss: 0.007511, L2 loss: 0.03691, lr:1e-05 
+2018-12-19 06:10:55.304665: Step: 100500, acc: 1.0, recall: 1.0, cls loss: 0.0001356, bbox loss: 0.007901, animoji loss: 0.007521, L2 loss: 0.03685, lr:1e-05 
+2018-12-19 06:21:27.156547: Step: 101000, acc: 1.0, recall: 1.0, cls loss: 0.0003984, bbox loss: 0.008203, animoji loss: 0.006733, L2 loss: 0.03668, lr:1e-05 
+2018-12-19 06:31:58.972176: Step: 101500, acc: 1.0, recall: 1.0, cls loss: 0.0001531, bbox loss: 0.01008, animoji loss: 0.007209, L2 loss: 0.03651, lr:1e-05 
+Save model epoch: 73, Step: 101689, acc: 1.0, recall: 1.0, cls loss: 0.0001367, bbox loss: 0.009453,  animoji loss: 0.00598, L2 loss: 0.03644, lr:1e-05 
+2018-12-19 06:42:31.291678: Step: 102000, acc: 1.0, recall: 1.0, cls loss: 0.0001417, bbox loss: 0.0123, animoji loss: 0.005903, L2 loss: 0.03633, lr:1e-05 
+2018-12-19 06:53:03.652612: Step: 102500, acc: 1.0, recall: 1.0, cls loss: 0.0001152, bbox loss: 0.01025, animoji loss: 0.007262, L2 loss: 0.03614, lr:1e-05 
+2018-12-19 07:03:36.099301: Step: 103000, acc: 1.0, recall: 1.0, cls loss: 0.0001736, bbox loss: 0.01178, animoji loss: 0.006122, L2 loss: 0.03595, lr:1e-05 
+Save model epoch: 74, Step: 103082, acc: 1.0, recall: 1.0, cls loss: 9.387e-05, bbox loss: 0.006783,  animoji loss: 0.006701, L2 loss: 0.03592, lr:1e-05 
+2018-12-19 07:14:08.592593: Step: 103500, acc: 1.0, recall: 1.0, cls loss: 0.0002274, bbox loss: 0.01015, animoji loss: 0.006974, L2 loss: 0.03576, lr:1e-05 
+2018-12-19 07:24:40.499021: Step: 104000, acc: 1.0, recall: 1.0, cls loss: 8.827e-05, bbox loss: 0.01018, animoji loss: 0.006199, L2 loss: 0.03557, lr:1e-05 
+Save model epoch: 75, Step: 104475, acc: 1.0, recall: 1.0, cls loss: 6.468e-05, bbox loss: 0.0114,  animoji loss: 0.007044, L2 loss: 0.03539, lr:1e-05 
+2018-12-19 07:35:12.425607: Step: 104500, acc: 1.0, recall: 1.0, cls loss: 0.0001884, bbox loss: 0.006421, animoji loss: 0.006497, L2 loss: 0.03538, lr:1e-05 
+2018-12-19 07:45:45.632018: Step: 105000, acc: 1.0, recall: 1.0, cls loss: 0.0001832, bbox loss: 0.006834, animoji loss: 0.005531, L2 loss: 0.0352, lr:1e-05 
+2018-12-19 07:56:17.670641: Step: 105500, acc: 1.0, recall: 1.0, cls loss: 0.0001568, bbox loss: 0.007267, animoji loss: 0.005396, L2 loss: 0.03501, lr:1e-05 
+Save model epoch: 76, Step: 105868, acc: 1.0, recall: 1.0, cls loss: 7.869e-05, bbox loss: 0.009917,  animoji loss: 0.006424, L2 loss: 0.03488, lr:1e-05 
+2018-12-19 08:06:52.462533: Step: 106000, acc: 1.0, recall: 1.0, cls loss: 4.214e-05, bbox loss: 0.01041, animoji loss: 0.005315, L2 loss: 0.03483, lr:1e-05 
+2018-12-19 08:17:24.311743: Step: 106500, acc: 1.0, recall: 1.0, cls loss: 9.965e-05, bbox loss: 0.008085, animoji loss: 0.005993, L2 loss: 0.03465, lr:1e-05 
+2018-12-19 08:27:54.813108: Step: 107000, acc: 1.0, recall: 1.0, cls loss: 9.118e-05, bbox loss: 0.007509, animoji loss: 0.00548, L2 loss: 0.03448, lr:1e-05 
+Save model epoch: 77, Step: 107261, acc: 1.0, recall: 1.0, cls loss: 0.0001634, bbox loss: 0.007054,  animoji loss: 0.005904, L2 loss: 0.03439, lr:1e-05 
+2018-12-19 08:38:28.640754: Step: 107500, acc: 1.0, recall: 1.0, cls loss: 0.0001088, bbox loss: 0.007129, animoji loss: 0.005971, L2 loss: 0.03431, lr:1e-05 
+2018-12-19 08:49:00.245277: Step: 108000, acc: 1.0, recall: 1.0, cls loss: 0.0001253, bbox loss: 0.007497, animoji loss: 0.006732, L2 loss: 0.03416, lr:1e-05 
+2018-12-19 08:59:32.045254: Step: 108500, acc: 1.0, recall: 1.0, cls loss: 9.096e-05, bbox loss: 0.007342, animoji loss: 0.006236, L2 loss: 0.03401, lr:1e-05 
+Save model epoch: 78, Step: 108654, acc: 1.0, recall: 1.0, cls loss: 0.0002587, bbox loss: 0.007956,  animoji loss: 0.006953, L2 loss: 0.03396, lr:1e-05 
+2018-12-19 09:10:07.062438: Step: 109000, acc: 1.0, recall: 1.0, cls loss: 0.0001533, bbox loss: 0.009819, animoji loss: 0.006463, L2 loss: 0.03386, lr:1e-05 
+2018-12-19 09:20:40.170269: Step: 109500, acc: 1.0, recall: 1.0, cls loss: 6.434e-05, bbox loss: 0.00715, animoji loss: 0.006235, L2 loss: 0.03371, lr:1e-05 
+2018-12-19 09:31:14.652703: Step: 110000, acc: 1.0, recall: 1.0, cls loss: 0.0001293, bbox loss: 0.008763, animoji loss: 0.005824, L2 loss: 0.03356, lr:1e-05 
+Save model epoch: 79, Step: 110047, acc: 1.0, recall: 1.0, cls loss: 0.0001056, bbox loss: 0.00719,  animoji loss: 0.006921, L2 loss: 0.03354, lr:1e-05 
+2018-12-19 09:41:33.743861: Step: 110500, acc: 1.0, recall: 1.0, cls loss: 9.842e-05, bbox loss: 0.009103, animoji loss: 0.005742, L2 loss: 0.03341, lr:1e-05 
+2018-12-19 09:51:43.845025: Step: 111000, acc: 1.0, recall: 1.0, cls loss: 0.0001711, bbox loss: 0.006193, animoji loss: 0.005755, L2 loss: 0.03327, lr:1e-05 
+Save model epoch: 80, Step: 111440, acc: 1.0, recall: 1.0, cls loss: 0.0001552, bbox loss: 0.01083,  animoji loss: 0.006742, L2 loss: 0.03315, lr:1e-05 
+2018-12-19 10:01:54.938296: Step: 111500, acc: 1.0, recall: 1.0, cls loss: 0.0002051, bbox loss: 0.00877, animoji loss: 0.006635, L2 loss: 0.03313, lr:1e-05 
+2018-12-19 10:12:05.016569: Step: 112000, acc: 1.0, recall: 1.0, cls loss: 8.11e-05, bbox loss: 0.01001, animoji loss: 0.006939, L2 loss: 0.033, lr:1e-05 
+2018-12-19 10:22:14.562822: Step: 112500, acc: 1.0, recall: 1.0, cls loss: 0.0001692, bbox loss: 0.01136, animoji loss: 0.006063, L2 loss: 0.03287, lr:1e-05 
+Save model epoch: 81, Step: 112833, acc: 1.0, recall: 1.0, cls loss: 9.417e-05, bbox loss: 0.00657,  animoji loss: 0.006541, L2 loss: 0.03279, lr:1e-05 
+2018-12-19 10:32:25.403902: Step: 113000, acc: 1.0, recall: 1.0, cls loss: 0.0002841, bbox loss: 0.006661, animoji loss: 0.008529, L2 loss: 0.03274, lr:1e-05 
+2018-12-19 10:42:34.764220: Step: 113500, acc: 1.0, recall: 1.0, cls loss: 0.0001317, bbox loss: 0.007351, animoji loss: 0.006341, L2 loss: 0.03263, lr:1e-05 
+2018-12-19 10:52:44.329725: Step: 114000, acc: 1.0, recall: 1.0, cls loss: 0.0002283, bbox loss: 0.007743, animoji loss: 0.007008, L2 loss: 0.03254, lr:1e-05 
+Save model epoch: 82, Step: 114226, acc: 1.0, recall: 1.0, cls loss: 8.209e-05, bbox loss: 0.007232,  animoji loss: 0.007348, L2 loss: 0.03249, lr:1e-05 
+2018-12-19 11:02:56.384831: Step: 114500, acc: 1.0, recall: 1.0, cls loss: 0.0002088, bbox loss: 0.009743, animoji loss: 0.006895, L2 loss: 0.03243, lr:1e-05 
+2018-12-19 11:13:09.202512: Step: 115000, acc: 1.0, recall: 1.0, cls loss: 0.0002069, bbox loss: 0.007476, animoji loss: 0.006017, L2 loss: 0.03231, lr:1e-05 
+2018-12-19 11:23:23.727911: Step: 115500, acc: 1.0, recall: 1.0, cls loss: 0.0001289, bbox loss: 0.01096, animoji loss: 0.005656, L2 loss: 0.03219, lr:1e-05 
+Save model epoch: 83, Step: 115619, acc: 1.0, recall: 1.0, cls loss: 0.0001298, bbox loss: 0.009255,  animoji loss: 0.005636, L2 loss: 0.03216, lr:1e-05 
+2018-12-19 11:33:48.240378: Step: 116000, acc: 1.0, recall: 1.0, cls loss: 6.361e-05, bbox loss: 0.01221, animoji loss: 0.005404, L2 loss: 0.03206, lr:1e-05 
+2018-12-19 11:44:08.983795: Step: 116500, acc: 1.0, recall: 1.0, cls loss: 0.0001279, bbox loss: 0.008353, animoji loss: 0.005443, L2 loss: 0.03193, lr:1e-05 
+2018-12-19 11:54:29.078197: Step: 117000, acc: 1.0, recall: 1.0, cls loss: 0.0001127, bbox loss: 0.00611, animoji loss: 0.006007, L2 loss: 0.0318, lr:1e-05 
+Save model epoch: 84, Step: 117012, acc: 1.0, recall: 1.0, cls loss: 0.0002725, bbox loss: 0.007724,  animoji loss: 0.00612, L2 loss: 0.0318, lr:1e-05 
+2018-12-19 12:04:50.771377: Step: 117500, acc: 1.0, recall: 1.0, cls loss: 7.358e-05, bbox loss: 0.006228, animoji loss: 0.005467, L2 loss: 0.03167, lr:1e-05 
+2018-12-19 12:15:10.989254: Step: 118000, acc: 1.0, recall: 1.0, cls loss: 0.0001983, bbox loss: 0.007146, animoji loss: 0.004905, L2 loss: 0.03153, lr:1e-05 
+Save model epoch: 85, Step: 118405, acc: 1.0, recall: 1.0, cls loss: 0.0001423, bbox loss: 0.007741,  animoji loss: 0.005918, L2 loss: 0.03142, lr:1e-05 
+2018-12-19 12:25:32.428020: Step: 118500, acc: 1.0, recall: 1.0, cls loss: 7.457e-05, bbox loss: 0.007917, animoji loss: 0.005851, L2 loss: 0.0314, lr:1e-05 
+2018-12-19 12:35:44.194338: Step: 119000, acc: 1.0, recall: 1.0, cls loss: 0.0001046, bbox loss: 0.01092, animoji loss: 0.005588, L2 loss: 0.03127, lr:1e-05 
+2018-12-19 12:45:55.154368: Step: 119500, acc: 1.0, recall: 1.0, cls loss: 0.0001318, bbox loss: 0.008515, animoji loss: 0.006464, L2 loss: 0.03114, lr:1e-05 
+Save model epoch: 86, Step: 119798, acc: 1.0, recall: 1.0, cls loss: 9.643e-05, bbox loss: 0.009853,  animoji loss: 0.006535, L2 loss: 0.03106, lr:1e-05 
+2018-12-19 12:56:07.014126: Step: 120000, acc: 1.0, recall: 1.0, cls loss: 0.0001109, bbox loss: 0.01061, animoji loss: 0.005594, L2 loss: 0.03102, lr:1e-05 
+2018-12-19 13:06:17.442417: Step: 120500, acc: 1.0, recall: 1.0, cls loss: 0.000193, bbox loss: 0.009857, animoji loss: 0.007007, L2 loss: 0.0309, lr:1e-05 
+2018-12-19 13:16:28.326087: Step: 121000, acc: 1.0, recall: 1.0, cls loss: 0.0001811, bbox loss: 0.006344, animoji loss: 0.006851, L2 loss: 0.0308, lr:1e-05 
+Save model epoch: 87, Step: 121191, acc: 1.0, recall: 1.0, cls loss: 0.0001387, bbox loss: 0.008498,  animoji loss: 0.005747, L2 loss: 0.03076, lr:1e-05 
+2018-12-19 13:26:41.792171: Step: 121500, acc: 1.0, recall: 1.0, cls loss: 0.0002378, bbox loss: 0.008958, animoji loss: 0.006714, L2 loss: 0.03069, lr:1e-05 
+2018-12-19 13:36:52.480777: Step: 122000, acc: 1.0, recall: 1.0, cls loss: 8.258e-05, bbox loss: 0.006297, animoji loss: 0.006982, L2 loss: 0.03059, lr:1e-05 
+2018-12-19 13:47:09.981801: Step: 122500, acc: 1.0, recall: 1.0, cls loss: 6.01e-05, bbox loss: 0.009551, animoji loss: 0.006219, L2 loss: 0.0305, lr:1e-05 
+Save model epoch: 88, Step: 122584, acc: 1.0, recall: 1.0, cls loss: 0.0002342, bbox loss: 0.00653,  animoji loss: 0.006861, L2 loss: 0.03048, lr:1e-05 
+2018-12-19 13:57:25.248668: Step: 123000, acc: 1.0, recall: 1.0, cls loss: 5.367e-05, bbox loss: 0.006037, animoji loss: 0.007034, L2 loss: 0.0304, lr:1e-05 
+2018-12-19 14:07:47.690690: Step: 123500, acc: 1.0, recall: 1.0, cls loss: 9.17e-05, bbox loss: 0.01064, animoji loss: 0.005731, L2 loss: 0.0303, lr:1e-05 
+Save model epoch: 89, Step: 123977, acc: 1.0, recall: 1.0, cls loss: 7.207e-05, bbox loss: 0.0107,  animoji loss: 0.006498, L2 loss: 0.03021, lr:1e-05 
+2018-12-19 14:18:04.911011: Step: 124000, acc: 1.0, recall: 1.0, cls loss: 8.106e-05, bbox loss: 0.008251, animoji loss: 0.005367, L2 loss: 0.0302, lr:1e-05 
+2018-12-19 14:28:23.858723: Step: 124500, acc: 1.0, recall: 1.0, cls loss: 7.232e-05, bbox loss: 0.006668, animoji loss: 0.006185, L2 loss: 0.03011, lr:1e-05 
+2018-12-19 14:38:46.167360: Step: 125000, acc: 1.0, recall: 1.0, cls loss: 0.0001533, bbox loss: 0.009215, animoji loss: 0.005829, L2 loss: 0.03001, lr:1e-05 
+Save model epoch: 90, Step: 125370, acc: 1.0, recall: 1.0, cls loss: 0.0001111, bbox loss: 0.006704,  animoji loss: 0.006723, L2 loss: 0.02994, lr:1e-05 
+2018-12-19 14:49:03.356256: Step: 125500, acc: 1.0, recall: 1.0, cls loss: 9.524e-05, bbox loss: 0.007233, animoji loss: 0.006476, L2 loss: 0.02992, lr:1e-05 
+2018-12-19 14:59:26.047477: Step: 126000, acc: 1.0, recall: 1.0, cls loss: 3.582e-05, bbox loss: 0.005722, animoji loss: 0.006817, L2 loss: 0.02982, lr:1e-05 
+2018-12-19 15:09:48.498931: Step: 126500, acc: 1.0, recall: 1.0, cls loss: 9.221e-05, bbox loss: 0.006146, animoji loss: 0.007726, L2 loss: 0.02974, lr:1e-05 
+Save model epoch: 91, Step: 126763, acc: 1.0, recall: 1.0, cls loss: 6.423e-05, bbox loss: 0.01029,  animoji loss: 0.007315, L2 loss: 0.0297, lr:1e-05 
+2018-12-19 15:20:10.980089: Step: 127000, acc: 1.0, recall: 1.0, cls loss: 6.284e-05, bbox loss: 0.01022, animoji loss: 0.00616, L2 loss: 0.02965, lr:1e-05 
+2018-12-19 15:30:22.408863: Step: 127500, acc: 1.0, recall: 1.0, cls loss: 0.0001438, bbox loss: 0.006375, animoji loss: 0.005724, L2 loss: 0.02957, lr:1e-05 
+2018-12-19 15:40:41.385337: Step: 128000, acc: 1.0, recall: 1.0, cls loss: 0.0001956, bbox loss: 0.0063, animoji loss: 0.005869, L2 loss: 0.02948, lr:1e-05 
+Save model epoch: 92, Step: 128156, acc: 1.0, recall: 1.0, cls loss: 0.0001974, bbox loss: 0.005981,  animoji loss: 0.005296, L2 loss: 0.02945, lr:1e-05 
+2018-12-19 15:51:04.836109: Step: 128500, acc: 1.0, recall: 1.0, cls loss: 6.425e-05, bbox loss: 0.009184, animoji loss: 0.005329, L2 loss: 0.02939, lr:1e-05 
+2018-12-19 16:01:25.009652: Step: 129000, acc: 1.0, recall: 1.0, cls loss: 0.0001171, bbox loss: 0.009305, animoji loss: 0.005997, L2 loss: 0.02929, lr:1e-05 
+2018-12-19 16:11:47.511778: Step: 129500, acc: 1.0, recall: 1.0, cls loss: 0.0001277, bbox loss: 0.008863, animoji loss: 0.005453, L2 loss: 0.02919, lr:1e-05 
+Save model epoch: 93, Step: 129549, acc: 1.0, recall: 1.0, cls loss: 0.0001406, bbox loss: 0.009104,  animoji loss: 0.006348, L2 loss: 0.02918, lr:1e-05 
+2018-12-19 16:22:11.302863: Step: 130000, acc: 1.0, recall: 1.0, cls loss: 0.0001647, bbox loss: 0.005472, animoji loss: 0.005319, L2 loss: 0.02909, lr:1e-05 
+2018-12-19 16:32:33.800478: Step: 130500, acc: 1.0, recall: 1.0, cls loss: 0.0001122, bbox loss: 0.009733, animoji loss: 0.005754, L2 loss: 0.029, lr:1e-05 
+Save model epoch: 94, Step: 130942, acc: 1.0, recall: 1.0, cls loss: 9.062e-05, bbox loss: 0.006673,  animoji loss: 0.006247, L2 loss: 0.02893, lr:1e-05 
+2018-12-19 16:42:58.234928: Step: 131000, acc: 1.0, recall: 1.0, cls loss: 0.0001386, bbox loss: 0.00936, animoji loss: 0.007245, L2 loss: 0.02891, lr:1e-05 
+2018-12-19 16:53:20.329090: Step: 131500, acc: 1.0, recall: 1.0, cls loss: 0.0001486, bbox loss: 0.006428, animoji loss: 0.00689, L2 loss: 0.02884, lr:1e-05 
+2018-12-19 17:03:43.705820: Step: 132000, acc: 1.0, recall: 1.0, cls loss: 0.0001701, bbox loss: 0.008464, animoji loss: 0.00608, L2 loss: 0.02878, lr:1e-05 
+Save model epoch: 95, Step: 132335, acc: 1.0, recall: 1.0, cls loss: 0.000251, bbox loss: 0.007654,  animoji loss: 0.006615, L2 loss: 0.02873, lr:1e-05 
+2018-12-19 17:14:07.662136: Step: 132500, acc: 1.0, recall: 1.0, cls loss: 0.0001731, bbox loss: 0.007904, animoji loss: 0.005348, L2 loss: 0.0287, lr:1e-05 
+2018-12-19 17:24:30.652662: Step: 133000, acc: 1.0, recall: 1.0, cls loss: 0.0002083, bbox loss: 0.006255, animoji loss: 0.005385, L2 loss: 0.02862, lr:1e-05 
+2018-12-19 17:34:53.283489: Step: 133500, acc: 1.0, recall: 1.0, cls loss: 0.0001026, bbox loss: 0.005987, animoji loss: 0.005553, L2 loss: 0.02853, lr:1e-05 
+Save model epoch: 96, Step: 133728, acc: 1.0, recall: 1.0, cls loss: 9.739e-05, bbox loss: 0.008589,  animoji loss: 0.004997, L2 loss: 0.02849, lr:1e-05 
+2018-12-19 17:45:14.275616: Step: 134000, acc: 1.0, recall: 1.0, cls loss: 0.0002017, bbox loss: 0.006897, animoji loss: 0.005667, L2 loss: 0.02844, lr:1e-05 
+2018-12-19 17:55:33.974488: Step: 134500, acc: 1.0, recall: 1.0, cls loss: 0.0002134, bbox loss: 0.006341, animoji loss: 0.005491, L2 loss: 0.02835, lr:1e-05 
+2018-12-19 18:05:56.628060: Step: 135000, acc: 1.0, recall: 1.0, cls loss: 8.527e-05, bbox loss: 0.005428, animoji loss: 0.005086, L2 loss: 0.02826, lr:1e-05 
+Save model epoch: 97, Step: 135121, acc: 1.0, recall: 1.0, cls loss: 0.0001247, bbox loss: 0.006085,  animoji loss: 0.005029, L2 loss: 0.02824, lr:1e-05 
+2018-12-19 18:16:20.139397: Step: 135500, acc: 1.0, recall: 1.0, cls loss: 6.983e-05, bbox loss: 0.009128, animoji loss: 0.006043, L2 loss: 0.02817, lr:1e-05 
+2018-12-19 18:26:40.999825: Step: 136000, acc: 1.0, recall: 1.0, cls loss: 0.0001296, bbox loss: 0.006339, animoji loss: 0.006324, L2 loss: 0.02808, lr:1e-05 
+2018-12-19 18:37:02.441030: Step: 136500, acc: 1.0, recall: 1.0, cls loss: 0.0001674, bbox loss: 0.006371, animoji loss: 0.005661, L2 loss: 0.028, lr:1e-05 
+Save model epoch: 98, Step: 136514, acc: 1.0, recall: 1.0, cls loss: 0.0001925, bbox loss: 0.009835,  animoji loss: 0.006417, L2 loss: 0.028, lr:1e-05 
+2018-12-19 18:47:23.857388: Step: 137000, acc: 1.0, recall: 1.0, cls loss: 0.000187, bbox loss: 0.008078, animoji loss: 0.00683, L2 loss: 0.02792, lr:1e-05 
+2018-12-19 18:57:45.150098: Step: 137500, acc: 1.0, recall: 1.0, cls loss: 9.257e-05, bbox loss: 0.007819, animoji loss: 0.00652, L2 loss: 0.02784, lr:1e-05 
+Save model epoch: 99, Step: 137907, acc: 1.0, recall: 1.0, cls loss: 0.000124, bbox loss: 0.004841,  animoji loss: 0.006589, L2 loss: 0.02778, lr:1e-05 
+2018-12-19 19:08:07.513032: Step: 138000, acc: 1.0, recall: 1.0, cls loss: 5.322e-05, bbox loss: 0.008239, animoji loss: 0.006277, L2 loss: 0.02777, lr:1e-05 
+2018-12-19 19:18:28.200559: Step: 138500, acc: 1.0, recall: 1.0, cls loss: 0.000133, bbox loss: 0.006172, animoji loss: 0.006425, L2 loss: 0.0277, lr:1e-05 
+2018-12-19 19:28:49.201443: Step: 139000, acc: 1.0, recall: 1.0, cls loss: 0.000111, bbox loss: 0.009753, animoji loss: 0.007365, L2 loss: 0.02764, lr:1e-05 
+Save model epoch: 100, Step: 139300, acc: 1.0, recall: 1.0, cls loss: 0.0001862, bbox loss: 0.006229,  animoji loss: 0.007563, L2 loss: 0.02761, lr:1e-06 
+2018-12-19 19:39:11.922002: Step: 139500, acc: 1.0, recall: 1.0, cls loss: 7.352e-05, bbox loss: 0.007461, animoji loss: 0.006462, L2 loss: 0.0276, lr:1e-06 
+2018-12-19 19:49:33.645078: Step: 140000, acc: 1.0, recall: 1.0, cls loss: 0.0001008, bbox loss: 0.007776, animoji loss: 0.008205, L2 loss: 0.02759, lr:1e-06 
+2018-12-19 19:59:53.522028: Step: 140500, acc: 1.0, recall: 1.0, cls loss: 9.795e-05, bbox loss: 0.007377, animoji loss: 0.006241, L2 loss: 0.02758, lr:1e-06 
+Save model epoch: 101, Step: 140693, acc: 1.0, recall: 1.0, cls loss: 8.376e-05, bbox loss: 0.005065,  animoji loss: 0.006081, L2 loss: 0.02758, lr:1e-06 
+2018-12-19 20:10:15.266924: Step: 141000, acc: 1.0, recall: 1.0, cls loss: 0.0001573, bbox loss: 0.005482, animoji loss: 0.005629, L2 loss: 0.02757, lr:1e-06 
+2018-12-19 20:20:31.807033: Step: 141500, acc: 1.0, recall: 1.0, cls loss: 9.429e-05, bbox loss: 0.008545, animoji loss: 0.00599, L2 loss: 0.02756, lr:1e-06 
+2018-12-19 20:30:50.310100: Step: 142000, acc: 1.0, recall: 1.0, cls loss: 0.0001018, bbox loss: 0.008986, animoji loss: 0.006764, L2 loss: 0.02755, lr:1e-06 
+Save model epoch: 102, Step: 142086, acc: 1.0, recall: 1.0, cls loss: 0.0001137, bbox loss: 0.007079,  animoji loss: 0.006332, L2 loss: 0.02755, lr:1e-06 
+2018-12-19 20:41:10.301956: Step: 142500, acc: 1.0, recall: 1.0, cls loss: 0.0001422, bbox loss: 0.008386, animoji loss: 0.005314, L2 loss: 0.02754, lr:1e-06 
+2018-12-19 20:51:29.391326: Step: 143000, acc: 1.0, recall: 1.0, cls loss: 0.0001137, bbox loss: 0.007442, animoji loss: 0.006954, L2 loss: 0.02753, lr:1e-06 
+Save model epoch: 103, Step: 143479, acc: 1.0, recall: 1.0, cls loss: 0.0001091, bbox loss: 0.005767,  animoji loss: 0.005245, L2 loss: 0.02752, lr:1e-06 
+2018-12-19 21:01:51.494580: Step: 143500, acc: 1.0, recall: 1.0, cls loss: 5.632e-05, bbox loss: 0.009086, animoji loss: 0.005502, L2 loss: 0.02752, lr:1e-06 
+2018-12-19 21:12:10.251266: Step: 144000, acc: 1.0, recall: 1.0, cls loss: 0.000146, bbox loss: 0.005303, animoji loss: 0.005309, L2 loss: 0.02751, lr:1e-06 
+2018-12-19 21:22:30.244231: Step: 144500, acc: 1.0, recall: 1.0, cls loss: 0.0001201, bbox loss: 0.008527, animoji loss: 0.004651, L2 loss: 0.02749, lr:1e-06 
+Save model epoch: 104, Step: 144872, acc: 1.0, recall: 1.0, cls loss: 0.0001909, bbox loss: 0.006147,  animoji loss: 0.004894, L2 loss: 0.02749, lr:1e-06 
+2018-12-19 21:32:52.198078: Step: 145000, acc: 1.0, recall: 1.0, cls loss: 0.0001013, bbox loss: 0.008232, animoji loss: 0.005954, L2 loss: 0.02748, lr:1e-06 
+2018-12-19 21:43:12.314956: Step: 145500, acc: 1.0, recall: 1.0, cls loss: 9.061e-05, bbox loss: 0.008023, animoji loss: 0.004865, L2 loss: 0.02747, lr:1e-06 
+2018-12-19 21:53:27.067698: Step: 146000, acc: 1.0, recall: 1.0, cls loss: 0.0001906, bbox loss: 0.005476, animoji loss: 0.004811, L2 loss: 0.02746, lr:1e-06 
+Save model epoch: 105, Step: 146265, acc: 1.0, recall: 1.0, cls loss: 6.656e-05, bbox loss: 0.008942,  animoji loss: 0.005411, L2 loss: 0.02745, lr:1e-06 
+2018-12-19 22:03:39.891260: Step: 146500, acc: 1.0, recall: 1.0, cls loss: 9.769e-05, bbox loss: 0.008433, animoji loss: 0.004835, L2 loss: 0.02744, lr:1e-06 
+2018-12-19 22:13:50.606289: Step: 147000, acc: 1.0, recall: 1.0, cls loss: 0.0001427, bbox loss: 0.008163, animoji loss: 0.005049, L2 loss: 0.02743, lr:1e-06 
+2018-12-19 22:24:03.253718: Step: 147500, acc: 1.0, recall: 1.0, cls loss: 9.936e-05, bbox loss: 0.007119, animoji loss: 0.005882, L2 loss: 0.02742, lr:1e-06 
+Save model epoch: 106, Step: 147658, acc: 1.0, recall: 1.0, cls loss: 5.13e-05, bbox loss: 0.006483,  animoji loss: 0.005242, L2 loss: 0.02742, lr:1e-06 
+2018-12-19 22:34:21.804579: Step: 148000, acc: 1.0, recall: 1.0, cls loss: 0.0001347, bbox loss: 0.004949, animoji loss: 0.00469, L2 loss: 0.02741, lr:1e-06 
+2018-12-19 22:44:36.363623: Step: 148500, acc: 1.0, recall: 1.0, cls loss: 6.65e-05, bbox loss: 0.005161, animoji loss: 0.004964, L2 loss: 0.02739, lr:1e-06 
+2018-12-19 22:54:50.797056: Step: 149000, acc: 1.0, recall: 1.0, cls loss: 0.0002107, bbox loss: 0.008181, animoji loss: 0.00478, L2 loss: 0.02738, lr:1e-06 
+Save model epoch: 107, Step: 149051, acc: 1.0, recall: 1.0, cls loss: 0.0001629, bbox loss: 0.00785,  animoji loss: 0.005982, L2 loss: 0.02738, lr:1e-06 
+2018-12-19 23:05:07.020813: Step: 149500, acc: 1.0, recall: 1.0, cls loss: 7.069e-05, bbox loss: 0.007199, animoji loss: 0.00507, L2 loss: 0.02737, lr:1e-06 
+2018-12-19 23:15:21.639518: Step: 150000, acc: 1.0, recall: 1.0, cls loss: 0.0002506, bbox loss: 0.007416, animoji loss: 0.005121, L2 loss: 0.02736, lr:1e-06 
+Save model epoch: 108, Step: 150444, acc: 1.0, recall: 1.0, cls loss: 0.0001974, bbox loss: 0.007141,  animoji loss: 0.00438, L2 loss: 0.02734, lr:1e-06 
+2018-12-19 23:25:37.255085: Step: 150500, acc: 1.0, recall: 1.0, cls loss: 9.018e-05, bbox loss: 0.007208, animoji loss: 0.004538, L2 loss: 0.02734, lr:1e-06 
+2018-12-19 23:35:51.364622: Step: 151000, acc: 1.0, recall: 1.0, cls loss: 0.0001557, bbox loss: 0.008729, animoji loss: 0.004804, L2 loss: 0.02733, lr:1e-06 
+2018-12-19 23:46:05.756638: Step: 151500, acc: 1.0, recall: 1.0, cls loss: 9.785e-05, bbox loss: 0.007042, animoji loss: 0.004492, L2 loss: 0.02732, lr:1e-06 
+Save model epoch: 109, Step: 151837, acc: 1.0, recall: 1.0, cls loss: 4.954e-05, bbox loss: 0.007559,  animoji loss: 0.004758, L2 loss: 0.02731, lr:1e-06 
+2018-12-19 23:56:21.290839: Step: 152000, acc: 1.0, recall: 1.0, cls loss: 8.135e-05, bbox loss: 0.007973, animoji loss: 0.005017, L2 loss: 0.0273, lr:1e-06 
+2018-12-20 00:06:35.630756: Step: 152500, acc: 1.0, recall: 1.0, cls loss: 0.0001462, bbox loss: 0.00478, animoji loss: 0.005524, L2 loss: 0.02729, lr:1e-06 
+2018-12-20 00:16:49.835028: Step: 153000, acc: 1.0, recall: 1.0, cls loss: 0.0001573, bbox loss: 0.00722, animoji loss: 0.004446, L2 loss: 0.02728, lr:1e-06 
+Save model epoch: 110, Step: 153230, acc: 1.0, recall: 1.0, cls loss: 8.031e-05, bbox loss: 0.00855,  animoji loss: 0.0052, L2 loss: 0.02727, lr:1e-06 
+2018-12-20 00:27:05.522310: Step: 153500, acc: 1.0, recall: 1.0, cls loss: 0.0001582, bbox loss: 0.005802, animoji loss: 0.005249, L2 loss: 0.02727, lr:1e-06 
+2018-12-20 00:37:20.016335: Step: 154000, acc: 1.0, recall: 1.0, cls loss: 0.000125, bbox loss: 0.005385, animoji loss: 0.004814, L2 loss: 0.02725, lr:1e-06 
+2018-12-20 00:47:34.646229: Step: 154500, acc: 1.0, recall: 1.0, cls loss: 0.0001757, bbox loss: 0.007591, animoji loss: 0.005378, L2 loss: 0.02724, lr:1e-06 
+Save model epoch: 111, Step: 154623, acc: 1.0, recall: 1.0, cls loss: 8.547e-05, bbox loss: 0.008468,  animoji loss: 0.004534, L2 loss: 0.02724, lr:1e-06 
+2018-12-20 00:57:50.555416: Step: 155000, acc: 1.0, recall: 1.0, cls loss: 0.0002121, bbox loss: 0.007936, animoji loss: 0.004953, L2 loss: 0.02723, lr:1e-06 
+2018-12-20 01:08:06.741540: Step: 155500, acc: 1.0, recall: 1.0, cls loss: 4.513e-05, bbox loss: 0.006245, animoji loss: 0.004523, L2 loss: 0.02722, lr:1e-06 
+2018-12-20 01:18:22.428592: Step: 156000, acc: 1.0, recall: 1.0, cls loss: 0.0001689, bbox loss: 0.007212, animoji loss: 0.005128, L2 loss: 0.0272, lr:1e-06 
+Save model epoch: 112, Step: 156016, acc: 1.0, recall: 1.0, cls loss: 0.0001294, bbox loss: 0.008006,  animoji loss: 0.005535, L2 loss: 0.0272, lr:1e-06 
+2018-12-20 01:28:37.962033: Step: 156500, acc: 1.0, recall: 1.0, cls loss: 0.0001285, bbox loss: 0.005198, animoji loss: 0.005393, L2 loss: 0.02719, lr:1e-06 
+2018-12-20 01:38:52.469904: Step: 157000, acc: 1.0, recall: 1.0, cls loss: 7.88e-05, bbox loss: 0.00545, animoji loss: 0.00475, L2 loss: 0.02718, lr:1e-06 
+Save model epoch: 113, Step: 157409, acc: 1.0, recall: 1.0, cls loss: 8.852e-05, bbox loss: 0.007298,  animoji loss: 0.004314, L2 loss: 0.02717, lr:1e-06 
+2018-12-20 01:49:07.349317: Step: 157500, acc: 1.0, recall: 1.0, cls loss: 6.231e-05, bbox loss: 0.007454, animoji loss: 0.00491, L2 loss: 0.02716, lr:1e-06 
+2018-12-20 01:59:21.282245: Step: 158000, acc: 1.0, recall: 1.0, cls loss: 4.974e-05, bbox loss: 0.007781, animoji loss: 0.004952, L2 loss: 0.02715, lr:1e-06 
+2018-12-20 02:09:35.558932: Step: 158500, acc: 1.0, recall: 1.0, cls loss: 4.646e-05, bbox loss: 0.007416, animoji loss: 0.00462, L2 loss: 0.02714, lr:1e-06 
+Save model epoch: 114, Step: 158802, acc: 1.0, recall: 1.0, cls loss: 9.875e-05, bbox loss: 0.008679,  animoji loss: 0.005501, L2 loss: 0.02713, lr:1e-06 
+2018-12-20 02:19:50.839212: Step: 159000, acc: 1.0, recall: 1.0, cls loss: 0.0001068, bbox loss: 0.006973, animoji loss: 0.005036, L2 loss: 0.02713, lr:1e-06 
+2018-12-20 02:30:04.926738: Step: 159500, acc: 1.0, recall: 1.0, cls loss: 0.0002164, bbox loss: 0.006918, animoji loss: 0.004825, L2 loss: 0.02711, lr:1e-06 
+2018-12-20 02:40:18.473255: Step: 160000, acc: 1.0, recall: 1.0, cls loss: 0.0002043, bbox loss: 0.004761, animoji loss: 0.005894, L2 loss: 0.0271, lr:1e-06 
+Save model epoch: 115, Step: 160195, acc: 1.0, recall: 1.0, cls loss: 0.0001803, bbox loss: 0.004916,  animoji loss: 0.005302, L2 loss: 0.0271, lr:1e-06 
+2018-12-20 02:50:33.324363: Step: 160500, acc: 1.0, recall: 1.0, cls loss: 9.069e-05, bbox loss: 0.007523, animoji loss: 0.005505, L2 loss: 0.02709, lr:1e-06 
+2018-12-20 03:00:46.999940: Step: 161000, acc: 1.0, recall: 1.0, cls loss: 0.0002585, bbox loss: 0.008418, animoji loss: 0.004441, L2 loss: 0.02708, lr:1e-06 
+2018-12-20 03:11:00.807437: Step: 161500, acc: 1.0, recall: 1.0, cls loss: 0.0001237, bbox loss: 0.007231, animoji loss: 0.005428, L2 loss: 0.02706, lr:1e-06 
+Save model epoch: 116, Step: 161588, acc: 1.0, recall: 1.0, cls loss: 0.0001796, bbox loss: 0.006923,  animoji loss: 0.00533, L2 loss: 0.02706, lr:1e-06 
+2018-12-20 03:21:16.676243: Step: 162000, acc: 1.0, recall: 1.0, cls loss: 0.000191, bbox loss: 0.005249, animoji loss: 0.004575, L2 loss: 0.02705, lr:1e-06 
+2018-12-20 03:31:30.713890: Step: 162500, acc: 1.0, recall: 1.0, cls loss: 0.0001693, bbox loss: 0.004519, animoji loss: 0.004704, L2 loss: 0.02704, lr:1e-06 
+Save model epoch: 117, Step: 162981, acc: 1.0, recall: 1.0, cls loss: 9.168e-05, bbox loss: 0.005085,  animoji loss: 0.00521, L2 loss: 0.02703, lr:1e-06 
+2018-12-20 03:41:46.203661: Step: 163000, acc: 1.0, recall: 1.0, cls loss: 0.0001072, bbox loss: 0.007567, animoji loss: 0.004811, L2 loss: 0.02703, lr:1e-06 
+2018-12-20 03:52:01.663740: Step: 163500, acc: 1.0, recall: 1.0, cls loss: 9.534e-05, bbox loss: 0.00542, animoji loss: 0.005205, L2 loss: 0.02701, lr:1e-06 
+2018-12-20 04:02:18.001576: Step: 164000, acc: 1.0, recall: 1.0, cls loss: 0.000231, bbox loss: 0.005214, animoji loss: 0.004888, L2 loss: 0.027, lr:1e-06 
+Save model epoch: 118, Step: 164374, acc: 1.0, recall: 1.0, cls loss: 0.0002312, bbox loss: 0.005453,  animoji loss: 0.004868, L2 loss: 0.02699, lr:1e-06 
+2018-12-20 04:12:34.927300: Step: 164500, acc: 1.0, recall: 1.0, cls loss: 7.408e-05, bbox loss: 0.004848, animoji loss: 0.004915, L2 loss: 0.02699, lr:1e-06 
+2018-12-20 04:22:49.521109: Step: 165000, acc: 1.0, recall: 1.0, cls loss: 0.0001194, bbox loss: 0.004985, animoji loss: 0.005519, L2 loss: 0.02698, lr:1e-06 
+2018-12-20 04:33:03.607403: Step: 165500, acc: 1.0, recall: 1.0, cls loss: 0.0001646, bbox loss: 0.005857, animoji loss: 0.005092, L2 loss: 0.02696, lr:1e-06 
+Save model epoch: 119, Step: 165767, acc: 1.0, recall: 1.0, cls loss: 9.739e-05, bbox loss: 0.005138,  animoji loss: 0.004812, L2 loss: 0.02696, lr:1e-06 
+2018-12-20 04:43:18.883092: Step: 166000, acc: 1.0, recall: 1.0, cls loss: 8.117e-05, bbox loss: 0.005812, animoji loss: 0.005097, L2 loss: 0.02695, lr:1e-06 
+2018-12-20 04:53:33.550215: Step: 166500, acc: 1.0, recall: 1.0, cls loss: 0.0001227, bbox loss: 0.005623, animoji loss: 0.004714, L2 loss: 0.02694, lr:1e-06 
+2018-12-20 05:03:47.700078: Step: 167000, acc: 1.0, recall: 1.0, cls loss: 0.0001122, bbox loss: 0.007654, animoji loss: 0.004779, L2 loss: 0.02693, lr:1e-06 
+Save model epoch: 120, Step: 167160, acc: 1.0, recall: 1.0, cls loss: 5.706e-05, bbox loss: 0.005492,  animoji loss: 0.004469, L2 loss: 0.02692, lr:1e-06 
+2018-12-20 05:14:02.844812: Step: 167500, acc: 1.0, recall: 1.0, cls loss: 0.0001441, bbox loss: 0.007316, animoji loss: 0.004094, L2 loss: 0.02691, lr:1e-06 
+2018-12-20 05:24:17.231311: Step: 168000, acc: 1.0, recall: 1.0, cls loss: 0.000194, bbox loss: 0.00579, animoji loss: 0.004899, L2 loss: 0.0269, lr:1e-06 
+2018-12-20 05:34:32.572603: Step: 168500, acc: 1.0, recall: 1.0, cls loss: 0.0001483, bbox loss: 0.006011, animoji loss: 0.004297, L2 loss: 0.02689, lr:1e-06 
+Save model epoch: 121, Step: 168553, acc: 1.0, recall: 1.0, cls loss: 0.0001307, bbox loss: 0.005796,  animoji loss: 0.004839, L2 loss: 0.02689, lr:1e-06 
+2018-12-20 05:44:48.265350: Step: 169000, acc: 1.0, recall: 1.0, cls loss: 0.0001674, bbox loss: 0.007034, animoji loss: 0.004655, L2 loss: 0.02688, lr:1e-06 
+2018-12-20 05:55:02.946788: Step: 169500, acc: 1.0, recall: 1.0, cls loss: 8.122e-05, bbox loss: 0.004861, animoji loss: 0.004375, L2 loss: 0.02687, lr:1e-06 
+Save model epoch: 122, Step: 169946, acc: 1.0, recall: 1.0, cls loss: 9.16e-05, bbox loss: 0.007951,  animoji loss: 0.004809, L2 loss: 0.02685, lr:1e-06 
+2018-12-20 06:05:18.183336: Step: 170000, acc: 1.0, recall: 1.0, cls loss: 9.361e-05, bbox loss: 0.004491, animoji loss: 0.004169, L2 loss: 0.02685, lr:1e-06 
+2018-12-20 06:15:31.895301: Step: 170500, acc: 1.0, recall: 1.0, cls loss: 0.0001491, bbox loss: 0.005126, animoji loss: 0.004806, L2 loss: 0.02684, lr:1e-06 
+2018-12-20 06:25:46.659391: Step: 171000, acc: 1.0, recall: 1.0, cls loss: 0.0002319, bbox loss: 0.008494, animoji loss: 0.005283, L2 loss: 0.02683, lr:1e-06 
+Save model epoch: 123, Step: 171339, acc: 1.0, recall: 1.0, cls loss: 0.0001077, bbox loss: 0.006041,  animoji loss: 0.004513, L2 loss: 0.02682, lr:1e-06 
+2018-12-20 06:36:01.982558: Step: 171500, acc: 1.0, recall: 1.0, cls loss: 6.26e-05, bbox loss: 0.006026, animoji loss: 0.005063, L2 loss: 0.02682, lr:1e-06 
+2018-12-20 06:46:17.327481: Step: 172000, acc: 1.0, recall: 1.0, cls loss: 0.0002611, bbox loss: 0.005149, animoji loss: 0.007033, L2 loss: 0.02681, lr:1e-06 
+2018-12-20 06:56:33.893734: Step: 172500, acc: 1.0, recall: 1.0, cls loss: 0.0001618, bbox loss: 0.004872, animoji loss: 0.004905, L2 loss: 0.02679, lr:1e-06 
+Save model epoch: 124, Step: 172732, acc: 1.0, recall: 1.0, cls loss: 0.0001292, bbox loss: 0.005325,  animoji loss: 0.004716, L2 loss: 0.02679, lr:1e-06 
+2018-12-20 07:06:51.484390: Step: 173000, acc: 1.0, recall: 1.0, cls loss: 0.0001235, bbox loss: 0.005812, animoji loss: 0.004496, L2 loss: 0.02678, lr:1e-06 
+2018-12-20 07:17:05.429933: Step: 173500, acc: 1.0, recall: 1.0, cls loss: 8.158e-05, bbox loss: 0.007545, animoji loss: 0.004989, L2 loss: 0.02677, lr:1e-06 
+2018-12-20 07:27:19.256087: Step: 174000, acc: 1.0, recall: 1.0, cls loss: 8.441e-05, bbox loss: 0.00559, animoji loss: 0.005423, L2 loss: 0.02676, lr:1e-06 
+Save model epoch: 125, Step: 174125, acc: 1.0, recall: 1.0, cls loss: 0.0002103, bbox loss: 0.00726,  animoji loss: 0.004624, L2 loss: 0.02675, lr:1e-06 
+2018-12-20 07:37:33.649907: Step: 174500, acc: 1.0, recall: 1.0, cls loss: 0.0001074, bbox loss: 0.005466, animoji loss: 0.004593, L2 loss: 0.02675, lr:1e-06 
+2018-12-20 07:47:47.931882: Step: 175000, acc: 1.0, recall: 1.0, cls loss: 0.0001049, bbox loss: 0.009452, animoji loss: 0.005028, L2 loss: 0.02673, lr:1e-06 
+2018-12-20 07:58:02.709968: Step: 175500, acc: 1.0, recall: 1.0, cls loss: 0.0001383, bbox loss: 0.004712, animoji loss: 0.00523, L2 loss: 0.02672, lr:1e-06 
+Save model epoch: 126, Step: 175518, acc: 1.0, recall: 1.0, cls loss: 8.254e-05, bbox loss: 0.006485,  animoji loss: 0.004698, L2 loss: 0.02672, lr:1e-06 
+2018-12-20 08:08:18.347972: Step: 176000, acc: 1.0, recall: 1.0, cls loss: 5.271e-05, bbox loss: 0.00691, animoji loss: 0.004737, L2 loss: 0.02671, lr:1e-06 
+2018-12-20 08:18:32.916138: Step: 176500, acc: 1.0, recall: 1.0, cls loss: 0.0001616, bbox loss: 0.00546, animoji loss: 0.005809, L2 loss: 0.0267, lr:1e-06 
+Save model epoch: 127, Step: 176911, acc: 1.0, recall: 1.0, cls loss: 0.0002359, bbox loss: 0.007118,  animoji loss: 0.004696, L2 loss: 0.02669, lr:1e-06 
+2018-12-20 08:28:48.920766: Step: 177000, acc: 1.0, recall: 1.0, cls loss: 0.0001478, bbox loss: 0.006002, animoji loss: 0.004716, L2 loss: 0.02669, lr:1e-06 
+2018-12-20 08:39:02.648371: Step: 177500, acc: 1.0, recall: 1.0, cls loss: 0.0001827, bbox loss: 0.005635, animoji loss: 0.004678, L2 loss: 0.02667, lr:1e-06 
+2018-12-20 08:49:17.107769: Step: 178000, acc: 1.0, recall: 1.0, cls loss: 0.0001351, bbox loss: 0.004741, animoji loss: 0.004661, L2 loss: 0.02666, lr:1e-06 
+Save model epoch: 128, Step: 178304, acc: 1.0, recall: 1.0, cls loss: 0.0001687, bbox loss: 0.009393,  animoji loss: 0.004658, L2 loss: 0.02665, lr:1e-06 
+2018-12-20 08:59:32.596679: Step: 178500, acc: 1.0, recall: 1.0, cls loss: 0.0001157, bbox loss: 0.008319, animoji loss: 0.004422, L2 loss: 0.02665, lr:1e-06 
+2018-12-20 09:09:47.035269: Step: 179000, acc: 1.0, recall: 1.0, cls loss: 6.749e-05, bbox loss: 0.004506, animoji loss: 0.004658, L2 loss: 0.02664, lr:1e-06 
+2018-12-20 09:20:01.033959: Step: 179500, acc: 1.0, recall: 1.0, cls loss: 0.0001351, bbox loss: 0.005757, animoji loss: 0.004684, L2 loss: 0.02663, lr:1e-06 
+Save model epoch: 129, Step: 179697, acc: 1.0, recall: 1.0, cls loss: 7.993e-05, bbox loss: 0.005033,  animoji loss: 0.004199, L2 loss: 0.02662, lr:1e-06 
+2018-12-20 09:30:16.969222: Step: 180000, acc: 1.0, recall: 1.0, cls loss: 6.676e-05, bbox loss: 0.008049, animoji loss: 0.004606, L2 loss: 0.02661, lr:1e-06 
+2018-12-20 09:40:32.598953: Step: 180500, acc: 1.0, recall: 1.0, cls loss: 9.682e-05, bbox loss: 0.004979, animoji loss: 0.004605, L2 loss: 0.0266, lr:1e-06 
+2018-12-20 09:50:48.550039: Step: 181000, acc: 1.0, recall: 1.0, cls loss: 0.0001502, bbox loss: 0.005141, animoji loss: 0.004937, L2 loss: 0.02659, lr:1e-06 
+Save model epoch: 130, Step: 181090, acc: 1.0, recall: 1.0, cls loss: 6.649e-05, bbox loss: 0.004993,  animoji loss: 0.004896, L2 loss: 0.02659, lr:1e-06 
+2018-12-20 10:01:05.067128: Step: 181500, acc: 1.0, recall: 1.0, cls loss: 0.0001012, bbox loss: 0.004966, animoji loss: 0.004874, L2 loss: 0.02658, lr:1e-06 
+2018-12-20 10:11:18.938765: Step: 182000, acc: 1.0, recall: 1.0, cls loss: 0.000219, bbox loss: 0.004488, animoji loss: 0.005246, L2 loss: 0.02657, lr:1e-06 
+Save model epoch: 131, Step: 182483, acc: 1.0, recall: 1.0, cls loss: 0.0001337, bbox loss: 0.005459,  animoji loss: 0.005427, L2 loss: 0.02656, lr:1e-06 
+2018-12-20 10:21:33.868378: Step: 182500, acc: 1.0, recall: 1.0, cls loss: 0.0001171, bbox loss: 0.007194, animoji loss: 0.004417, L2 loss: 0.02656, lr:1e-06 
+2018-12-20 10:31:47.874116: Step: 183000, acc: 1.0, recall: 1.0, cls loss: 5.277e-05, bbox loss: 0.007194, animoji loss: 0.005401, L2 loss: 0.02654, lr:1e-06 
+2018-12-20 10:42:01.618347: Step: 183500, acc: 1.0, recall: 1.0, cls loss: 0.0001402, bbox loss: 0.008534, animoji loss: 0.005186, L2 loss: 0.02653, lr:1e-06 
+Save model epoch: 132, Step: 183876, acc: 1.0, recall: 1.0, cls loss: 0.0001033, bbox loss: 0.004424,  animoji loss: 0.004449, L2 loss: 0.02652, lr:1e-06 
+2018-12-20 10:52:17.090981: Step: 184000, acc: 1.0, recall: 1.0, cls loss: 0.000214, bbox loss: 0.009019, animoji loss: 0.004994, L2 loss: 0.02652, lr:1e-06 
+2018-12-20 11:02:31.223182: Step: 184500, acc: 1.0, recall: 1.0, cls loss: 0.0002328, bbox loss: 0.007229, animoji loss: 0.00486, L2 loss: 0.02651, lr:1e-06 
+2018-12-20 11:12:45.268461: Step: 185000, acc: 1.0, recall: 1.0, cls loss: 0.0001013, bbox loss: 0.006242, animoji loss: 0.004491, L2 loss: 0.0265, lr:1e-06 
+Save model epoch: 133, Step: 185269, acc: 1.0, recall: 1.0, cls loss: 0.0001461, bbox loss: 0.005575,  animoji loss: 0.005206, L2 loss: 0.02649, lr:1e-06 
+2018-12-20 11:23:00.413459: Step: 185500, acc: 1.0, recall: 1.0, cls loss: 6.216e-05, bbox loss: 0.006845, animoji loss: 0.005574, L2 loss: 0.02649, lr:1e-06 
+2018-12-20 11:33:15.183477: Step: 186000, acc: 1.0, recall: 1.0, cls loss: 5.979e-05, bbox loss: 0.004533, animoji loss: 0.004435, L2 loss: 0.02647, lr:1e-06 
+2018-12-20 11:43:28.850758: Step: 186500, acc: 1.0, recall: 1.0, cls loss: 0.0001283, bbox loss: 0.004719, animoji loss: 0.004497, L2 loss: 0.02646, lr:1e-06 
+Save model epoch: 134, Step: 186662, acc: 1.0, recall: 1.0, cls loss: 5.232e-05, bbox loss: 0.007658,  animoji loss: 0.004801, L2 loss: 0.02646, lr:1e-06 
+2018-12-20 11:53:43.626491: Step: 187000, acc: 1.0, recall: 1.0, cls loss: 0.0001397, bbox loss: 0.006918, animoji loss: 0.004917, L2 loss: 0.02645, lr:1e-06 
+2018-12-20 12:03:56.554614: Step: 187500, acc: 1.0, recall: 1.0, cls loss: 0.0001246, bbox loss: 0.007762, animoji loss: 0.004753, L2 loss: 0.02644, lr:1e-06 
+2018-12-20 12:14:10.351527: Step: 188000, acc: 1.0, recall: 1.0, cls loss: 5.26e-05, bbox loss: 0.005348, animoji loss: 0.004962, L2 loss: 0.02643, lr:1e-06 
+Save model epoch: 135, Step: 188055, acc: 1.0, recall: 1.0, cls loss: 0.000182, bbox loss: 0.004225,  animoji loss: 0.005609, L2 loss: 0.02643, lr:1e-06 
+2018-12-20 12:24:25.534997: Step: 188500, acc: 1.0, recall: 1.0, cls loss: 8.922e-05, bbox loss: 0.004954, animoji loss: 0.004245, L2 loss: 0.02642, lr:1e-06 
+2018-12-20 12:34:41.478074: Step: 189000, acc: 1.0, recall: 1.0, cls loss: 0.0002165, bbox loss: 0.008454, animoji loss: 0.004423, L2 loss: 0.0264, lr:1e-06 
+Save model epoch: 136, Step: 189448, acc: 1.0, recall: 1.0, cls loss: 0.0001382, bbox loss: 0.006788,  animoji loss: 0.004546, L2 loss: 0.02639, lr:1e-06 
+2018-12-20 12:44:56.104390: Step: 189500, acc: 1.0, recall: 1.0, cls loss: 0.0001605, bbox loss: 0.004473, animoji loss: 0.004645, L2 loss: 0.02639, lr:1e-06 
+2018-12-20 12:55:07.137332: Step: 190000, acc: 1.0, recall: 1.0, cls loss: 0.0001725, bbox loss: 0.005652, animoji loss: 0.00446, L2 loss: 0.02638, lr:1e-06 
+2018-12-20 13:05:18.305043: Step: 190500, acc: 1.0, recall: 1.0, cls loss: 0.000219, bbox loss: 0.005056, animoji loss: 0.004585, L2 loss: 0.02637, lr:1e-06 
+Save model epoch: 137, Step: 190841, acc: 1.0, recall: 1.0, cls loss: 8.315e-05, bbox loss: 0.007084,  animoji loss: 0.005258, L2 loss: 0.02636, lr:1e-06 
+2018-12-20 13:15:32.210726: Step: 191000, acc: 1.0, recall: 1.0, cls loss: 0.0001286, bbox loss: 0.006744, animoji loss: 0.00485, L2 loss: 0.02636, lr:1e-06 
+2018-12-20 13:25:44.430866: Step: 191500, acc: 1.0, recall: 1.0, cls loss: 8.769e-05, bbox loss: 0.005342, animoji loss: 0.00475, L2 loss: 0.02635, lr:1e-06 
+2018-12-20 13:36:00.792735: Step: 192000, acc: 1.0, recall: 1.0, cls loss: 8.549e-05, bbox loss: 0.006478, animoji loss: 0.004624, L2 loss: 0.02634, lr:1e-06 
+Save model epoch: 138, Step: 192234, acc: 1.0, recall: 1.0, cls loss: 8.981e-05, bbox loss: 0.008708,  animoji loss: 0.004576, L2 loss: 0.02633, lr:1e-06 
+2018-12-20 13:46:20.026935: Step: 192500, acc: 1.0, recall: 1.0, cls loss: 0.0001594, bbox loss: 0.008883, animoji loss: 0.005161, L2 loss: 0.02633, lr:1e-06 
+2018-12-20 13:56:33.797638: Step: 193000, acc: 1.0, recall: 1.0, cls loss: 0.0001426, bbox loss: 0.004805, animoji loss: 0.005104, L2 loss: 0.02631, lr:1e-06 
+2018-12-20 14:06:47.451808: Step: 193500, acc: 1.0, recall: 1.0, cls loss: 0.0001576, bbox loss: 0.005863, animoji loss: 0.005456, L2 loss: 0.0263, lr:1e-06 
+Save model epoch: 139, Step: 193627, acc: 1.0, recall: 1.0, cls loss: 0.0001826, bbox loss: 0.004803,  animoji loss: 0.004643, L2 loss: 0.0263, lr:1e-06 
+2018-12-20 14:17:02.700802: Step: 194000, acc: 1.0, recall: 1.0, cls loss: 0.0001009, bbox loss: 0.006919, animoji loss: 0.005026, L2 loss: 0.02629, lr:1e-06 
+2018-12-20 14:27:15.874456: Step: 194500, acc: 1.0, recall: 1.0, cls loss: 0.0001538, bbox loss: 0.004461, animoji loss: 0.004845, L2 loss: 0.02628, lr:1e-06 
+2018-12-20 14:37:29.558513: Step: 195000, acc: 1.0, recall: 1.0, cls loss: 5.608e-05, bbox loss: 0.005888, animoji loss: 0.004118, L2 loss: 0.02627, lr:1e-06 
+Save model epoch: 140, Step: 195020, acc: 1.0, recall: 1.0, cls loss: 0.0001125, bbox loss: 0.0054,  animoji loss: 0.004876, L2 loss: 0.02627, lr:1e-06 
+2018-12-20 14:47:44.367316: Step: 195500, acc: 1.0, recall: 1.0, cls loss: 0.0001386, bbox loss: 0.006815, animoji loss: 0.00409, L2 loss: 0.02626, lr:1e-06 
+2018-12-20 14:57:57.902700: Step: 196000, acc: 1.0, recall: 1.0, cls loss: 0.0001606, bbox loss: 0.007299, animoji loss: 0.004522, L2 loss: 0.02625, lr:1e-06 
+Save model epoch: 141, Step: 196413, acc: 1.0, recall: 1.0, cls loss: 0.000189, bbox loss: 0.005151,  animoji loss: 0.004626, L2 loss: 0.02624, lr:1e-06 
+2018-12-20 15:08:11.545878: Step: 196500, acc: 1.0, recall: 1.0, cls loss: 7.027e-05, bbox loss: 0.005015, animoji loss: 0.004554, L2 loss: 0.02624, lr:1e-06 
+2018-12-20 15:18:24.865208: Step: 197000, acc: 1.0, recall: 1.0, cls loss: 9.85e-05, bbox loss: 0.005049, animoji loss: 0.004381, L2 loss: 0.02622, lr:1e-06 
+2018-12-20 15:28:38.230386: Step: 197500, acc: 1.0, recall: 1.0, cls loss: 9.542e-05, bbox loss: 0.004827, animoji loss: 0.004146, L2 loss: 0.02621, lr:1e-06 
+Save model epoch: 142, Step: 197806, acc: 1.0, recall: 1.0, cls loss: 9.264e-05, bbox loss: 0.004803,  animoji loss: 0.004942, L2 loss: 0.02621, lr:1e-06 
+2018-12-20 15:38:54.166006: Step: 198000, acc: 1.0, recall: 1.0, cls loss: 6.661e-05, bbox loss: 0.007769, animoji loss: 0.004734, L2 loss: 0.0262, lr:1e-06 
+2018-12-20 15:49:07.803280: Step: 198500, acc: 1.0, recall: 1.0, cls loss: 7.561e-05, bbox loss: 0.007807, animoji loss: 0.005359, L2 loss: 0.02619, lr:1e-06 
+2018-12-20 15:59:21.184071: Step: 199000, acc: 1.0, recall: 1.0, cls loss: 6.219e-05, bbox loss: 0.007689, animoji loss: 0.005049, L2 loss: 0.02618, lr:1e-06 
+Save model epoch: 143, Step: 199199, acc: 1.0, recall: 1.0, cls loss: 0.0001695, bbox loss: 0.005331,  animoji loss: 0.005017, L2 loss: 0.02618, lr:1e-06 
+2018-12-20 16:09:36.705029: Step: 199500, acc: 1.0, recall: 1.0, cls loss: 7.172e-05, bbox loss: 0.007018, animoji loss: 0.005255, L2 loss: 0.02617, lr:1e-06 
+2018-12-20 16:19:50.086457: Step: 200000, acc: 1.0, recall: 1.0, cls loss: 0.0001086, bbox loss: 0.004575, animoji loss: 0.00497, L2 loss: 0.02616, lr:1e-06 
+2018-12-20 16:30:06.252046: Step: 200500, acc: 1.0, recall: 1.0, cls loss: 6.922e-05, bbox loss: 0.004688, animoji loss: 0.004498, L2 loss: 0.02615, lr:1e-06 
+Save model epoch: 144, Step: 200592, acc: 1.0, recall: 1.0, cls loss: 0.0001507, bbox loss: 0.005447,  animoji loss: 0.004941, L2 loss: 0.02614, lr:1e-06 
+2018-12-20 16:40:23.434866: Step: 201000, acc: 1.0, recall: 1.0, cls loss: 0.0003221, bbox loss: 0.007752, animoji loss: 0.004161, L2 loss: 0.02613, lr:1e-06 
+2018-12-20 16:50:38.926357: Step: 201500, acc: 1.0, recall: 1.0, cls loss: 5.654e-05, bbox loss: 0.006161, animoji loss: 0.005436, L2 loss: 0.02612, lr:1e-06 
+Save model epoch: 145, Step: 201985, acc: 1.0, recall: 1.0, cls loss: 0.0001208, bbox loss: 0.005403,  animoji loss: 0.004738, L2 loss: 0.02611, lr:1e-06 
+2018-12-20 17:00:53.327945: Step: 202000, acc: 1.0, recall: 1.0, cls loss: 0.0001686, bbox loss: 0.008041, animoji loss: 0.004666, L2 loss: 0.02611, lr:1e-06 
+2018-12-20 17:11:07.559767: Step: 202500, acc: 1.0, recall: 1.0, cls loss: 0.0001145, bbox loss: 0.008027, animoji loss: 0.004592, L2 loss: 0.0261, lr:1e-06 
+2018-12-20 17:21:21.388944: Step: 203000, acc: 1.0, recall: 1.0, cls loss: 0.0001414, bbox loss: 0.005022, animoji loss: 0.004843, L2 loss: 0.02609, lr:1e-06 
+Save model epoch: 146, Step: 203378, acc: 1.0, recall: 1.0, cls loss: 0.0002197, bbox loss: 0.005168,  animoji loss: 0.00464, L2 loss: 0.02608, lr:1e-06 
+2018-12-20 17:31:36.645477: Step: 203500, acc: 1.0, recall: 1.0, cls loss: 0.0001008, bbox loss: 0.006134, animoji loss: 0.004535, L2 loss: 0.02608, lr:1e-06 
+2018-12-20 17:41:51.718867: Step: 204000, acc: 1.0, recall: 1.0, cls loss: 0.000234, bbox loss: 0.007345, animoji loss: 0.005155, L2 loss: 0.02607, lr:1e-06 
+2018-12-20 17:52:05.410612: Step: 204500, acc: 1.0, recall: 1.0, cls loss: 0.0001755, bbox loss: 0.005334, animoji loss: 0.004871, L2 loss: 0.02606, lr:1e-06 
+Save model epoch: 147, Step: 204771, acc: 1.0, recall: 1.0, cls loss: 7.043e-05, bbox loss: 0.007408,  animoji loss: 0.004569, L2 loss: 0.02605, lr:1e-06 
+2018-12-20 18:02:20.741706: Step: 205000, acc: 1.0, recall: 1.0, cls loss: 0.0001079, bbox loss: 0.004582, animoji loss: 0.004595, L2 loss: 0.02605, lr:1e-06 
+2018-12-20 18:12:34.446284: Step: 205500, acc: 1.0, recall: 1.0, cls loss: 7.052e-05, bbox loss: 0.008014, animoji loss: 0.004711, L2 loss: 0.02604, lr:1e-06 
+2018-12-20 18:22:47.331289: Step: 206000, acc: 1.0, recall: 1.0, cls loss: 9.832e-05, bbox loss: 0.00512, animoji loss: 0.005224, L2 loss: 0.02603, lr:1e-06 
+Save model epoch: 148, Step: 206164, acc: 1.0, recall: 1.0, cls loss: 0.0001363, bbox loss: 0.005342,  animoji loss: 0.005175, L2 loss: 0.02602, lr:1e-06 
+2018-12-20 18:33:01.903289: Step: 206500, acc: 1.0, recall: 1.0, cls loss: 0.0002357, bbox loss: 0.004734, animoji loss: 0.00475, L2 loss: 0.02601, lr:1e-06 
+2018-12-20 18:43:14.837030: Step: 207000, acc: 1.0, recall: 1.0, cls loss: 7.721e-05, bbox loss: 0.006691, animoji loss: 0.004433, L2 loss: 0.026, lr:1e-06 
+2018-12-20 18:53:28.529002: Step: 207500, acc: 1.0, recall: 1.0, cls loss: 7.874e-05, bbox loss: 0.005007, animoji loss: 0.004694, L2 loss: 0.02599, lr:1e-06 
+Save model epoch: 149, Step: 207557, acc: 1.0, recall: 1.0, cls loss: 0.0001132, bbox loss: 0.004422,  animoji loss: 0.004529, L2 loss: 0.02599, lr:1e-06 
+2018-12-20 19:03:43.242831: Step: 208000, acc: 1.0, recall: 1.0, cls loss: 0.0001224, bbox loss: 0.004814, animoji loss: 0.004727, L2 loss: 0.02598, lr:1e-06 
+2018-12-20 19:13:56.736182: Step: 208500, acc: 1.0, recall: 1.0, cls loss: 0.0001125, bbox loss: 0.007441, animoji loss: 0.004772, L2 loss: 0.02597, lr:1e-06 
+Save model epoch: 150, Step: 208950, acc: 1.0, recall: 1.0, cls loss: 0.0001031, bbox loss: 0.006646,  animoji loss: 0.003989, L2 loss: 0.02596, lr:1e-06 
+2018-12-20 19:24:11.549988: Step: 209000, acc: 1.0, recall: 1.0, cls loss: 9.43e-05, bbox loss: 0.007871, animoji loss: 0.004793, L2 loss: 0.02596, lr:1e-06 
+2018-12-20 19:34:25.531033: Step: 209500, acc: 1.0, recall: 1.0, cls loss: 0.0001233, bbox loss: 0.004731, animoji loss: 0.005394, L2 loss: 0.02595, lr:1e-06 
+2018-12-20 19:44:39.708840: Step: 210000, acc: 1.0, recall: 1.0, cls loss: 6.301e-05, bbox loss: 0.007018, animoji loss: 0.005365, L2 loss: 0.02594, lr:1e-06 
+Save model epoch: 151, Step: 210343, acc: 1.0, recall: 1.0, cls loss: 0.0001481, bbox loss: 0.007559,  animoji loss: 0.004429, L2 loss: 0.02593, lr:1e-06 
+2018-12-20 19:54:55.381749: Step: 210500, acc: 1.0, recall: 1.0, cls loss: 0.0001588, bbox loss: 0.005171, animoji loss: 0.004775, L2 loss: 0.02593, lr:1e-06 
+2018-12-20 20:05:09.207324: Step: 211000, acc: 1.0, recall: 1.0, cls loss: 0.0001594, bbox loss: 0.005537, animoji loss: 0.004423, L2 loss: 0.02592, lr:1e-06 
+2018-12-20 20:15:23.864404: Step: 211500, acc: 1.0, recall: 1.0, cls loss: 0.0001497, bbox loss: 0.006889, animoji loss: 0.004698, L2 loss: 0.02591, lr:1e-06 
+Save model epoch: 152, Step: 211736, acc: 1.0, recall: 1.0, cls loss: 0.0001254, bbox loss: 0.007844,  animoji loss: 0.004904, L2 loss: 0.0259, lr:1e-06 
+2018-12-20 20:25:40.079325: Step: 212000, acc: 1.0, recall: 1.0, cls loss: 0.0001867, bbox loss: 0.005206, animoji loss: 0.004849, L2 loss: 0.0259, lr:1e-06 
+2018-12-20 20:35:54.601670: Step: 212500, acc: 1.0, recall: 1.0, cls loss: 6.775e-05, bbox loss: 0.004733, animoji loss: 0.004843, L2 loss: 0.02589, lr:1e-06 
+2018-12-20 20:46:09.024850: Step: 213000, acc: 1.0, recall: 1.0, cls loss: 0.0001178, bbox loss: 0.005024, animoji loss: 0.004492, L2 loss: 0.02587, lr:1e-06 
+Save model epoch: 153, Step: 213129, acc: 1.0, recall: 1.0, cls loss: 0.0001089, bbox loss: 0.005479,  animoji loss: 0.004489, L2 loss: 0.02587, lr:1e-06 
+2018-12-20 20:56:24.896819: Step: 213500, acc: 1.0, recall: 1.0, cls loss: 0.0001088, bbox loss: 0.006652, animoji loss: 0.004572, L2 loss: 0.02586, lr:1e-06 
+2018-12-20 21:06:39.632464: Step: 214000, acc: 1.0, recall: 1.0, cls loss: 0.0001391, bbox loss: 0.004734, animoji loss: 0.004404, L2 loss: 0.02585, lr:1e-06 
+2018-12-20 21:16:53.159184: Step: 214500, acc: 1.0, recall: 1.0, cls loss: 5.624e-05, bbox loss: 0.008274, animoji loss: 0.004602, L2 loss: 0.02584, lr:1e-06 
+Save model epoch: 154, Step: 214522, acc: 1.0, recall: 1.0, cls loss: 0.0001373, bbox loss: 0.00407,  animoji loss: 0.005326, L2 loss: 0.02584, lr:1e-06 
+2018-12-20 21:27:08.877942: Step: 215000, acc: 1.0, recall: 1.0, cls loss: 8.232e-05, bbox loss: 0.005117, animoji loss: 0.004342, L2 loss: 0.02583, lr:1e-06 
+2018-12-20 21:37:22.729849: Step: 215500, acc: 1.0, recall: 1.0, cls loss: 6.093e-05, bbox loss: 0.004336, animoji loss: 0.004645, L2 loss: 0.02582, lr:1e-06 
+Save model epoch: 155, Step: 215915, acc: 1.0, recall: 1.0, cls loss: 0.0001821, bbox loss: 0.008798,  animoji loss: 0.004272, L2 loss: 0.02581, lr:1e-06 
+2018-12-20 21:47:38.571618: Step: 216000, acc: 1.0, recall: 1.0, cls loss: 0.0001002, bbox loss: 0.004648, animoji loss: 0.004333, L2 loss: 0.02581, lr:1e-06 
+2018-12-20 21:57:52.028175: Step: 216500, acc: 1.0, recall: 1.0, cls loss: 7.324e-05, bbox loss: 0.008459, animoji loss: 0.005281, L2 loss: 0.0258, lr:1e-06 
+2018-12-20 22:08:05.355878: Step: 217000, acc: 1.0, recall: 1.0, cls loss: 9.781e-05, bbox loss: 0.008085, animoji loss: 0.004848, L2 loss: 0.02579, lr:1e-06 
+Save model epoch: 156, Step: 217308, acc: 1.0, recall: 1.0, cls loss: 5.965e-05, bbox loss: 0.007112,  animoji loss: 0.005144, L2 loss: 0.02578, lr:1e-06 
+2018-12-20 22:18:20.425460: Step: 217500, acc: 1.0, recall: 1.0, cls loss: 0.0001068, bbox loss: 0.005074, animoji loss: 0.004344, L2 loss: 0.02578, lr:1e-06 
+2018-12-20 22:28:33.410860: Step: 218000, acc: 1.0, recall: 1.0, cls loss: 7.032e-05, bbox loss: 0.004474, animoji loss: 0.004312, L2 loss: 0.02577, lr:1e-06 
+2018-12-20 22:38:46.860165: Step: 218500, acc: 1.0, recall: 1.0, cls loss: 0.0002012, bbox loss: 0.007234, animoji loss: 0.00454, L2 loss: 0.02576, lr:1e-06 
+Save model epoch: 157, Step: 218701, acc: 1.0, recall: 1.0, cls loss: 0.0001169, bbox loss: 0.005255,  animoji loss: 0.004846, L2 loss: 0.02575, lr:1e-06 
+2018-12-20 22:49:02.599828: Step: 219000, acc: 1.0, recall: 1.0, cls loss: 0.0001958, bbox loss: 0.005458, animoji loss: 0.004926, L2 loss: 0.02575, lr:1e-06 
+2018-12-20 22:59:16.056658: Step: 219500, acc: 1.0, recall: 1.0, cls loss: 5.851e-05, bbox loss: 0.005557, animoji loss: 0.004844, L2 loss: 0.02574, lr:1e-06 
+2018-12-20 23:09:28.813863: Step: 220000, acc: 1.0, recall: 1.0, cls loss: 5.882e-05, bbox loss: 0.005459, animoji loss: 0.005178, L2 loss: 0.02573, lr:1e-06 
+Save model epoch: 158, Step: 220094, acc: 1.0, recall: 1.0, cls loss: 8.807e-05, bbox loss: 0.006688,  animoji loss: 0.004584, L2 loss: 0.02573, lr:1e-06 
+2018-12-20 23:19:43.280885: Step: 220500, acc: 1.0, recall: 1.0, cls loss: 0.0001415, bbox loss: 0.004371, animoji loss: 0.004226, L2 loss: 0.02572, lr:1e-06 
+2018-12-20 23:29:56.787759: Step: 221000, acc: 1.0, recall: 1.0, cls loss: 9.73e-05, bbox loss: 0.009241, animoji loss: 0.004513, L2 loss: 0.02571, lr:1e-06 
+Save model epoch: 159, Step: 221487, acc: 1.0, recall: 1.0, cls loss: 0.0001344, bbox loss: 0.007286,  animoji loss: 0.004988, L2 loss: 0.0257, lr:1e-06 
+2018-12-20 23:40:11.890179: Step: 221500, acc: 1.0, recall: 1.0, cls loss: 0.0002442, bbox loss: 0.005875, animoji loss: 0.005197, L2 loss: 0.0257, lr:1e-06 
+2018-12-20 23:50:24.779249: Step: 222000, acc: 1.0, recall: 1.0, cls loss: 0.0001659, bbox loss: 0.005148, animoji loss: 0.004638, L2 loss: 0.02569, lr:1e-06 
+2018-12-21 00:00:37.561355: Step: 222500, acc: 1.0, recall: 1.0, cls loss: 0.0002106, bbox loss: 0.005059, animoji loss: 0.005684, L2 loss: 0.02568, lr:1e-06 
+Save model epoch: 160, Step: 222880, acc: 1.0, recall: 1.0, cls loss: 9.657e-05, bbox loss: 0.004162,  animoji loss: 0.004538, L2 loss: 0.02567, lr:1e-06 
+2018-12-21 00:10:52.541696: Step: 223000, acc: 1.0, recall: 1.0, cls loss: 0.0001504, bbox loss: 0.006828, animoji loss: 0.004447, L2 loss: 0.02566, lr:1e-06 
+2018-12-21 00:21:05.210441: Step: 223500, acc: 1.0, recall: 1.0, cls loss: 0.0001161, bbox loss: 0.008961, animoji loss: 0.004859, L2 loss: 0.02565, lr:1e-06 
+2018-12-21 00:31:17.572455: Step: 224000, acc: 1.0, recall: 1.0, cls loss: 0.0001454, bbox loss: 0.006203, animoji loss: 0.004554, L2 loss: 0.02564, lr:1e-06 
+Save model epoch: 161, Step: 224273, acc: 1.0, recall: 1.0, cls loss: 0.0001189, bbox loss: 0.005166,  animoji loss: 0.004487, L2 loss: 0.02564, lr:1e-06 
+2018-12-21 00:41:32.070083: Step: 224500, acc: 1.0, recall: 1.0, cls loss: 0.0001124, bbox loss: 0.007806, animoji loss: 0.004318, L2 loss: 0.02563, lr:1e-06 
+2018-12-21 00:51:45.556966: Step: 225000, acc: 1.0, recall: 1.0, cls loss: 5.282e-05, bbox loss: 0.007639, animoji loss: 0.004501, L2 loss: 0.02562, lr:1e-06 
+2018-12-21 01:01:58.224770: Step: 225500, acc: 1.0, recall: 1.0, cls loss: 8.853e-05, bbox loss: 0.007655, animoji loss: 0.004422, L2 loss: 0.02561, lr:1e-06 
+Save model epoch: 162, Step: 225666, acc: 1.0, recall: 1.0, cls loss: 9.703e-05, bbox loss: 0.005508,  animoji loss: 0.004686, L2 loss: 0.02561, lr:1e-06 
+2018-12-21 01:12:12.420382: Step: 226000, acc: 1.0, recall: 1.0, cls loss: 0.0001425, bbox loss: 0.007274, animoji loss: 0.004688, L2 loss: 0.0256, lr:1e-06 
+2018-12-21 01:22:26.285917: Step: 226500, acc: 1.0, recall: 1.0, cls loss: 8.187e-05, bbox loss: 0.004857, animoji loss: 0.004372, L2 loss: 0.02559, lr:1e-06 
+2018-12-21 01:32:39.446271: Step: 227000, acc: 1.0, recall: 1.0, cls loss: 9.865e-05, bbox loss: 0.004912, animoji loss: 0.005208, L2 loss: 0.02558, lr:1e-06 
+Save model epoch: 163, Step: 227059, acc: 1.0, recall: 1.0, cls loss: 9.64e-05, bbox loss: 0.005097,  animoji loss: 0.004661, L2 loss: 0.02558, lr:1e-06 
+2018-12-21 01:42:53.913488: Step: 227500, acc: 1.0, recall: 1.0, cls loss: 8.904e-05, bbox loss: 0.005018, animoji loss: 0.005089, L2 loss: 0.02557, lr:1e-06 
+2018-12-21 01:53:06.499574: Step: 228000, acc: 1.0, recall: 1.0, cls loss: 0.0001836, bbox loss: 0.005113, animoji loss: 0.004831, L2 loss: 0.02556, lr:1e-06 
+Save model epoch: 164, Step: 228452, acc: 1.0, recall: 1.0, cls loss: 0.0001897, bbox loss: 0.006989,  animoji loss: 0.004501, L2 loss: 0.02555, lr:1e-06 
+2018-12-21 02:03:21.227418: Step: 228500, acc: 1.0, recall: 1.0, cls loss: 0.0003558, bbox loss: 0.004826, animoji loss: 0.004768, L2 loss: 0.02555, lr:1e-06 
+2018-12-21 02:13:34.802406: Step: 229000, acc: 1.0, recall: 1.0, cls loss: 7.908e-05, bbox loss: 0.004242, animoji loss: 0.004901, L2 loss: 0.02554, lr:1e-06 
+2018-12-21 02:23:48.293145: Step: 229500, acc: 1.0, recall: 1.0, cls loss: 0.0001231, bbox loss: 0.004634, animoji loss: 0.004648, L2 loss: 0.02553, lr:1e-06 
+Save model epoch: 165, Step: 229845, acc: 1.0, recall: 1.0, cls loss: 0.0001283, bbox loss: 0.004965,  animoji loss: 0.003963, L2 loss: 0.02552, lr:1e-06 
+2018-12-21 02:34:03.327602: Step: 230000, acc: 1.0, recall: 1.0, cls loss: 0.0001625, bbox loss: 0.00671, animoji loss: 0.003992, L2 loss: 0.02552, lr:1e-06 
+2018-12-21 02:44:15.784860: Step: 230500, acc: 1.0, recall: 1.0, cls loss: 0.0001326, bbox loss: 0.004807, animoji loss: 0.004702, L2 loss: 0.02551, lr:1e-06 
+2018-12-21 02:54:28.704377: Step: 231000, acc: 1.0, recall: 1.0, cls loss: 0.000139, bbox loss: 0.005286, animoji loss: 0.004347, L2 loss: 0.0255, lr:1e-06 
+Save model epoch: 166, Step: 231238, acc: 1.0, recall: 1.0, cls loss: 0.0001165, bbox loss: 0.007295,  animoji loss: 0.004738, L2 loss: 0.02549, lr:1e-06 
+2018-12-21 03:04:43.863334: Step: 231500, acc: 1.0, recall: 1.0, cls loss: 0.0001062, bbox loss: 0.004645, animoji loss: 0.003964, L2 loss: 0.02549, lr:1e-06 
+2018-12-21 03:14:56.878303: Step: 232000, acc: 1.0, recall: 1.0, cls loss: 0.0001655, bbox loss: 0.004898, animoji loss: 0.003966, L2 loss: 0.02548, lr:1e-06 
+2018-12-21 03:25:09.992781: Step: 232500, acc: 1.0, recall: 1.0, cls loss: 5.559e-05, bbox loss: 0.008329, animoji loss: 0.004935, L2 loss: 0.02547, lr:1e-06 
+Save model epoch: 167, Step: 232631, acc: 1.0, recall: 1.0, cls loss: 0.0001689, bbox loss: 0.007267,  animoji loss: 0.004557, L2 loss: 0.02547, lr:1e-06 
+2018-12-21 03:35:24.893704: Step: 233000, acc: 1.0, recall: 1.0, cls loss: 8.3e-05, bbox loss: 0.006579, animoji loss: 0.004661, L2 loss: 0.02546, lr:1e-06 
+2018-12-21 03:45:38.634171: Step: 233500, acc: 1.0, recall: 1.0, cls loss: 0.0001512, bbox loss: 0.007604, animoji loss: 0.004402, L2 loss: 0.02545, lr:1e-06 
+2018-12-21 03:55:51.742018: Step: 234000, acc: 1.0, recall: 1.0, cls loss: 9.135e-05, bbox loss: 0.00762, animoji loss: 0.004727, L2 loss: 0.02544, lr:1e-06 
+Save model epoch: 168, Step: 234024, acc: 1.0, recall: 1.0, cls loss: 0.0001784, bbox loss: 0.004903,  animoji loss: 0.004434, L2 loss: 0.02544, lr:1e-06 
+2018-12-21 04:06:06.595356: Step: 234500, acc: 1.0, recall: 1.0, cls loss: 5.943e-05, bbox loss: 0.00677, animoji loss: 0.004537, L2 loss: 0.02543, lr:1e-06 
+2018-12-21 04:16:19.951473: Step: 235000, acc: 1.0, recall: 1.0, cls loss: 0.0001731, bbox loss: 0.00524, animoji loss: 0.005472, L2 loss: 0.02542, lr:1e-06 
+Save model epoch: 169, Step: 235417, acc: 1.0, recall: 1.0, cls loss: 6.534e-05, bbox loss: 0.004718,  animoji loss: 0.004323, L2 loss: 0.02541, lr:1e-06 
+2018-12-21 04:26:36.101814: Step: 235500, acc: 1.0, recall: 1.0, cls loss: 8.595e-05, bbox loss: 0.007108, animoji loss: 0.004428, L2 loss: 0.02541, lr:1e-06 
+2018-12-21 04:36:49.035720: Step: 236000, acc: 1.0, recall: 1.0, cls loss: 0.0002064, bbox loss: 0.007399, animoji loss: 0.004654, L2 loss: 0.0254, lr:1e-06 
+2018-12-21 04:47:01.311874: Step: 236500, acc: 1.0, recall: 1.0, cls loss: 0.0001813, bbox loss: 0.007295, animoji loss: 0.004802, L2 loss: 0.02539, lr:1e-06 
+Save model epoch: 170, Step: 236810, acc: 1.0, recall: 1.0, cls loss: 6.122e-05, bbox loss: 0.007072,  animoji loss: 0.004464, L2 loss: 0.02538, lr:1e-06 
+2018-12-21 04:57:15.497602: Step: 237000, acc: 1.0, recall: 1.0, cls loss: 0.0001599, bbox loss: 0.004679, animoji loss: 0.004237, L2 loss: 0.02538, lr:1e-06 
+2018-12-21 05:07:28.511204: Step: 237500, acc: 1.0, recall: 1.0, cls loss: 6.396e-05, bbox loss: 0.006649, animoji loss: 0.004656, L2 loss: 0.02537, lr:1e-06 
+2018-12-21 05:17:42.007626: Step: 238000, acc: 1.0, recall: 1.0, cls loss: 7.214e-05, bbox loss: 0.006373, animoji loss: 0.004884, L2 loss: 0.02536, lr:1e-06 
+Save model epoch: 171, Step: 238203, acc: 1.0, recall: 1.0, cls loss: 7.261e-05, bbox loss: 0.004563,  animoji loss: 0.003947, L2 loss: 0.02536, lr:1e-06 
+2018-12-21 05:27:56.712174: Step: 238500, acc: 1.0, recall: 1.0, cls loss: 0.0002396, bbox loss: 0.007343, animoji loss: 0.004859, L2 loss: 0.02535, lr:1e-06 
+2018-12-21 05:38:10.030345: Step: 239000, acc: 1.0, recall: 1.0, cls loss: 9.95e-05, bbox loss: 0.005012, animoji loss: 0.004403, L2 loss: 0.02534, lr:1e-06 
+2018-12-21 05:48:22.982528: Step: 239500, acc: 1.0, recall: 1.0, cls loss: 0.0001074, bbox loss: 0.004835, animoji loss: 0.004455, L2 loss: 0.02533, lr:1e-06 
+Save model epoch: 172, Step: 239596, acc: 1.0, recall: 1.0, cls loss: 0.0001358, bbox loss: 0.004894,  animoji loss: 0.004337, L2 loss: 0.02533, lr:1e-06 
+2018-12-21 05:58:37.995531: Step: 240000, acc: 1.0, recall: 1.0, cls loss: 0.0001245, bbox loss: 0.005067, animoji loss: 0.004471, L2 loss: 0.02532, lr:1e-06 
+2018-12-21 06:08:51.213984: Step: 240500, acc: 1.0, recall: 1.0, cls loss: 5.631e-05, bbox loss: 0.004908, animoji loss: 0.004125, L2 loss: 0.02531, lr:1e-06 
+Save model epoch: 173, Step: 240989, acc: 1.0, recall: 1.0, cls loss: 0.0001514, bbox loss: 0.004723,  animoji loss: 0.005157, L2 loss: 0.0253, lr:1e-06 
+2018-12-21 06:19:05.823556: Step: 241000, acc: 1.0, recall: 1.0, cls loss: 0.0001624, bbox loss: 0.007895, animoji loss: 0.004529, L2 loss: 0.0253, lr:1e-06 
+2018-12-21 06:29:18.823044: Step: 241500, acc: 1.0, recall: 1.0, cls loss: 0.0001638, bbox loss: 0.00473, animoji loss: 0.004475, L2 loss: 0.02529, lr:1e-06 
+2018-12-21 06:39:32.189537: Step: 242000, acc: 1.0, recall: 1.0, cls loss: 0.000116, bbox loss: 0.007193, animoji loss: 0.004423, L2 loss: 0.02528, lr:1e-06 
+Save model epoch: 174, Step: 242382, acc: 1.0, recall: 1.0, cls loss: 6.738e-05, bbox loss: 0.006364,  animoji loss: 0.004639, L2 loss: 0.02527, lr:1e-06 
+2018-12-21 06:49:46.677641: Step: 242500, acc: 1.0, recall: 1.0, cls loss: 0.0001539, bbox loss: 0.00426, animoji loss: 0.004529, L2 loss: 0.02527, lr:1e-06 
+2018-12-21 07:00:00.499641: Step: 243000, acc: 1.0, recall: 1.0, cls loss: 0.000253, bbox loss: 0.005307, animoji loss: 0.004285, L2 loss: 0.02526, lr:1e-06 
+2018-12-21 07:10:13.943716: Step: 243500, acc: 1.0, recall: 1.0, cls loss: 0.0003274, bbox loss: 0.007574, animoji loss: 0.004712, L2 loss: 0.02525, lr:1e-06 
+Save model epoch: 175, Step: 243775, acc: 1.0, recall: 1.0, cls loss: 0.0001372, bbox loss: 0.006704,  animoji loss: 0.004594, L2 loss: 0.02525, lr:1e-06 
+2018-12-21 07:20:28.935414: Step: 244000, acc: 1.0, recall: 1.0, cls loss: 0.0002003, bbox loss: 0.007548, animoji loss: 0.005271, L2 loss: 0.02524, lr:1e-06 
+2018-12-21 07:30:41.890156: Step: 244500, acc: 1.0, recall: 1.0, cls loss: 0.0001035, bbox loss: 0.004805, animoji loss: 0.004932, L2 loss: 0.02523, lr:1e-06 
+2018-12-21 07:40:54.408227: Step: 245000, acc: 1.0, recall: 1.0, cls loss: 0.0002214, bbox loss: 0.004431, animoji loss: 0.004626, L2 loss: 0.02522, lr:1e-06 
+Save model epoch: 176, Step: 245168, acc: 1.0, recall: 1.0, cls loss: 0.0002543, bbox loss: 0.004612,  animoji loss: 0.004397, L2 loss: 0.02522, lr:1e-06 
+2018-12-21 07:51:08.895092: Step: 245500, acc: 1.0, recall: 1.0, cls loss: 0.0001007, bbox loss: 0.005165, animoji loss: 0.00544, L2 loss: 0.02521, lr:1e-06 
+2018-12-21 08:01:21.972827: Step: 246000, acc: 1.0, recall: 1.0, cls loss: 0.0001295, bbox loss: 0.007395, animoji loss: 0.00441, L2 loss: 0.0252, lr:1e-06 
+2018-12-21 08:11:34.682064: Step: 246500, acc: 1.0, recall: 1.0, cls loss: 0.0001347, bbox loss: 0.004579, animoji loss: 0.005027, L2 loss: 0.02519, lr:1e-06 
+Save model epoch: 177, Step: 246561, acc: 1.0, recall: 1.0, cls loss: 0.00011, bbox loss: 0.004621,  animoji loss: 0.005019, L2 loss: 0.02519, lr:1e-06 
+2018-12-21 08:21:49.224484: Step: 247000, acc: 1.0, recall: 1.0, cls loss: 0.0001883, bbox loss: 0.006498, animoji loss: 0.005196, L2 loss: 0.02518, lr:1e-06 
+2018-12-21 08:32:02.294916: Step: 247500, acc: 1.0, recall: 1.0, cls loss: 0.0001452, bbox loss: 0.005135, animoji loss: 0.00488, L2 loss: 0.02517, lr:1e-06 
+Save model epoch: 178, Step: 247954, acc: 1.0, recall: 1.0, cls loss: 9.979e-05, bbox loss: 0.007935,  animoji loss: 0.004334, L2 loss: 0.02516, lr:1e-06 
+2018-12-21 08:42:16.424117: Step: 248000, acc: 1.0, recall: 1.0, cls loss: 0.0001717, bbox loss: 0.006593, animoji loss: 0.00566, L2 loss: 0.02516, lr:1e-06 
+2018-12-21 08:52:29.656986: Step: 248500, acc: 1.0, recall: 1.0, cls loss: 9.254e-05, bbox loss: 0.006973, animoji loss: 0.003998, L2 loss: 0.02515, lr:1e-06 
+2018-12-21 09:02:42.652585: Step: 249000, acc: 1.0, recall: 1.0, cls loss: 0.0001202, bbox loss: 0.004863, animoji loss: 0.004245, L2 loss: 0.02514, lr:1e-06 
+Save model epoch: 179, Step: 249347, acc: 1.0, recall: 1.0, cls loss: 9.254e-05, bbox loss: 0.003874,  animoji loss: 0.004269, L2 loss: 0.02514, lr:1e-06 
+2018-12-21 09:12:57.322352: Step: 249500, acc: 1.0, recall: 1.0, cls loss: 0.0001029, bbox loss: 0.007636, animoji loss: 0.004763, L2 loss: 0.02513, lr:1e-06 
+2018-12-21 09:23:10.603421: Step: 250000, acc: 1.0, recall: 1.0, cls loss: 0.0001836, bbox loss: 0.007666, animoji loss: 0.005017, L2 loss: 0.02512, lr:1e-06 
+2018-12-21 09:33:23.485095: Step: 250500, acc: 1.0, recall: 1.0, cls loss: 0.0001609, bbox loss: 0.004578, animoji loss: 0.004487, L2 loss: 0.02511, lr:1e-06 
+Save model epoch: 180, Step: 250740, acc: 1.0, recall: 1.0, cls loss: 0.0004113, bbox loss: 0.004883,  animoji loss: 0.004494, L2 loss: 0.02511, lr:1e-06 
+2018-12-21 09:43:38.623134: Step: 251000, acc: 1.0, recall: 1.0, cls loss: 4.631e-05, bbox loss: 0.006822, animoji loss: 0.004142, L2 loss: 0.02511, lr:1e-06 
+2018-12-21 09:53:52.005445: Step: 251500, acc: 1.0, recall: 1.0, cls loss: 0.0001328, bbox loss: 0.005568, animoji loss: 0.004561, L2 loss: 0.0251, lr:1e-06 
+2018-12-21 10:04:05.366306: Step: 252000, acc: 1.0, recall: 1.0, cls loss: 0.0001868, bbox loss: 0.007739, animoji loss: 0.005009, L2 loss: 0.02509, lr:1e-06 
+Save model epoch: 181, Step: 252133, acc: 1.0, recall: 1.0, cls loss: 0.0001701, bbox loss: 0.004892,  animoji loss: 0.004769, L2 loss: 0.02508, lr:1e-06 
+2018-12-21 10:14:20.148414: Step: 252500, acc: 1.0, recall: 1.0, cls loss: 0.0001465, bbox loss: 0.006458, animoji loss: 0.004121, L2 loss: 0.02508, lr:1e-06 
+2018-12-21 10:24:34.047799: Step: 253000, acc: 1.0, recall: 1.0, cls loss: 8.436e-05, bbox loss: 0.004831, animoji loss: 0.004449, L2 loss: 0.02507, lr:1e-06 
+2018-12-21 10:34:48.049236: Step: 253500, acc: 1.0, recall: 1.0, cls loss: 9.064e-05, bbox loss: 0.008479, animoji loss: 0.004866, L2 loss: 0.02506, lr:1e-06 
+Save model epoch: 182, Step: 253526, acc: 1.0, recall: 1.0, cls loss: 5.54e-05, bbox loss: 0.004811,  animoji loss: 0.004507, L2 loss: 0.02506, lr:1e-06 
+2018-12-21 10:45:02.957053: Step: 254000, acc: 1.0, recall: 1.0, cls loss: 0.0001724, bbox loss: 0.006647, animoji loss: 0.004262, L2 loss: 0.02505, lr:1e-06 
+2018-12-21 10:55:16.587487: Step: 254500, acc: 1.0, recall: 1.0, cls loss: 0.0001677, bbox loss: 0.006595, animoji loss: 0.004338, L2 loss: 0.02504, lr:1e-06 
+Save model epoch: 183, Step: 254919, acc: 1.0, recall: 1.0, cls loss: 0.0001446, bbox loss: 0.004886,  animoji loss: 0.005167, L2 loss: 0.02503, lr:1e-06 
+2018-12-21 11:05:31.688493: Step: 255000, acc: 1.0, recall: 1.0, cls loss: 0.0001551, bbox loss: 0.004969, animoji loss: 0.004704, L2 loss: 0.02503, lr:1e-06 
+2018-12-21 11:15:45.457509: Step: 255500, acc: 1.0, recall: 1.0, cls loss: 0.0001627, bbox loss: 0.004838, animoji loss: 0.00476, L2 loss: 0.02502, lr:1e-06 
+2018-12-21 11:25:59.008406: Step: 256000, acc: 1.0, recall: 1.0, cls loss: 0.0001817, bbox loss: 0.004813, animoji loss: 0.004726, L2 loss: 0.02501, lr:1e-06 
+Save model epoch: 184, Step: 256312, acc: 1.0, recall: 1.0, cls loss: 0.0001032, bbox loss: 0.004337,  animoji loss: 0.004365, L2 loss: 0.025, lr:1e-06 
+2018-12-21 11:36:14.570847: Step: 256500, acc: 1.0, recall: 1.0, cls loss: 0.0001116, bbox loss: 0.004637, animoji loss: 0.004297, L2 loss: 0.025, lr:1e-06 
+2018-12-21 11:46:27.137262: Step: 257000, acc: 1.0, recall: 1.0, cls loss: 0.0002256, bbox loss: 0.004578, animoji loss: 0.004473, L2 loss: 0.02499, lr:1e-06 
+2018-12-21 11:56:39.740211: Step: 257500, acc: 1.0, recall: 1.0, cls loss: 0.0001159, bbox loss: 0.006232, animoji loss: 0.004291, L2 loss: 0.02498, lr:1e-06 
+Save model epoch: 185, Step: 257705, acc: 1.0, recall: 1.0, cls loss: 6.485e-05, bbox loss: 0.007977,  animoji loss: 0.004936, L2 loss: 0.02498, lr:1e-06 
+2018-12-21 12:06:54.825301: Step: 258000, acc: 1.0, recall: 1.0, cls loss: 0.0001052, bbox loss: 0.007553, animoji loss: 0.004363, L2 loss: 0.02497, lr:1e-06 
+2018-12-21 12:17:08.390227: Step: 258500, acc: 1.0, recall: 1.0, cls loss: 0.0001645, bbox loss: 0.006825, animoji loss: 0.004542, L2 loss: 0.02496, lr:1e-06 
+2018-12-21 12:27:21.859463: Step: 259000, acc: 1.0, recall: 1.0, cls loss: 5.697e-05, bbox loss: 0.005187, animoji loss: 0.00445, L2 loss: 0.02495, lr:1e-06 
+Save model epoch: 186, Step: 259098, acc: 1.0, recall: 1.0, cls loss: 0.0001756, bbox loss: 0.004974,  animoji loss: 0.003903, L2 loss: 0.02495, lr:1e-06 
+2018-12-21 12:37:37.162920: Step: 259500, acc: 1.0, recall: 1.0, cls loss: 0.0001142, bbox loss: 0.006612, animoji loss: 0.004173, L2 loss: 0.02494, lr:1e-06 
+2018-12-21 12:47:50.626719: Step: 260000, acc: 1.0, recall: 1.0, cls loss: 0.0001629, bbox loss: 0.004684, animoji loss: 0.004246, L2 loss: 0.02493, lr:1e-06 
+Save model epoch: 187, Step: 260491, acc: 1.0, recall: 1.0, cls loss: 0.0001552, bbox loss: 0.00477,  animoji loss: 0.004385, L2 loss: 0.02492, lr:1e-06 
+2018-12-21 12:58:06.096205: Step: 260500, acc: 1.0, recall: 1.0, cls loss: 0.0001122, bbox loss: 0.006723, animoji loss: 0.005085, L2 loss: 0.02492, lr:1e-06 
+2018-12-21 13:08:19.488757: Step: 261000, acc: 1.0, recall: 1.0, cls loss: 0.0001212, bbox loss: 0.00635, animoji loss: 0.004217, L2 loss: 0.02491, lr:1e-06 
+2018-12-21 13:18:32.513519: Step: 261500, acc: 1.0, recall: 1.0, cls loss: 0.0001346, bbox loss: 0.005409, animoji loss: 0.00481, L2 loss: 0.02491, lr:1e-06 
+Save model epoch: 188, Step: 261884, acc: 1.0, recall: 1.0, cls loss: 0.0002035, bbox loss: 0.004492,  animoji loss: 0.004667, L2 loss: 0.0249, lr:1e-06 
+2018-12-21 13:28:48.601928: Step: 262000, acc: 1.0, recall: 1.0, cls loss: 7.291e-05, bbox loss: 0.006674, animoji loss: 0.004755, L2 loss: 0.0249, lr:1e-06 
+2018-12-21 13:38:59.981079: Step: 262500, acc: 1.0, recall: 1.0, cls loss: 0.0001693, bbox loss: 0.004995, animoji loss: 0.004933, L2 loss: 0.02489, lr:1e-06 
+2018-12-21 13:49:12.481313: Step: 263000, acc: 1.0, recall: 1.0, cls loss: 8.054e-05, bbox loss: 0.005481, animoji loss: 0.004242, L2 loss: 0.02488, lr:1e-06 
+Save model epoch: 189, Step: 263277, acc: 1.0, recall: 1.0, cls loss: 0.0001885, bbox loss: 0.006276,  animoji loss: 0.004041, L2 loss: 0.02487, lr:1e-06 
+2018-12-21 13:59:26.417358: Step: 263500, acc: 1.0, recall: 1.0, cls loss: 9.028e-05, bbox loss: 0.004204, animoji loss: 0.004065, L2 loss: 0.02487, lr:1e-06 
+2018-12-21 14:09:40.608105: Step: 264000, acc: 1.0, recall: 1.0, cls loss: 0.0001541, bbox loss: 0.005624, animoji loss: 0.004668, L2 loss: 0.02486, lr:1e-06 
+2018-12-21 14:19:57.283791: Step: 264500, acc: 1.0, recall: 1.0, cls loss: 0.0001328, bbox loss: 0.004522, animoji loss: 0.004368, L2 loss: 0.02485, lr:1e-06 
+Save model epoch: 190, Step: 264670, acc: 1.0, recall: 1.0, cls loss: 0.0001153, bbox loss: 0.004988,  animoji loss: 0.00455, L2 loss: 0.02485, lr:1e-06 
+2018-12-21 14:30:13.693829: Step: 265000, acc: 1.0, recall: 1.0, cls loss: 6.768e-05, bbox loss: 0.005919, animoji loss: 0.004548, L2 loss: 0.02484, lr:1e-06 
+2018-12-21 14:40:27.750175: Step: 265500, acc: 1.0, recall: 1.0, cls loss: 0.0001123, bbox loss: 0.005015, animoji loss: 0.004638, L2 loss: 0.02483, lr:1e-06 
+2018-12-21 14:50:44.385055: Step: 266000, acc: 1.0, recall: 1.0, cls loss: 0.0001872, bbox loss: 0.007215, animoji loss: 0.004702, L2 loss: 0.02482, lr:1e-06 
+Save model epoch: 191, Step: 266063, acc: 1.0, recall: 1.0, cls loss: 0.000233, bbox loss: 0.007253,  animoji loss: 0.004427, L2 loss: 0.02482, lr:1e-06 
+2018-12-21 15:01:00.131341: Step: 266500, acc: 1.0, recall: 1.0, cls loss: 9.406e-05, bbox loss: 0.005073, animoji loss: 0.004509, L2 loss: 0.02481, lr:1e-06 
+2018-12-21 15:11:13.844783: Step: 267000, acc: 1.0, recall: 1.0, cls loss: 0.0003248, bbox loss: 0.004836, animoji loss: 0.004497, L2 loss: 0.0248, lr:1e-06 
+Save model epoch: 192, Step: 267456, acc: 1.0, recall: 1.0, cls loss: 9.652e-05, bbox loss: 0.004501,  animoji loss: 0.004566, L2 loss: 0.02479, lr:1e-06 
+2018-12-21 15:21:28.249612: Step: 267500, acc: 1.0, recall: 1.0, cls loss: 0.0001312, bbox loss: 0.007038, animoji loss: 0.005417, L2 loss: 0.02479, lr:1e-06 
+2018-12-21 15:31:40.351341: Step: 268000, acc: 1.0, recall: 1.0, cls loss: 6.958e-05, bbox loss: 0.00496, animoji loss: 0.004388, L2 loss: 0.02478, lr:1e-06 
+2018-12-21 15:41:56.119138: Step: 268500, acc: 1.0, recall: 1.0, cls loss: 6.469e-05, bbox loss: 0.007152, animoji loss: 0.00522, L2 loss: 0.02477, lr:1e-06 
+Save model epoch: 193, Step: 268849, acc: 1.0, recall: 1.0, cls loss: 0.0001103, bbox loss: 0.004738,  animoji loss: 0.004167, L2 loss: 0.02477, lr:1e-06 
+2018-12-21 15:52:11.561319: Step: 269000, acc: 1.0, recall: 1.0, cls loss: 6.004e-05, bbox loss: 0.006768, animoji loss: 0.004318, L2 loss: 0.02477, lr:1e-06 
+2018-12-21 16:02:25.887159: Step: 269500, acc: 1.0, recall: 1.0, cls loss: 0.0002139, bbox loss: 0.005277, animoji loss: 0.004205, L2 loss: 0.02476, lr:1e-06 
+2018-12-21 16:12:40.811739: Step: 270000, acc: 1.0, recall: 1.0, cls loss: 0.000126, bbox loss: 0.007941, animoji loss: 0.004407, L2 loss: 0.02475, lr:1e-06 
+Save model epoch: 194, Step: 270242, acc: 1.0, recall: 1.0, cls loss: 8.38e-05, bbox loss: 0.005057,  animoji loss: 0.004658, L2 loss: 0.02474, lr:1e-06 
+2018-12-21 16:22:55.689795: Step: 270500, acc: 1.0, recall: 1.0, cls loss: 0.0001177, bbox loss: 0.005981, animoji loss: 0.004482, L2 loss: 0.02474, lr:1e-06 
+2018-12-21 16:33:08.667169: Step: 271000, acc: 1.0, recall: 1.0, cls loss: 0.0001479, bbox loss: 0.007266, animoji loss: 0.004264, L2 loss: 0.02473, lr:1e-06 
+2018-12-21 16:43:21.415985: Step: 271500, acc: 1.0, recall: 1.0, cls loss: 0.0003295, bbox loss: 0.004728, animoji loss: 0.004442, L2 loss: 0.02472, lr:1e-06 
+Save model epoch: 195, Step: 271635, acc: 1.0, recall: 1.0, cls loss: 0.0001008, bbox loss: 0.00454,  animoji loss: 0.00429, L2 loss: 0.02472, lr:1e-06 
+2018-12-21 16:53:35.958248: Step: 272000, acc: 1.0, recall: 1.0, cls loss: 0.0001675, bbox loss: 0.006504, animoji loss: 0.005121, L2 loss: 0.02471, lr:1e-06 
+2018-12-21 17:03:49.076184: Step: 272500, acc: 1.0, recall: 1.0, cls loss: 0.0001592, bbox loss: 0.005822, animoji loss: 0.004397, L2 loss: 0.0247, lr:1e-06 
+2018-12-21 17:14:02.600604: Step: 273000, acc: 1.0, recall: 1.0, cls loss: 4.677e-05, bbox loss: 0.007296, animoji loss: 0.004966, L2 loss: 0.02469, lr:1e-06 
+Save model epoch: 196, Step: 273028, acc: 1.0, recall: 1.0, cls loss: 0.0001676, bbox loss: 0.006741,  animoji loss: 0.004758, L2 loss: 0.02469, lr:1e-06 
+2018-12-21 17:24:16.452471: Step: 273500, acc: 1.0, recall: 1.0, cls loss: 5.797e-05, bbox loss: 0.0054, animoji loss: 0.004467, L2 loss: 0.02468, lr:1e-06 
+2018-12-21 17:34:29.260491: Step: 274000, acc: 1.0, recall: 1.0, cls loss: 0.0003389, bbox loss: 0.004825, animoji loss: 0.005651, L2 loss: 0.02467, lr:1e-06 
+Save model epoch: 197, Step: 274421, acc: 1.0, recall: 1.0, cls loss: 0.0001191, bbox loss: 0.006554,  animoji loss: 0.004594, L2 loss: 0.02467, lr:1e-06 
+2018-12-21 17:44:46.189323: Step: 274500, acc: 1.0, recall: 1.0, cls loss: 0.0001412, bbox loss: 0.007133, animoji loss: 0.004704, L2 loss: 0.02467, lr:1e-06 
+2018-12-21 17:55:02.066836: Step: 275000, acc: 1.0, recall: 1.0, cls loss: 0.0001079, bbox loss: 0.005172, animoji loss: 0.004486, L2 loss: 0.02466, lr:1e-06 
+2018-12-21 18:05:15.990715: Step: 275500, acc: 1.0, recall: 1.0, cls loss: 7.228e-05, bbox loss: 0.006509, animoji loss: 0.004178, L2 loss: 0.02465, lr:1e-06 
+Save model epoch: 198, Step: 275814, acc: 1.0, recall: 1.0, cls loss: 0.0001944, bbox loss: 0.006392,  animoji loss: 0.005432, L2 loss: 0.02464, lr:1e-06 
+2018-12-21 18:15:31.640289: Step: 276000, acc: 1.0, recall: 1.0, cls loss: 0.0001124, bbox loss: 0.0049, animoji loss: 0.004492, L2 loss: 0.02464, lr:1e-06 
+2018-12-21 18:25:45.817184: Step: 276500, acc: 1.0, recall: 1.0, cls loss: 0.0001076, bbox loss: 0.007076, animoji loss: 0.00461, L2 loss: 0.02463, lr:1e-06 
+2018-12-21 18:36:01.045387: Step: 277000, acc: 1.0, recall: 1.0, cls loss: 0.0003482, bbox loss: 0.004824, animoji loss: 0.004399, L2 loss: 0.02462, lr:1e-06 
+Save model epoch: 199, Step: 277207, acc: 1.0, recall: 1.0, cls loss: 5.082e-05, bbox loss: 0.004411,  animoji loss: 0.005113, L2 loss: 0.02462, lr:1e-06 
+2018-12-21 18:46:16.824864: Step: 277500, acc: 1.0, recall: 1.0, cls loss: 6.145e-05, bbox loss: 0.004858, animoji loss: 0.004474, L2 loss: 0.02461, lr:1e-06 
+2018-12-21 18:56:30.149313: Step: 278000, acc: 1.0, recall: 1.0, cls loss: 8.952e-05, bbox loss: 0.006776, animoji loss: 0.004772, L2 loss: 0.0246, lr:1e-06 
+2018-12-21 19:06:43.026349: Step: 278500, acc: 1.0, recall: 1.0, cls loss: 0.0001443, bbox loss: 0.007263, animoji loss: 0.00427, L2 loss: 0.02459, lr:1e-06 
+Save model epoch: 200, Step: 278600, acc: 1.0, recall: 1.0, cls loss: 0.0002855, bbox loss: 0.004772,  animoji loss: 0.004302, L2 loss: 0.02459, lr:1e-06 
+2018-12-21 19:16:57.848742: Step: 279000, acc: 1.0, recall: 1.0, cls loss: 0.0002587, bbox loss: 0.004524, animoji loss: 0.004704, L2 loss: 0.02458, lr:1e-06 
+2018-12-21 19:27:10.107297: Step: 279500, acc: 1.0, recall: 1.0, cls loss: 0.000192, bbox loss: 0.006309, animoji loss: 0.0044, L2 loss: 0.02458, lr:1e-06 
+Save model epoch: 201, Step: 279993, acc: 1.0, recall: 1.0, cls loss: 0.0001205, bbox loss: 0.004994,  animoji loss: 0.00422, L2 loss: 0.02457, lr:1e-06 
+2018-12-21 19:37:22.473834: Step: 280000, acc: 1.0, recall: 1.0, cls loss: 9.24e-05, bbox loss: 0.004834, animoji loss: 0.004857, L2 loss: 0.02457, lr:1e-06 
+2018-12-21 19:47:38.455858: Step: 280500, acc: 1.0, recall: 1.0, cls loss: 6.459e-05, bbox loss: 0.005176, animoji loss: 0.004327, L2 loss: 0.02456, lr:1e-06 
+2018-12-21 19:57:54.968551: Step: 281000, acc: 1.0, recall: 1.0, cls loss: 0.0001352, bbox loss: 0.006548, animoji loss: 0.004508, L2 loss: 0.02455, lr:1e-06 

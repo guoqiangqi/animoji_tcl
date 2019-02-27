@@ -1,0 +1,172 @@
+nohup: ignoring input
+pid: 19251     GPU: 3
+/home-ex/tclhk/anaconda2/envs/tensorflow-qi/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+/home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../data_landmark70/training_data/wflw_70_L94/imglists/LONet/train_LONet.txt
+Total datasets is:  499092
+iamge channel:  3
+(51, 94, 94, 3)
+(51, 94, 94, 3)
+(153, 94, 94, 3)
+(102, 94, 94, 3)
+(357, 94, 94, 3)
+(357,)
+(357, 4)
+(357, 140)
+L_O_Net network shape
+(357, 94, 94, 3)
+(357, 46, 46, 32)
+(357, 23, 23, 32)
+(357, 21, 21, 64)
+(357, 10, 10, 64)
+(357, 8, 8, 64)
+(357, 4, 4, 64)
+(357, 3, 3, 128)
+(357, 128, 3, 3)
+(357, 1152)
+(357, 256)
+(357, 2)
+(357, 4)
+(357, 36)
+(357, 36)
+(357, 40)
+(357, 84)
+[<tf.Tensor 'conv1/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv2/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv3/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>, <tf.Tensor 'conv4/kernel/Regularizer/l2_regularizer:0' shape=() dtype=float32>]
+2019-01-22 19:11:04.482331: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-22 19:11:04.482379: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-22 19:11:04.482387: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-22 19:11:04.482394: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-22 19:11:04.482401: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2019-01-22 19:11:04.823677: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P100-PCIE-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.3285
+pciBusID 0000:84:00.0
+Total memory: 15.89GiB
+Free memory: 15.60GiB
+2019-01-22 19:11:04.823798: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2019-01-22 19:11:04.823809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2019-01-22 19:11:04.823821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:84:00.0)
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-1
+eval_model_number: 1,ave_cls_loss: 0.06356103132478892,ave_bbox_loss: 1.5890328013896942,ave_animoji_loss: 0.1686757619678974
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-2
+eval_model_number: 2,ave_cls_loss: 0.05509013829752803,ave_bbox_loss: 1.5816002154350282,ave_animoji_loss: 0.16832201898097993
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-3
+eval_model_number: 3,ave_cls_loss: 0.05941640767268837,ave_bbox_loss: 1.5920945262908937,ave_animoji_loss: 0.16775214284658432
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-4
+eval_model_number: 4,ave_cls_loss: 0.06091136563569308,ave_bbox_loss: 1.5848187565803529,ave_animoji_loss: 0.16798942252993584
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-5
+eval_model_number: 5,ave_cls_loss: 0.05662483624182642,ave_bbox_loss: 1.5873873507976533,ave_animoji_loss: 0.1683399809896946
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-6
+eval_model_number: 6,ave_cls_loss: 0.06366008006036282,ave_bbox_loss: 1.5886812794208527,ave_animoji_loss: 0.16766098767518997
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-7
+eval_model_number: 7,ave_cls_loss: 0.06263708197511733,ave_bbox_loss: 1.581751708984375,ave_animoji_loss: 0.1697382141649723
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-8
+eval_model_number: 8,ave_cls_loss: 0.058564000502228736,ave_bbox_loss: 1.5824386823177337,ave_animoji_loss: 0.16714847102761268
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-9
+eval_model_number: 9,ave_cls_loss: 0.06922411134466529,ave_bbox_loss: 1.5943520736694337,ave_animoji_loss: 0.1682418616116047
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-10
+eval_model_number: 10,ave_cls_loss: 0.04891223275102675,ave_bbox_loss: 1.5810977232456207,ave_animoji_loss: 0.1685571178793907
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-11
+eval_model_number: 11,ave_cls_loss: 0.06032091757282615,ave_bbox_loss: 1.5886563193798064,ave_animoji_loss: 0.16700087264180183
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-12
+eval_model_number: 12,ave_cls_loss: 0.05397890685591847,ave_bbox_loss: 1.5807077503204345,ave_animoji_loss: 0.16922143638134002
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-13
+eval_model_number: 13,ave_cls_loss: 0.05986520187463611,ave_bbox_loss: 1.5832015621662139,ave_animoji_loss: 0.1673319886624813
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-14
+eval_model_number: 14,ave_cls_loss: 0.05052184857428074,ave_bbox_loss: 1.5792473697662353,ave_animoji_loss: 0.1685200387239456
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-15
+eval_model_number: 15,ave_cls_loss: 0.05736529285553843,ave_bbox_loss: 1.593215228319168,ave_animoji_loss: 0.16849018082022668
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-16
+eval_model_number: 16,ave_cls_loss: 0.05267344484571367,ave_bbox_loss: 1.5862718427181244,ave_animoji_loss: 0.16714305341243743
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-17
+eval_model_number: 17,ave_cls_loss: 0.0689608281571418,ave_bbox_loss: 1.5811008501052857,ave_animoji_loss: 0.1684019610285759
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-18
+eval_model_number: 18,ave_cls_loss: 0.0541033814381808,ave_bbox_loss: 1.583212311267853,ave_animoji_loss: 0.16903180807828902
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-19
+eval_model_number: 19,ave_cls_loss: 0.0584904969483614,ave_bbox_loss: 1.5909573662281036,ave_animoji_loss: 0.1676451814174652
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-20
+eval_model_number: 20,ave_cls_loss: 0.05313807588536292,ave_bbox_loss: 1.5733886647224427,ave_animoji_loss: 0.16854992687702178
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-21
+eval_model_number: 21,ave_cls_loss: 0.05860291255638003,ave_bbox_loss: 1.5882221710681916,ave_animoji_loss: 0.1679891113936901
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-22
+eval_model_number: 22,ave_cls_loss: 0.06132009425200522,ave_bbox_loss: 1.584124381542206,ave_animoji_loss: 0.16761492922902108
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-23
+eval_model_number: 23,ave_cls_loss: 0.05798406471963972,ave_bbox_loss: 1.5807635855674744,ave_animoji_loss: 0.1687577000260353
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-24
+eval_model_number: 24,ave_cls_loss: 0.06474438569508494,ave_bbox_loss: 1.5798311364650726,ave_animoji_loss: 0.16710094586014748
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-25
+eval_model_number: 25,ave_cls_loss: 0.06023065048269927,ave_bbox_loss: 1.5776575314998627,ave_animoji_loss: 0.16823989108204843
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-26
+eval_model_number: 26,ave_cls_loss: 0.05433916376903653,ave_bbox_loss: 1.578768137693405,ave_animoji_loss: 0.16855372369289398
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-27
+eval_model_number: 27,ave_cls_loss: 0.06881506092846394,ave_bbox_loss: 1.584259479045868,ave_animoji_loss: 0.16752014592289924
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-28
+eval_model_number: 28,ave_cls_loss: 0.04942800330929458,ave_bbox_loss: 1.5776306354999543,ave_animoji_loss: 0.16828860864043235
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-29
+eval_model_number: 29,ave_cls_loss: 0.062191111133433875,ave_bbox_loss: 1.5780125343799591,ave_animoji_loss: 0.16806253671646118
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-30
+eval_model_number: 30,ave_cls_loss: 0.052450837739743295,ave_bbox_loss: 1.580677559375763,ave_animoji_loss: 0.16729599893093108
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-31
+eval_model_number: 31,ave_cls_loss: 0.05828946284018457,ave_bbox_loss: 1.5756637930870057,ave_animoji_loss: 0.16965791791677476
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-32
+eval_model_number: 32,ave_cls_loss: 0.05104275982826948,ave_bbox_loss: 1.5836843156814575,ave_animoji_loss: 0.16728701069951057
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-33
+eval_model_number: 33,ave_cls_loss: 0.05501596739981324,ave_bbox_loss: 1.5876286792755128,ave_animoji_loss: 0.16803441181778908
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-34
+eval_model_number: 34,ave_cls_loss: 0.05156166290864348,ave_bbox_loss: 1.582438232898712,ave_animoji_loss: 0.16841539815068246
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-35
+eval_model_number: 35,ave_cls_loss: 0.06846640994772316,ave_bbox_loss: 1.5832437622547149,ave_animoji_loss: 0.16720548436045646
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-36
+eval_model_number: 36,ave_cls_loss: 0.057084983149543404,ave_bbox_loss: 1.5807089340686797,ave_animoji_loss: 0.1688017937541008
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-37
+eval_model_number: 37,ave_cls_loss: 0.0565852664783597,ave_bbox_loss: 1.5854000163078308,ave_animoji_loss: 0.16729246631264685
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-38
+eval_model_number: 38,ave_cls_loss: 0.05154690841212869,ave_bbox_loss: 1.578761999607086,ave_animoji_loss: 0.1684938734769821
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-39
+eval_model_number: 39,ave_cls_loss: 0.05859095555264503,ave_bbox_loss: 1.5817841625213622,ave_animoji_loss: 0.1684164310991764
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-40
+eval_model_number: 40,ave_cls_loss: 0.05931736655533314,ave_bbox_loss: 1.5803262186050415,ave_animoji_loss: 0.16724897414445877
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-41
+eval_model_number: 41,ave_cls_loss: 0.05607550473418087,ave_bbox_loss: 1.5813671040534973,ave_animoji_loss: 0.16788844093680383
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-42
+eval_model_number: 42,ave_cls_loss: 0.06095315593294799,ave_bbox_loss: 1.5798588871955872,ave_animoji_loss: 0.16890513882040978
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-43
+eval_model_number: 43,ave_cls_loss: 0.06053390014916658,ave_bbox_loss: 1.5754521679878235,ave_animoji_loss: 0.167705000936985
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-44
+eval_model_number: 44,ave_cls_loss: 0.05389258487615734,ave_bbox_loss: 1.5830634355545044,ave_animoji_loss: 0.16859517380595207
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-45
+eval_model_number: 45,ave_cls_loss: 0.06908439521677792,ave_bbox_loss: 1.5776755809783936,ave_animoji_loss: 0.16819381669163705
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-46
+eval_model_number: 46,ave_cls_loss: 0.04915711157023907,ave_bbox_loss: 1.5852972304821014,ave_animoji_loss: 0.1674071219563484
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-47
+eval_model_number: 47,ave_cls_loss: 0.06035969696938991,ave_bbox_loss: 1.575419052839279,ave_animoji_loss: 0.16860632881522178
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-48
+eval_model_number: 48,ave_cls_loss: 0.04902523520868272,ave_bbox_loss: 1.5782243859767915,ave_animoji_loss: 0.1671773113310337
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-49
+eval_model_number: 49,ave_cls_loss: 0.0618878742819652,ave_bbox_loss: 1.5804407048225402,ave_animoji_loss: 0.16827203676104546
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-50
+eval_model_number: 50,ave_cls_loss: 0.048710636417381464,ave_bbox_loss: 1.5824637985229493,ave_animoji_loss: 0.16853408217430116
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-51
+eval_model_number: 51,ave_cls_loss: 0.05721787496469915,ave_bbox_loss: 1.5813138806819915,ave_animoji_loss: 0.16748301699757576
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-52
+eval_model_number: 52,ave_cls_loss: 0.05300856989342719,ave_bbox_loss: 1.5867994558811187,ave_animoji_loss: 0.16828880295157433
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-53
+eval_model_number: 53,ave_cls_loss: 0.06864115325734019,ave_bbox_loss: 1.5784036064147948,ave_animoji_loss: 0.16804740488529205
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-54
+eval_model_number: 54,ave_cls_loss: 0.058826455930247906,ave_bbox_loss: 1.5810903525352478,ave_animoji_loss: 0.16735583394765854
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-55
+eval_model_number: 55,ave_cls_loss: 0.05836306082084775,ave_bbox_loss: 1.5758425438404082,ave_animoji_loss: 0.16934408247470856
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-56
+eval_model_number: 56,ave_cls_loss: 0.05159941338002682,ave_bbox_loss: 1.5824845921993256,ave_animoji_loss: 0.16721527829766272
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-57
+eval_model_number: 57,ave_cls_loss: 0.060549938259646295,ave_bbox_loss: 1.5769211745262146,ave_animoji_loss: 0.16839094281196595
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-58
+eval_model_number: 58,ave_cls_loss: 0.05699951800517738,ave_bbox_loss: 1.577802231311798,ave_animoji_loss: 0.16818369820713996
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-59
+eval_model_number: 59,ave_cls_loss: 0.05923974475823343,ave_bbox_loss: 1.5749233877658844,ave_animoji_loss: 0.16720094293355942
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-60
+eval_model_number: 60,ave_cls_loss: 0.0625136945489794,ave_bbox_loss: 1.579654037952423,ave_animoji_loss: 0.1689797656238079
+eval model:  /home-ex/tclhk/guoqiang/Animoji/eval_model_split4/../models/LONet_wflw_98_L94_finetune/LONet-61
+eval_model_number: 61,ave_cls_loss: 0.06103418754413724,ave_bbox_loss: 1.573103232383728,ave_animoji_loss: 0.16721189454197882
+best_animoji_model_number: 11,min_animoji_loss:0.16700087264180183
+finish.

@@ -1,0 +1,66 @@
+### pnet param 
+conv1/weights:0                                    10 3 3 3
+conv1/biases:0                                     10
+conv1/alphas:0                                     10
+conv2/weights:0                                    16 10 3 3
+conv2/biases:0                                     16
+conv2/alphas:0                                     16
+conv3/weights:0                                    32 16 3 3
+conv3/biases:0                                     32
+conv3/alphas:0                                     32
+conv4_1/weights:0                                  2 32 1 1
+conv4_1/biases:0                                   2
+conv4_2/weights:0                                  4 32 1 1
+conv4_2/biases:0                                   4
+conv4_3/weights:0                                  10 32 1 1
+conv4_3/biases:0                                   10
+
+### rnet param 
+conv1/weights:0                                    28 3 3 3
+conv1/biases:0                                     28
+conv1/alphas:0                                     28
+conv2/weights:0                                    48 28 3 3
+conv2/biases:0                                     48
+conv2/alphas:0                                     48
+conv3/weights:0                                    64 48 2 2
+conv3/biases:0                                     64
+conv3/alphas:0                                     64
+fc1/weights:0                                      128 576
+fc1/biases:0                                       128
+fc1/alphas:0                                       128
+cls_fc/weights:0                                   2 128
+cls_fc/biases:0                                    2
+bbox_fc/weights:0                                  4 128
+bbox_fc/biases:0                                   4
+landmark_fc/weights:0                              10 128
+landmark_fc/biases:0                               10
+
+### onet param 
+conv1/weights:0                                    32 3 3 3
+conv1/biases:0                                     32
+conv1/alphas:0                                     32
+conv2/weights:0                                    64 32 3 3
+conv2/biases:0                                     64
+conv2/alphas:0                                     64
+conv3/weights:0                                    64 64 3 3
+conv3/biases:0                                     64
+conv3/alphas:0                                     64
+conv4/weights:0                                    128 64 2 2
+conv4/biases:0                                     128
+conv4/alphas:0                                     128
+fc1/weights:0                                      256 1152
+fc1/biases:0                                       256
+fc1/alphas:0                                       256
+cls_fc/weights:0                                   2 256
+cls_fc/biases:0                                    2
+bbox_fc/weights:0                                  4 256
+bbox_fc/biases:0                                   4
+eye_fc/weights:0                                   36 256
+eye_fc/biases:0                                    36
+eyebrow_fc/weights:0                               36 256
+eyebrow_fc/biases:0                                36
+mouth_fc/weights:0                                 40 256
+mouth_fc/biases:0                                  40
+multi_fc/weights:0                                 84 256
+multi_fc/biases:0                                  84
+
