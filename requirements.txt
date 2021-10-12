@@ -32,7 +32,7 @@ networkx==1.11
 ninja-syntax==1.7.2
 numpy==1.15.4
 opcodes==0.3.14
-opencv-python==3.4.3.18
+opencv-python==3.4.7.28
 pandas==0.20.3
 PeachPy==0.2.0
 pexpect==4.2.1
