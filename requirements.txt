@@ -61,6 +61,6 @@ tensorflow-gpu==2.5.3
 tensorflow-tensorboard==0.1.8
 termcolor==1.1.0
 traitlets==4.3.2
-urllib3==1.24.1
+urllib3==1.26.5
 wcwidth==0.1.7
 Werkzeug==0.15.3
