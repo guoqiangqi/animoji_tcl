@@ -15,7 +15,7 @@ gast==0.2.0
 graphviz==0.8.4
 grpcio==1.15.0
 h5py==2.7.0
-html5lib==0.9999999
+html5lib==0.99999999
 idna==2.7
 ipython==7.16.3
 ipython-genutils==0.2.0
